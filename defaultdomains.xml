@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date" id="2202DDE7-DDB0-39D9-35DD-DF55668CC957">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Long Code" id="2A5C7C97-18AE-84CC-AD6B-98B88C9555B3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:25:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Identifier" id="2E5F3888-BC08-C898-FE70-59879B37B0AB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:28:11 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Short Code" id="39D11EBB-1766-DCBB-9C8E-6AFA8721F85E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:25:07 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Indicator" id="53963F83-0D1B-EB5B-4630-612697BAA3BE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:21:51 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<listOfValues>
+<valueDef value="0" description="No"/>
+<valueDef value="1" description="Yes"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Username" id="55BF55FA-E8ED-8EC4-3CFB-F34412D86D9B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Currency Amount" id="5E302094-1021-E0C1-5130-E499366A3E91">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:26:20 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Email" id="5E3934D0-71E6-A0BD-9E17-D45541BD65D5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer" id="7912930E-4839-CD49-7FC1-9DBFF3DE9629">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:21:57 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestammp" id="97BAA17C-21D2-6602-F468-21BEC3B44DAA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:12:43 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Name" id="B59C087E-0ECC-8A48-743F-A626EA1853E8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:53:02 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Short Description" id="C1851D79-CC02-5B03-4173-53A22C0FEFF8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:21:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Long Description" id="D1B02973-73D0-7456-EEDB-B1ED4D733B68">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:21:53 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1000</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOG" id="D5AE14EA-95FF-E447-4A7E-421E9859ECF4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:22:06 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Float" id="D73D0CF6-AA04-C819-D4BE-A52B137868F4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:25:58 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:11:36 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
