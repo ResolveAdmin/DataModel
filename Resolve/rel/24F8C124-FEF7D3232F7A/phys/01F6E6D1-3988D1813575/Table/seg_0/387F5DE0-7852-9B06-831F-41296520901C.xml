@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="INCIDENT_STEP_NOTIFICATION" directorySegmentName="seg_0" id="387F5DE0-7852-9B06-831F-41296520901C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:39:18 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="3AB7FF19-81AE-D524-7994-932DE763E71C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_LOG_ID" id="A8F69E4A-2D78-741A-98D6-1C11486E0DCE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:17:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTIFIED_DATE" id="E70585C2-781E-9C98-4560-1C47C1893456">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTIFIED_USER_ID" id="F9AFFA3E-338C-9716-1063-051CB1B14D43">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INCIDENT_STEP_NOTIFICATION_INCIDENT_LOG_FK" id="75B7444D-17E4-5863-064C-4686068F8513">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:17:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INCIDENT_STEP_NOTIFICATION_PK" id="072664ED-3E36-18F3-6CE7-933BA664676F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

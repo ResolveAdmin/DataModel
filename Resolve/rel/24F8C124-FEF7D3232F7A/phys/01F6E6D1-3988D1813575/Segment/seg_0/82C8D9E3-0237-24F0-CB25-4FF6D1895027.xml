@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage2" directorySegmentName="seg_0" id="82C8D9E3-0237-24F0-CB25-4FF6D1895027">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:41 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</SegmentOraclev10g>

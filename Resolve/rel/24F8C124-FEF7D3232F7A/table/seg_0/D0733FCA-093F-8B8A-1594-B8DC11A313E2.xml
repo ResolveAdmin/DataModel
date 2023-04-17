@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0733FCA-093F-8B8A-1594-B8DC11A313E2" name="DEVIATION_TYPE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:15:58 UTC</createdTime>
+<notes><![CDATA[Man
+Machine
+Material
+Mothernature
+Measurement
+Method
+Investigation
+RootCause]]></notes>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4501BCC3-F1E8-505E-066E-9EE320B85568">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:21:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_DESC" id="FC96B494-4518-B0D5-1F0F-B550FFE5F094">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:21:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B20EF86-90FF-D7AD-6140-7C5F1DFB784E" name="DEVIATION_TYPE_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:52:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4501BCC3-F1E8-505E-066E-9EE320B85568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Resolve" id="755066F7-25E0-0FA7-5CAF-4B0ADB8255A8" version="3.5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:11:36 UTC</createdTime>
+<ownerDesignName>RES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>755066F7-25E0-0FA7-5CAF-4B0ADB8255A8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9836B302-FCC7-16DB-99F2-81ACA4622EC7">
+<designStoragePath>D:\RS_INCIDENT</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

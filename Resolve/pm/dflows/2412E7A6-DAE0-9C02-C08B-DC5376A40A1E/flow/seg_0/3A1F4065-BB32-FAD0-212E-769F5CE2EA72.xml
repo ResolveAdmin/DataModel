@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Flow_1" directorySegmentName="seg_0" id="3A1F4065-BB32-FAD0-212E-769F5CE2EA72">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:49:51 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<destination>A0E94D93-5315-AE29-B4BB-0FDFFA6A25FB</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>E193080D-FC5E-3932-76F7-FE9BF7C61299</sourceProcessObject>
+<targetProcessObject>A0E94D93-5315-AE29-B4BB-0FDFFA6A25FB</targetProcessObject>
+</Flow>

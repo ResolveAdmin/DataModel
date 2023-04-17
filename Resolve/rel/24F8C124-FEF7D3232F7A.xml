@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="RESOLVE" id="24F8C124-7F74-1931-EC46-FEF7D3232F7A" mainViewID="FE204F4F-191C-14A0-BA91-B916CA7709BC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:11:39 UTC</createdTime>
+<ownerDesignName>RES</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>RS_INCIDENT.sql</fileName>
+<pathName>D:\Resolve</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

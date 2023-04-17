@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1F4814A-CFD4-E231-31A2-76A46CF510C4" schemaObject="6204AADE-AC6B-2BFA-4FD2-3F3B83B79DEB" name="INCIDENT">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>1DB72F68-00CB-9D0C-5C25-B0DF35D62C26</importedID>
+<ordsAlias>rs_incident</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="848AA233-8640-44CD-0464-11522DC0DBA7">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>A7B281DD-1E21-4E82-21E2-A39E7856791F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="AA036A4C-B807-3B4D-99E2-7DE8BD6D8897">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>A86BB929-FE97-F11A-7AC1-4E3BCD4B6A4A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AE67C927-3D13-7867-1E4F-C32E60FFB1E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_ID" id="F7242CB3-B614-9417-C397-992CD692E90E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:37:33 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15D4AAEF-C35B-75E9-2CB9-4A2C077097F4" referredColumn="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
+</associations>
+</Column>
+<Column name="STATUS_DATE" id="D7975B02-187B-7755-71D4-81A6694E9370">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>BCE98B2F-FB05-F547-AD8E-BF1F68BB0944</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_AREA_ID" id="B175CE4B-A223-0037-4C9D-462F6E271C86">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B4C8ACB-8BAE-D5FA-0DEB-BF9CEB49A6CC" referredColumn="76631740-69B8-C880-3C56-0673E0B8DABD"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="04C67966-A85B-1C02-2D3E-606A2564A8AB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:10:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04D5E186-F267-35D7-9E1B-D689CE9EDB3A" referredColumn="6A33C9C7-61CD-B001-6571-A8C5C2418BD7"/>
+</associations>
+</Column>
+<Column name="DEVIATION_CATEGORY_ID" id="4E983813-731D-F4E0-B03B-B8E0B7E3B0E9">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:12:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D39745B1-C61A-7573-05FB-97D30032FE18" referredColumn="E54E9D97-93E7-AD5E-AF3D-A0C7B9B6A4BE"/>
+</associations>
+</Column>
+<Column name="CAPA_ID" id="938C32C7-98F3-200A-E389-48B0DD4E21BE">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>9AC0F98F-7CDA-2578-2285-79D01CB7F270</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D573BE1A-8698-3101-5DB4-B7D4F076B9A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DUE_DATE" id="4FD0A1A2-B644-AB52-4FAE-FFF58698539F">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>92F28712-F5C6-DA5C-0721-EEE60124AE86</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPACT_ASSESSMENT" id="97305F52-15E1-62EF-F262-296277E36893">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>BF21E609-2C8A-8063-A4F0-108788F56B78</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55BF55FA-E8ED-8EC4-3CFB-F34412D86D9B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="834EC877-B368-F751-0C77-F74608F17EC3" name="RS_INCIDENT_PK_CON">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>CE4A149B-FD93-7E00-9F5C-166F3676CC42</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="848AA233-8640-44CD-0464-11522DC0DBA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04B65804-F630-26CA-587B-2659220C759C" name="INCIDENT_INCIDENT_STATUS_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:37:33 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7242CB3-B614-9417-C397-992CD692E90E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A8CDCE2-9F47-4A84-3838-4969ECA72A82" name="INCIDENT_BUSINESS_AREA_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B175CE4B-A223-0037-4C9D-462F6E271C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E487C80-256F-B0B6-CE02-8B7974E7BEC6" name="INCIDENT_DEPARTMENT_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:10:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04C67966-A85B-1C02-2D3E-606A2564A8AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4850C223-D860-4717-98F7-4BF21BB77AEF" name="INCIDENT_DEVIATION_CATEGORY_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:12:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E983813-731D-F4E0-B03B-B8E0B7E3B0E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="INCIDENT_STATUS" directorySegmentName="seg_0" id="840E73B0-FEAF-1816-FCE0-E49F0936AE91">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:40:46 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:33:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_FINAL" id="6AC64C95-B47A-F651-8E5E-7139FC3BAB06">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:33:37 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_SEQ" id="88A5042C-C8E8-63D2-CECD-DA9AFE827AED">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:35:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_DESC" id="E4ABB8BE-E972-5CB8-F98B-20FEC20401CF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:33:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_INITIAL" id="FB406845-21D6-5D70-C553-4DBB6524E6B3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:33:29 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INCIDENT_STATUS_PK" id="3307162D-7220-7053-4D7D-1450D9679E1C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:36:35 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

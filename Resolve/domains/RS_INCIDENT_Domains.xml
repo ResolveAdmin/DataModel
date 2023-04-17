@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="RS_INCIDENT_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="954254E2-04AD-AA84-CB1D-C7BFCCC037C0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>RS_INCIDENT_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_5" id="9AC97DF4-FE76-8294-DF07-4251BD024AA6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>5</dataTypeSize>
+<fileName>RS_INCIDENT_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_250" id="AE67C927-3D13-7867-1E4F-C32E60FFB1E3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>250</dataTypeSize>
+<fileName>RS_INCIDENT_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="D573BE1A-8698-3101-5DB4-B7D4F076B9A5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>RS_INCIDENT_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="F071C5C4-461E-3D34-FD7A-BE3F57E51848">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>RS_INCIDENT_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

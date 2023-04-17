@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="InfoStore_1" directorySegmentName="seg_0" id="8855CB84-516F-1142-A102-454119E71270">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:50:10 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<rdbmsSite>SQL Server 2012</rdbmsSite>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<type>RDBMS</type>
+</InfoStore>

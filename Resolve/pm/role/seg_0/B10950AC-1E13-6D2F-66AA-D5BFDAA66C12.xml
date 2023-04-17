@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Role class="oracle.dbtools.crest.model.design.process.Role" name="Initiator" directorySegmentName="seg_0" id="B10950AC-1E13-6D2F-66AA-D5BFDAA66C12">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:48:28 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</Role>

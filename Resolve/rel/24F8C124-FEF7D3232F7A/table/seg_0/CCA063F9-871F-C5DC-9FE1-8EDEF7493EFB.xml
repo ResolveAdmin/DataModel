@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" name="INCIDENT_DEVIATION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:23:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="83706A8F-5359-97B4-27BA-A1556D2A8BD5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:24:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCIDENT_ID" id="055B3FEE-6E1D-577D-0871-1F7259C10C3E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:26:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC548E54-EB26-9303-928D-8E389D5B7EA9" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
+</associations>
+</Column>
+<Column name="DEVIATION_TYPE_ID" id="233C8003-246F-2D63-9211-5DFE536C44AF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:26:23 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVIATION_TEXT" id="C46D6C1F-5052-4DA4-6DC0-A52977412C54">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:41:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_USER_ID" id="886B51FF-A1BE-40F2-968C-5E5BEE12C590">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:24:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D33BC851-2B0D-96C8-E353-4D175FBF1A33" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
+</associations>
+</Column>
+<Column name="CREATED_DATE" id="29BCA736-4366-892D-F336-AB71BA4AD26D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:24:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F62F40F6-4735-E499-27E3-9E5BF3703DAF" name="INCIDENT_DEVIATION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:24:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83706A8F-5359-97B4-27BA-A1556D2A8BD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4C799C4-0C39-E53B-8A40-EA9A3EB3028C" name="INCIDENT_DEVIATION_INCIDENT_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:26:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="055B3FEE-6E1D-577D-0871-1F7259C10C3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="INCIDENT_DEVIATION_USER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:54:29 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="886B51FF-A1BE-40F2-968C-5E5BEE12C590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83EA3AF5-C3DC-FED5-CC02-898EC5138584" name="DESCRIPTION_TYPE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:42:34 UTC</createdTime>
+<notes><![CDATA[Full description
+What
+When
+Where
+Which
+How
+Select]]></notes>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4AEB820B-257E-18A8-FAF7-A761C450AF34">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:17:42 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_DESC" id="5899689F-6E99-1383-DFF8-E70BC280F043">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:17:42 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C28153B2-4F59-83BD-0825-5C02D83D0153" name="DESCRIPTION_TYPE_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:21:36 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEB820B-257E-18A8-FAF7-A761C450AF34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

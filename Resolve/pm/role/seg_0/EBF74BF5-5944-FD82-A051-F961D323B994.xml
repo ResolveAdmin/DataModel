@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Role class="oracle.dbtools.crest.model.design.process.Role" name="Approver" directorySegmentName="seg_0" id="EBF74BF5-5944-FD82-A051-F961D323B994">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:48:39 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</Role>

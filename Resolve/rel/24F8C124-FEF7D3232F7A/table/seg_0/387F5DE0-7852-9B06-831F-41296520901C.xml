@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="387F5DE0-7852-9B06-831F-41296520901C" name="INCIDENT_STEP_NOTIFICATION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:39:18 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3AB7FF19-81AE-D524-7994-932DE763E71C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTIFIED_USER_ID" id="F9AFFA3E-338C-9716-1063-051CB1B14D43">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTIFIED_DATE" id="E70585C2-781E-9C98-4560-1C47C1893456">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCIDENT_LOG_ID" id="A8F69E4A-2D78-741A-98D6-1C11486E0DCE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:17:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47B0D0B8-9DC0-6FDF-4C3C-FAC2614D1D30" referredColumn="E5F12179-429D-95AF-1A24-48B5209C08E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="072664ED-3E36-18F3-6CE7-933BA664676F" name="INCIDENT_STEP_NOTIFICATION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:16:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AB7FF19-81AE-D524-7994-932DE763E71C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75B7444D-17E4-5863-064C-4686068F8513" name="INCIDENT_STEP_NOTIFICATION_INCIDENT_LOG_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:17:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F69E4A-2D78-741A-98D6-1C11486E0DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="STEP_COMMENT" directorySegmentName="seg_0" id="12184E8B-4B4C-EA3A-9198-B71A058A5695">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:41:56 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INCIDENT_STEP_ID" id="39AA3755-9AF2-E4A8-1351-3FB79769FA16">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:31:09 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_USER_ID" id="415DAC36-8B39-97C4-D280-8EADBD7A2CA8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:55:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_DATE" id="DD183852-7EB6-7FF7-54D3-484635BD6C88">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:30:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENT_TEXT" id="E23C194F-623B-0756-8F4E-543F31500BFC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:30:43 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="F65D6B7E-BC7E-395C-2E40-C5487A549197">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:30:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STEP_COMMENT_INCIDENT_STEP_FK" id="227BC8FA-B973-F287-BC24-70D8F38F592F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:31:09 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STEP_COMMENT_USER_FK" id="B43C5B13-F84E-924A-6AEF-BC5750BCAF73">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:56:48 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STEP_COMMENT_PK" id="CDBD1AF3-6E49-C4E6-E8CD-EF0F4E1DC246">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 19:30:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

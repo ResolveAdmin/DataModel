@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BUSINESS_AREA" directorySegmentName="seg_0" id="75758442-E0F1-7A13-1EBD-89D569210609">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-13 16:32:49 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BUSINESS_AREA_DESC" id="042C057C-3F5C-F920-AA33-CE46935BF0B5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="76631740-69B8-C880-3C56-0673E0B8DABD">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUSINESS_AREA_PK" id="567D76F2-90AE-9B63-A4E3-C851BD8182BA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
