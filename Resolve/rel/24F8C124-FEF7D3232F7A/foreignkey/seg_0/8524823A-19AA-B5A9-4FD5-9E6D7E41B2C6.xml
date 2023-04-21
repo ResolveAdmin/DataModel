@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8524823A-19AA-B5A9-4FD5-9E6D7E41B2C6" containerWithKeyObject="C0E28F63-2357-AE05-D516-2A0775CCCCE2" localFKIndex="9D9F5486-241C-AEB5-6B57-FDE9E5D1EB02" name="INCIDENT_STEP_INCIDENT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8524823A-19AA-B5A9-4FD5-9E6D7E41B2C6" containerWithKeyObject="C0E28F63-2357-AE05-D516-2A0775CCCCE2" localFKIndex="9D9F5486-241C-AEB5-6B57-FDE9E5D1EB02" name="RES_INCIDENT_STEP_RES_INCIDENT_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:29:05 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<referredTableLongName>RES.INCIDENT</referredTableLongName>
+<referredTableLongName>RES.RES_INCIDENT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D1F4814A-CFD4-E231-31A2-76A46CF510C4</referredTableID>
 <keyObject>834EC877-B368-F751-0C77-F74608F17EC3</keyObject>

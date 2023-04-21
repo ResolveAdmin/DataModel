@@ -82,7 +82,7 @@
 <colUsage columnID="F65D6B7E-BC7E-395C-2E40-C5487A549197"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="227BC8FA-B973-F287-BC24-70D8F38F592F" name="STEP_COMMENT_INCIDENT_STEP_FK">
+<ind_PK_UK id="227BC8FA-B973-F287-BC24-70D8F38F592F" name="RES_STEP_COMMENT_RES_INCIDENT_STEP_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:31:09 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -92,7 +92,7 @@
 <colUsage columnID="39AA3755-9AF2-E4A8-1351-3FB79769FA16"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B43C5B13-F84E-924A-6AEF-BC5750BCAF73" name="STEP_COMMENT_USER_FK">
+<ind_PK_UK id="B43C5B13-F84E-924A-6AEF-BC5750BCAF73" name="RES_STEP_COMMENT_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:56:48 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

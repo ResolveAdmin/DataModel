@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83EA3AF5-C3DC-FED5-CC02-898EC5138584" name="DESCRIPTION_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83EA3AF5-C3DC-FED5-CC02-898EC5138584" name="RES_DESCRIPTION_TYPE">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:42:34 UTC</createdTime>
 <notes><![CDATA[Full description
@@ -40,7 +40,7 @@ Select]]></notes>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C28153B2-4F59-83BD-0825-5C02D83D0153" name="DESCRIPTION_TYPE_PK">
+<ind_PK_UK id="C28153B2-4F59-83BD-0825-5C02D83D0153" name="RES_DESCRIPTION_TYPE_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:21:36 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

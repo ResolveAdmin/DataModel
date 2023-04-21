@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD1D8F76-AFFC-26EF-D079-DBD07042E7DC" name="INCIDENT_DESCRIPTION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD1D8F76-AFFC-26EF-D079-DBD07042E7DC" name="RES_INCIDENT_DESCRIPTION">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:42:24 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -85,7 +85,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6D638AB9-C7B1-84E0-4A84-76508541BEF6" name="INCIDENT_DESCRIPTION_PK">
+<ind_PK_UK id="6D638AB9-C7B1-84E0-4A84-76508541BEF6" name="RES_INCIDENT_DESCRIPTION_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:22:25 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -96,7 +96,7 @@
 <colUsage columnID="9939DC41-7488-2F7A-0B63-8BE4B98DD24B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B03E5CE3-17C0-DF63-6C5B-78B66AF53AF9" name="INCIDENT_DESCRIPTION_DESCRIPTION_TYPE_FK">
+<ind_PK_UK id="B03E5CE3-17C0-DF63-6C5B-78B66AF53AF9" name="RES_INCIDENT_DESCRIPTION_RES_DESCRIPTION_TYPE_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:21:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -106,7 +106,7 @@
 <colUsage columnID="03237314-8C94-27D3-305B-4ADD49CAF9B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CDB782D3-C2EF-A6BC-0D0E-223126976A03" name="INCIDENT_DESCRIPTION_INCIDENT_FK">
+<ind_PK_UK id="CDB782D3-C2EF-A6BC-0D0E-223126976A03" name="RES_INCIDENT_DESCRIPTION_RES_INCIDENT_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:22:42 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -116,7 +116,7 @@
 <colUsage columnID="2DC2A516-B326-BF11-0A2F-4E2E711949FE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD9FD652-58E7-E041-79C1-B80D5294CF41" name="INCIDENT_DESCRIPTION_USER_FK">
+<ind_PK_UK id="CD9FD652-58E7-E041-79C1-B80D5294CF41" name="RES_INCIDENT_DESCRIPTION_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:59:31 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
