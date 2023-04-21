@@ -69,6 +69,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

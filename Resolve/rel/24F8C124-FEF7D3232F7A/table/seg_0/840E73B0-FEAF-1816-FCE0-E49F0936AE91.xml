@@ -46,10 +46,10 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:33:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -57,10 +57,10 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:33:37 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

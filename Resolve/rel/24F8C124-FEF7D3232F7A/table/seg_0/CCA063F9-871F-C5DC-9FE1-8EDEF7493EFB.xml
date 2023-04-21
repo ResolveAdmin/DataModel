@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INCIDENT_ID" id="055B3FEE-6E1D-577D-0871-1F7259C10C3E">
+<Column name="+" id="055B3FEE-6E1D-577D-0871-1F7259C10C3E">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:26:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -76,6 +76,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

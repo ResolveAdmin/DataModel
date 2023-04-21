@@ -19,7 +19,6 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_BUSINESS_AREAv1_ID</notNullConstraintName>
 </Column>
 <Column name="DEPARTMENT_NAME" id="130D4326-BC6B-C652-7CE5-A667D5C9D43E">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>

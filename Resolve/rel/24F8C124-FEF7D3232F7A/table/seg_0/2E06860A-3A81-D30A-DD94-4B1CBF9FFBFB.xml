@@ -7,4 +7,31 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BC1EBDB4-4815-24FC-945B-39F4238BE056">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:39:06 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBF181FD-BBFE-2B55-5821-818C6BA49AF9" name="RES_CAPA_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:39:06 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC1EBDB4-4815-24FC-945B-39F4238BE056"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

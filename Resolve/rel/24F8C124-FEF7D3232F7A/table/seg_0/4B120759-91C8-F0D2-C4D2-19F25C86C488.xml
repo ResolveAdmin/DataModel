@@ -17,6 +17,7 @@
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="INCIDENT_ID" id="2CDF3430-32AD-2A95-97E0-37025EE0DDCE">
@@ -73,6 +74,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

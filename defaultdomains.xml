@@ -6,6 +6,7 @@
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<defaultValue>SYSDATE</defaultValue>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT007</logicalDatatype>
 </Domain>
@@ -92,6 +93,7 @@
 <createdTime>2023-04-17 19:12:43 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<defaultValue>SYSTIMESTAMP</defaultValue>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT015</logicalDatatype>
 </Domain>

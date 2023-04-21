@@ -20,6 +20,8 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TITLE" id="AA036A4C-B807-3B4D-99E2-7DE8BD6D8897">
@@ -57,6 +59,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -125,6 +128,7 @@
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

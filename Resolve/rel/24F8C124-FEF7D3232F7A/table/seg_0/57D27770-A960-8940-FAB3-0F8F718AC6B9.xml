@@ -19,7 +19,6 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_BUSINESS_AREAv1_ID</notNullConstraintName>
 </Column>
 <Column name="DEVIATION_CATEGORY_DESC" id="8C5DF959-9C44-09C6-12A2-22FCB1C86FB8">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
