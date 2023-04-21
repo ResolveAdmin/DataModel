@@ -28,7 +28,7 @@ RootCause]]></notes>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TYPE_DESC" id="FC96B494-4518-B0D5-1F0F-B550FFE5F094">
+<Column name="TYPE_NAME" id="FC96B494-4518-B0D5-1F0F-B550FFE5F094">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:21:05 UTC</createdTime>
@@ -36,6 +36,18 @@ RootCause]]></notes>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_DESC" id="CBB02BAC-9421-0D32-A592-F50D3477DD2C">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 16:49:11 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

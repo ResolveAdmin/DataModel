@@ -1156,6 +1156,23 @@
 		<mapping rdbms="DB2/UDB 8.1">CLOB</mapping>
 		<mapping rdbms="DB2/UDB 7.1">CLOB</mapping>
 	</logicaltype>
+	<logicaltype name="Short Description" objectid="2C697581-9E50-1CD5-E850-1277859BEE03">
+		<mapping rdbms="Oracle Database 21c" size_default_value="100">VARCHAR2, size</mapping>
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
 	<native_to_logical_mappings>
 		<mappings_for_RDBMS_type rdbms_type="Oracle Database 21c">
 			<mapping native_type="JSON" logicaltype="JSON" log_type_id="47823B89-BECE-2D4A-B641-EE3BE6149078" />

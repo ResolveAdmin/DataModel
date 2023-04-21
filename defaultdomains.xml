@@ -41,11 +41,13 @@
 <createdTime>2023-04-13 16:21:51 UTC</createdTime>
 <ownerDesignName>System</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>N</defaultValue>
 <fileName>defaultdomains</fileName>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <listOfValues>
-<valueDef value="0" description="No"/>
-<valueDef value="1" description="Yes"/>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
 </listOfValues>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Username" id="55BF55FA-E8ED-8EC4-3CFB-F34412D86D9B">

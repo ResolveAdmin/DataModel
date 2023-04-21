@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEVIATION_CATEGORY_DESC" id="8C5DF959-9C44-09C6-12A2-22FCB1C86FB8">
+<Column name="DEVIATION_CATEGORY_NAME" id="8C5DF959-9C44-09C6-12A2-22FCB1C86FB8">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:11:09 UTC</createdTime>
@@ -29,6 +29,19 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVIATION_CATEGORY_DESC" id="5B8B33E1-E391-F90D-7DC7-1CD2BF5DF70C">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 16:47:23 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Description</defaultLabel>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

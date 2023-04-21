@@ -45,13 +45,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
+<Column name="FILE_DESC" id="F7B214E4-2F96-5772-A2BA-ECDC9699875C">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:21:53 UTC</createdTime>
+<createdTime>2023-04-21 16:51:22 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -63,6 +64,16 @@
 <use>0</use>
 <logicalDatatype>LOGDT029</logicalDatatype>
 <domain>D5AE14EA-95FF-E447-4A7E-421E9859ECF4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:21:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -34,7 +34,7 @@
 <colAssociation fkAssociation="8A54F601-BAD9-397F-D5F6-6D6AE9E325E3" referredColumn="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
 </associations>
 </Column>
-<Column name="STEP_DESC" id="67CCDA35-958A-0DFB-13D4-55D446CE15B7">
+<Column name="STEP_NAME" id="67CCDA35-958A-0DFB-13D4-55D446CE15B7">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:28:07 UTC</createdTime>
@@ -42,6 +42,18 @@
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STEP_DESC" id="5B8CDC7C-015B-0583-1385-50FF35AC94C3">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 16:50:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

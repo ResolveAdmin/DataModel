@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_DESC" id="E4ABB8BE-E972-5CB8-F98B-20FEC20401CF">
+<Column name="STATUS_NAME" id="E4ABB8BE-E972-5CB8-F98B-20FEC20401CF">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:33:07 UTC</createdTime>
@@ -28,6 +28,18 @@
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_DESC" id="B51465F7-221F-F170-223D-C93577F42637">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 16:50:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -47,9 +59,9 @@
 <createdTime>2023-04-17 19:33:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
-<defaultValue>0</defaultValue>
+<defaultValue>N</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -58,9 +70,9 @@
 <createdTime>2023-04-17 19:33:37 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
-<defaultValue>0</defaultValue>
+<defaultValue>N</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

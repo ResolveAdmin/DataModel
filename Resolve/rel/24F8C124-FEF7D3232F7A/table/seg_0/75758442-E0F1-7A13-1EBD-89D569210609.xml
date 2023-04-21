@@ -20,15 +20,29 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BUSINESS_AREA_DESC" id="042C057C-3F5C-F920-AA33-CE46935BF0B5">
+<Column name="BUSINESS_AREA_NAME" id="5BB56C91-C46C-AB1B-1D1E-A3615FEBE198">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:00:53 UTC</createdTime>
+<createdTime>2023-04-21 16:23:18 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Name</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_AREA_DESC" id="042C057C-3F5C-F920-AA33-CE46935BF0B5">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-17 20:00:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Description</defaultLabel>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -31,6 +31,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DEPARTMENT_DESC" id="1A18160D-A30E-E4AC-F48E-C24307B5B188">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 16:46:36 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Description</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B1D52F2C-F65D-1AD7-5950-C182F9161277" name="RES_DEPARTMENT_PK">
