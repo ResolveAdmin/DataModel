@@ -31,17 +31,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CAN_APPROVE" id="A32AB5F1-A7D5-E854-C1D9-DD3746B699C2">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:25:34 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7BAE24AF-F019-2DBC-F6DC-75BFBAEDC81B" name="RES_ROLE_PK">

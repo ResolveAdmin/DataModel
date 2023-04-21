@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="882498C1-60A5-1C66-F5E6-12BFD327DA5D" containerWithKeyObject="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" localFKIndex="7B83FB53-B7FB-BA9E-3632-38613C93678A" name="RES_INCIDENT_DEVIATION_RES_DEVIATION_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:49:56 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<referredTableLongName>RES_DEVIATION_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0733FCA-093F-8B8A-1594-B8DC11A313E2</referredTableID>
+<keyObject>0B20EF86-90FF-D7AD-6140-7C5F1DFB784E</keyObject>
+<referredKeyID>0B20EF86-90FF-D7AD-6140-7C5F1DFB784E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

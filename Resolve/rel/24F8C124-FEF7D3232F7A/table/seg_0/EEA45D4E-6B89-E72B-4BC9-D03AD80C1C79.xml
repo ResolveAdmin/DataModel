@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA45D4E-6B89-E72B-4BC9-D03AD80C1C79" schemaObject="6204AADE-AC6B-2BFA-4FD2-3F3B83B79DEB" name="RES_ROLE_AUTHORIZED_STEP">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:53:28 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9875F08A-EA36-B0AD-821C-1F797EE0068F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:54:24 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE_ID" id="2874CEFA-AF5C-C683-2AEB-1CCAE423BA02">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:55:21 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6B692A1-1DA4-F259-9C76-7F9A3724A363" referredColumn="49680AC3-A8B7-4756-693D-BDBEEB2F2698"/>
+</associations>
+</Column>
+<Column name="STEP_ID" id="8A776AE6-8E5C-F98A-E2B5-49575C32BEF8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:55:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DFCCA64-BD60-A849-5957-5D79FC1A9B40" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF2D05BC-71BC-33FF-1B09-ED94D36F9748" name="RES_ROLE_AUTHORIZED_STEP_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:54:24 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9875F08A-EA36-B0AD-821C-1F797EE0068F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EA3EAA8-75BA-B978-301E-A5BA84F98986" name="RES_ROLE_AUTHORIZED_STEP_RES_ROLE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:55:21 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2874CEFA-AF5C-C683-2AEB-1CCAE423BA02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7BB5433-6288-C926-C928-0423E3BDC2E9" name="RES_ROLE_AUTHORIZED_STEP_RES_STEP_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:55:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A776AE6-8E5C-F98A-E2B5-49575C32BEF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

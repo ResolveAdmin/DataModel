@@ -20,9 +20,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="+" id="055B3FEE-6E1D-577D-0871-1F7259C10C3E">
+<Column name="INCIDENT_ID" id="1AC9E878-546B-555B-AFC1-47152ED31CF6">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:26:17 UTC</createdTime>
+<createdTime>2023-04-21 14:51:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,7 +31,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AC548E54-EB26-9303-928D-8E389D5B7EA9" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
+<colAssociation fkAssociation="87D2505B-9C18-3D79-1550-CAAF2D5E8570" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
 <Column name="DEVIATION_TYPE_ID" id="233C8003-246F-2D63-9211-5DFE536C44AF">
@@ -44,6 +44,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="882498C1-60A5-1C66-F5E6-12BFD327DA5D" referredColumn="4501BCC3-F1E8-505E-066E-9EE320B85568"/>
+</associations>
 </Column>
 <Column name="DEVIATION_TEXT" id="C46D6C1F-5052-4DA4-6DC0-A52977412C54">
 <createdBy>darbo</createdBy>
@@ -93,16 +96,6 @@
 <colUsage columnID="83706A8F-5359-97B4-27BA-A1556D2A8BD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B4C799C4-0C39-E53B-8A40-EA9A3EB3028C" name="RES_INCIDENT_DEVIATION_RES_INCIDENT_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:26:17 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="055B3FEE-6E1D-577D-0871-1F7259C10C3E"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_DEVIATION_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:54:29 UTC</createdTime>
@@ -111,6 +104,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="886B51FF-A1BE-40F2-968C-5E5BEE12C590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B83FB53-B7FB-BA9E-3632-38613C93678A" name="RES_INCIDENT_DEVIATION_RES_DEVIATION_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:49:56 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="233C8003-246F-2D63-9211-5DFE536C44AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09F466D7-75F4-F890-E89F-4E4B4D2EA832" name="RES_INCIDENT_DEVIATION_RES_INCIDENT_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-21 14:51:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AC9E878-546B-555B-AFC1-47152ED31CF6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
