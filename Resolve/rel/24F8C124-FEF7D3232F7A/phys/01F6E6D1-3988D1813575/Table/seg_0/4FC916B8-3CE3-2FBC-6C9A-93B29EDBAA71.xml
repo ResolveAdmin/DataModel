@@ -51,4 +51,12 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="RES_STEP_STEP_SEQ_UN" id="59E415FB-3F27-39F2-7D46-75E209FB8D18">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-22 09:05:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev20c>

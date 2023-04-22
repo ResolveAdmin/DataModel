@@ -81,6 +81,16 @@
 <colUsage columnID="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="59E415FB-3F27-39F2-7D46-75E209FB8D18" name="RES_STEP_STEP_SEQ_UN">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-22 09:05:24 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0662F64C-600C-1025-7FDE-A9EC7E4A50B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6" name="RES_STEP_INCIDENT_RES_STATUS_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>

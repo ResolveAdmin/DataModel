@@ -31,6 +31,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TAG_COUNT" id="1E81F81A-B55E-D78A-1754-FDC6789025B7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-22 09:58:45 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7912930E-4839-CD49-7FC1-9DBFF3DE9629</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="143EC5AB-CD50-B8F9-F4C7-3223981059AB" name="RES_TAG_PK">
