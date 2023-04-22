@@ -43,31 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_SEQ" id="88A5042C-C8E8-63D2-CECD-DA9AFE827AED">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:35:17 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="IS_INITIAL" id="FB406845-21D6-5D70-C553-4DBB6524E6B3">
+<Column name="IS_ACTIVE" id="FB406845-21D6-5D70-C553-4DBB6524E6B3">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:33:29 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
-<defaultValue>N</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="IS_FINAL" id="6AC64C95-B47A-F651-8E5E-7139FC3BAB06">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:33:37 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
