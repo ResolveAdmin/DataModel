@@ -14,9 +14,9 @@
 <createdTime>2023-04-17 20:10:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="DEVIATION_CATEGORY_ID" id="4E983813-731D-F4E0-B03B-B8E0B7E3B0E9">
+<ColumnProxy name="WHERE_DESC" id="4700F567-7964-A689-4E9F-AA48C94FF9F0">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:12:05 UTC</createdTime>
+<createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="DUE_DATE" id="4FD0A1A2-B644-AB52-4FAE-FFF58698539F">
@@ -25,14 +25,39 @@
 <ownerDesignName>Resolve</ownerDesignName>
 <defaultValue>SYSDATE</defaultValue>
 </ColumnProxy>
+<ColumnProxy name="HOW_DESC" id="5066E6B8-7985-998E-7102-0AFCA43E1471">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:30:19 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_DESC" id="60C2D79F-956E-215A-8D82-8700BE6F5C48">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:31:06 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ID" id="848AA233-8640-44CD-0464-11522DC0DBA7">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="WHAT_DESC" id="88C32072-2694-D9AC-BDE1-4C424F00F498">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:29:35 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAGS" id="8A3B739E-D22F-54B3-A05D-9A607E80DA03">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-24 15:21:51 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="CAPA_ID" id="938C32C7-98F3-200A-E389-48B0DD4E21BE">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WHEN_DESC" id="93F771E1-72CC-A7C3-0E00-A711435259E0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="IMPACT_ASSESSMENT" id="97305F52-15E1-62EF-F262-296277E36893">
@@ -56,6 +81,11 @@
 <ownerDesignName>Resolve</ownerDesignName>
 <defaultValue>SYSDATE</defaultValue>
 </ColumnProxy>
+<ColumnProxy name="WHICH_DESC" id="E3BBC0BB-D01D-5FF2-6C08-0CADF076AF54">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:30:19 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="STATUS_ID" id="F7242CB3-B614-9417-C397-992CD692E90E">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:37:33 UTC</createdTime>
@@ -66,11 +96,6 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_RES_INCIDENT_STATUS_FK" id="04B65804-F630-26CA-587B-2659220C759C">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:37:33 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_RES_DEVIATION_CATEGORY_FK" id="4850C223-D860-4717-98F7-4BF21BB77AEF">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:12:05 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_RES_BUSINESS_AREA_FK" id="9A8CDCE2-9F47-4A84-3838-4969ECA72A82">

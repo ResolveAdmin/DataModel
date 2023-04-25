@@ -51,6 +51,17 @@ RootCause]]></notes>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="IS_ROOTCAUSE" id="2E1D7310-2DEC-3602-7434-156D0C6475D4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 10:38:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0B20EF86-90FF-D7AD-6140-7C5F1DFB784E" name="RES_DEVIATION_TYPE_PK">

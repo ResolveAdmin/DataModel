@@ -67,6 +67,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TAGS" id="86214776-B515-4A1C-D39B-22B628FB9B9C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 08:39:27 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CREATED_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
@@ -76,6 +87,9 @@
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D59ECD5A-9DD9-4563-D25E-681E881395DE" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
+</associations>
 </Column>
 <Column name="CREATED_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
 <createdBy>darbo</createdBy>
@@ -110,6 +124,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2CDF3430-32AD-2A95-97E0-37025EE0DDCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26737A12-3312-D574-15BE-71FAD95807A8" name="RES_INCIDENT_ATTACHMENT_RES_USER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 10:41:01 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20872469-D2A4-C0EB-6857-565523DE5BC4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
