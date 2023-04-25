@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" name="RES_INCIDENT_DEVIATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" name="RES_INCIDENT_IMPACT">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:23:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -34,29 +34,94 @@
 <colAssociation fkAssociation="87D2505B-9C18-3D79-1550-CAAF2D5E8570" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
-<Column name="DEVIATION_TYPE_ID" id="233C8003-246F-2D63-9211-5DFE536C44AF">
+<Column name="ASSESSMENT_TYPE" id="233C8003-246F-2D63-9211-5DFE536C44AF">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:26:23 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CF0F428C-F58A-9576-9B10-5881C48C3B2D</domain>
+<listOfValues>
+<valueDef value="Q" description="Quality"/>
+<valueDef value="R" description="Regulatory"/>
+<valueDef value="S" description="Safety"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RISK_IMPACT_VALUE" id="682CAB5F-B5EB-5DFD-53DA-3DB7C4AF19A7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 13:02:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="882498C1-60A5-1C66-F5E6-12BFD327DA5D" referredColumn="4501BCC3-F1E8-505E-066E-9EE320B85568"/>
-</associations>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
-<Column name="DEVIATION_TEXT" id="C46D6C1F-5052-4DA4-6DC0-A52977412C54">
+<Column name="SEVERITY_VALUE" id="C6162AA7-13B8-CE51-F59E-B855EC9A2E32">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:41:07 UTC</createdTime>
+<createdTime>2023-04-25 13:02:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="PROBABILITY_VALUE" id="FA203FFF-FBC3-7C10-18BF-1D3B40930C8A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 13:02:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="DETECTION_VALUE" id="F377F84D-2C4E-85EA-87AB-8B337E265DE6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 13:02:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="CREATED_USER_ID" id="886B51FF-A1BE-40F2-968C-5E5BEE12C590">
 <createdBy>darbo</createdBy>
@@ -85,9 +150,9 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F62F40F6-4735-E499-27E3-9E5BF3703DAF" name="RES_INCIDENT_DEVIATION_PK">
+<ind_PK_UK id="F203A39D-1CBE-862A-9212-317A6A2FBF62" name="RES_INCIDENT_IMPACT_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:24:32 UTC</createdTime>
+<createdTime>2023-04-25 12:59:25 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -96,7 +161,7 @@
 <colUsage columnID="83706A8F-5359-97B4-27BA-A1556D2A8BD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_DEVIATION_RES_USER_FK">
+<ind_PK_UK id="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_IMPACT_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:54:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -106,17 +171,7 @@
 <colUsage columnID="886B51FF-A1BE-40F2-968C-5E5BEE12C590"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7B83FB53-B7FB-BA9E-3632-38613C93678A" name="RES_INCIDENT_DEVIATION_RES_DEVIATION_TYPE_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-21 14:49:56 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="233C8003-246F-2D63-9211-5DFE536C44AF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="09F466D7-75F4-F890-E89F-4E4B4D2EA832" name="RES_INCIDENT_DEVIATION_RES_INCIDENT_FK">
+<ind_PK_UK id="09F466D7-75F4-F890-E89F-4E4B4D2EA832" name="RES_INCIDENT_IMPACT_RES_INCIDENT_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-21 14:51:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

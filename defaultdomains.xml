@@ -117,6 +117,15 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Type" id="CF0F428C-F58A-9576-9B10-5881C48C3B2D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:39:14 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Long Description" id="D1B02973-73D0-7456-EEDB-B1ED4D733B68">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:21:53 UTC</createdTime>

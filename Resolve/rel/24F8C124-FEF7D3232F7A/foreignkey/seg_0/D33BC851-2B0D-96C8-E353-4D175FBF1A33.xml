@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D33BC851-2B0D-96C8-E353-4D175FBF1A33" containerWithKeyObject="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" localFKIndex="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_DEVIATION_RES_USER_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D33BC851-2B0D-96C8-E353-4D175FBF1A33" containerWithKeyObject="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB" localFKIndex="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_IMPACT_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:54:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
