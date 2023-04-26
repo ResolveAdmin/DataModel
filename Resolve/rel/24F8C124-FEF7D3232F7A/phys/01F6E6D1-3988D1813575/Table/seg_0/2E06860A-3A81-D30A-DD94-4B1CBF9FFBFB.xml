@@ -16,6 +16,17 @@
 <ownerDesignName>Resolve</ownerDesignName>
 <defaultValue>SYSTIMESTAMP</defaultValue>
 </ColumnProxy>
+<ColumnProxy name="STATUS_DATE" id="396E2EBC-DE4F-C22D-D541-527DDBF7EBAF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:54:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STATUS_ID" id="3E76E0DB-24C4-A5A3-F0F9-064A8757CF6D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:52:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="CREATE_USER_ID" id="49FE2D2A-4EE4-A4BD-9CDD-9230E35C2157">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:14:51 UTC</createdTime>
@@ -41,7 +52,6 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-24 15:21:51 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
 <notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 </columnProxies>
@@ -49,6 +59,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_USER_FK" id="3F1D54F6-35A5-7A3C-3B0A-F9F205DD03D0">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:24:33 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_STATUS_FK" id="60E93883-144D-B8EB-6AD7-F9A932E07F6A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:52:32 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_INCIDENT_FK" id="D1319AB0-28D5-61E6-B505-C38E310C8B1F">

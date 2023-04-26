@@ -16,6 +16,8 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="USER_NAME" id="0AF3C21F-F656-52A9-3688-FCDADC4BDDCF">

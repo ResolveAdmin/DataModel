@@ -3,6 +3,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -19,6 +20,11 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="METHOD_DESC" id="47C18E38-5C44-0091-CD9C-4BD4EC9A36CA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:49:02 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="DUE_DATE" id="4FD0A1A2-B644-AB52-4FAE-FFF58698539F">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
@@ -30,6 +36,11 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="MAN_DESC" id="585E8E2D-46EA-12AC-B70C-F3E22DE436EA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:47:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="FULL_DESC" id="60C2D79F-956E-215A-8D82-8700BE6F5C48">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-25 12:31:06 UTC</createdTime>
@@ -39,6 +50,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="WHAT_DESC" id="88C32072-2694-D9AC-BDE1-4C424F00F498">
 <createdBy>darbo</createdBy>
@@ -48,6 +60,11 @@
 <ColumnProxy name="TAGS" id="8A3B739E-D22F-54B3-A05D-9A607E80DA03">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-24 15:21:51 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MACHINE_DESC" id="92BB5BD8-0AF6-A270-5F6D-67959597F2D2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CAPA_ID" id="938C32C7-98F3-200A-E389-48B0DD4E21BE">
@@ -64,6 +81,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>I</defaultValue>
 </ColumnProxy>
 <ColumnProxy name="TITLE" id="AA036A4C-B807-3B4D-99E2-7DE8BD6D8897">
 <createdBy>darbo</createdBy>
@@ -75,6 +93,11 @@
 <createdTime>2023-04-17 20:00:58 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="MEASUREMENT_DESC" id="B85AB093-2149-5DC0-CA82-AA363D1ABB3D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:48:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="STATUS_DATE" id="D7975B02-187B-7755-71D4-81A6694E9370">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
@@ -84,6 +107,21 @@
 <ColumnProxy name="WHICH_DESC" id="E3BBC0BB-D01D-5FF2-6C08-0CADF076AF54">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOTCAUSE_DESC" id="E6133C8D-DCC4-A462-B1BE-6AD000563677">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:49:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOTHER_NATURE_DESC" id="E94B3AD1-1ADE-C6D4-D776-45FC9FB5928F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:48:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATERIAL_DESC" id="F17D2D1C-C592-A761-8B8E-61B344279779">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="STATUS_ID" id="F7242CB3-B614-9417-C397-992CD692E90E">

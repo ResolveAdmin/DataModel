@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="USER" directorySegmentName="seg_0" id="481E60CE-7808-75BB-75C3-5D9074B52602">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_USER" directorySegmentName="seg_0" id="481E60CE-7808-75BB-75C3-5D9074B52602">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:49 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -18,6 +19,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:52:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="USER_EMAIL" id="7D302EB2-9698-B48D-E9E0-BA111DE2448E">
 <createdBy>darbo</createdBy>
@@ -26,7 +28,7 @@
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USER_PK" id="FF07E503-D211-5A3E-4A01-43ED8B3FC728">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_USER_PK" id="FF07E503-D211-5A3E-4A01-43ED8B3FC728">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:52:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

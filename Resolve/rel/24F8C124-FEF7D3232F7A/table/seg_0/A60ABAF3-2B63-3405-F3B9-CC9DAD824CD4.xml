@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A60ABAF3-2B63-3405-F3B9-CC9DAD824CD4" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_BUSINESS_FUNCTION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:07:37 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A77094A5-9F04-0FFB-12FB-524A8C54730A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:07:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_FUNCTION_NAME" id="43D9BFDD-16B6-57D0-3256-B529B1ADCDF2">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:07:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Name</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_FUNCTION_DESC" id="286B3EAB-0299-F98D-2640-6B21D46BF9AD">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:07:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Description</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF73F622-D6D6-531D-B7EA-EC6863F57913" name="RES_BUSINESS_FUNCTION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:08:56 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A77094A5-9F04-0FFB-12FB-524A8C54730A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

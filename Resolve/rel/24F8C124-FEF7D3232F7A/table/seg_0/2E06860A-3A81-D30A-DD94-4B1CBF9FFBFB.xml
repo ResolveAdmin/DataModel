@@ -34,6 +34,32 @@
 <colAssociation fkAssociation="C13E8D51-07AD-A911-FE5F-BF0BA7973080" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
+<Column name="STATUS_ID" id="3E76E0DB-24C4-A5A3-F0F9-064A8757CF6D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:52:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A4E42D8-7CC0-5DC8-4DB8-E97F086E3EC4" referredColumn="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
+</associations>
+</Column>
+<Column name="STATUS_DATE" id="396E2EBC-DE4F-C22D-D541-527DDBF7EBAF">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:54:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CREATE_USER_ID" id="49FE2D2A-4EE4-A4BD-9CDD-9230E35C2157">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:14:51 UTC</createdTime>
@@ -98,7 +124,7 @@
 <colUsage columnID="BC1EBDB4-4815-24FC-945B-39F4238BE056"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3F1D54F6-35A5-7A3C-3B0A-F9F205DD03D0" name="RES_CAPA_RES_USER_FK">
+<ind_PK_UK id="3F1D54F6-35A5-7A3C-3B0A-F9F205DD03D0" name="RES_CAPA_RES_CREATE_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:24:33 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -108,7 +134,7 @@
 <colUsage columnID="49FE2D2A-4EE4-A4BD-9CDD-9230E35C2157"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9696C75-7AE2-1C3E-E6DA-70517CEDE71C" name="RES_CAPA_RES_USER_FKv2">
+<ind_PK_UK id="D9696C75-7AE2-1C3E-E6DA-70517CEDE71C" name="RES_CAPA_RES_UPDATE_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:24:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -126,6 +152,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A8706F87-5649-C40E-3C89-0FFABD3E737C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60E93883-144D-B8EB-6AD7-F9A932E07F6A" name="RES_CAPA_RES_STATUS_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:52:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E76E0DB-24C4-A5A3-F0F9-064A8757CF6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

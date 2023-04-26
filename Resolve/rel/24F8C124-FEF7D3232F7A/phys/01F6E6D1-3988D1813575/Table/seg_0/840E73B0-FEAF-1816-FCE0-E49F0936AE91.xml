@@ -1,18 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_INCIDENT_STATUS" directorySegmentName="seg_0" id="840E73B0-FEAF-1816-FCE0-E49F0936AE91">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_STATUS" directorySegmentName="seg_0" id="840E73B0-FEAF-1816-FCE0-E49F0936AE91">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:40:46 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS_TYPE" id="262459CC-8206-3ACD-CA54-36EA90042D1D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:44:57 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ID" id="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:33:07 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="STATUS_DESC" id="B51465F7-221F-F170-223D-C93577F42637">
 <createdBy>darbo</createdBy>

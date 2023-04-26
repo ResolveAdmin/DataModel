@@ -3,6 +3,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:12 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -14,7 +15,7 @@
 <createdTime>2023-04-17 20:22:59 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATED_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
+<ColumnProxy name="CREATE_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -38,8 +39,9 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
-<ColumnProxy name="CREATED_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
+<ColumnProxy name="CREATE_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

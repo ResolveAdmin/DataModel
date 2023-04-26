@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BUSINESS_AREA" directorySegmentName="seg_0" id="75758442-E0F1-7A13-1EBD-89D569210609">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_BUSINESS_AREA" directorySegmentName="seg_0" id="75758442-E0F1-7A13-1EBD-89D569210609">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:49 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -14,14 +15,20 @@
 <createdTime>2023-04-17 20:00:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_NAME" id="5BB56C91-C46C-AB1B-1D1E-A3615FEBE198">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-24 15:21:51 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ID" id="76631740-69B8-C880-3C56-0673E0B8DABD">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:00:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUSINESS_AREA_PK" id="567D76F2-90AE-9B63-A4E3-C851BD8182BA">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_BUSINESS_AREA_PK" id="567D76F2-90AE-9B63-A4E3-C851BD8182BA">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:00:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

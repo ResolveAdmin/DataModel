@@ -1,20 +1,31 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="INCIDENT_LOG" directorySegmentName="seg_0" id="3FF48BEE-D1B2-6FB3-B4E5-36ACDAEF3003">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_LOG" directorySegmentName="seg_0" id="3FF48BEE-D1B2-6FB3-B4E5-36ACDAEF3003">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:38:54 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="INCIDENT_STEP_ID" id="03AD823D-E369-653D-4973-5EB680393BB5">
+<ColumnProxy name="CHANGE_REQUEST_ID" id="22C62379-7123-9487-AE03-E4FA1FDC9A61">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:49:41 UTC</createdTime>
+<createdTime>2023-04-26 15:18:02 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATED_USER_ID" id="D26E8F57-02DE-B00B-E697-7B431BD25416">
+<ColumnProxy name="CAPA_ID" id="23298DB3-17EF-89A5-F84A-62D5F71413C1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:21:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHANGE_ACTION_PLAN_ID" id="BE536CD3-5276-7751-12D1-F5B088608F85">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:20:13 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="D26E8F57-02DE-B00B-E697-7B431BD25416">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:54:59 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -24,36 +35,53 @@
 <createdTime>2023-04-17 19:49:31 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATED_DATE" id="DB550223-BB06-429A-D3FA-04DB3A8F384A">
+<ColumnProxy name="CREATE_DATE" id="DB550223-BB06-429A-D3FA-04DB3A8F384A">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:51:35 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
 </ColumnProxy>
 <ColumnProxy name="ID" id="E5F12179-429D-95AF-1A24-48B5209C08E1">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:48:27 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="LOG_TEXT" id="E82B477E-08EC-5FFA-8E55-F61CCAB022FA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:22:17 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INCIDENT_LOG_INCIDENT_FK" id="08D28369-7719-ACE6-4F26-E8BC5D9D123A">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_INCIDENT_FK" id="08D28369-7719-ACE6-4F26-E8BC5D9D123A">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:49:31 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INCIDENT_LOG_USER_FK" id="62B2241C-DFB3-FDB3-5975-2C256DE6BB34">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_USER_FK" id="62B2241C-DFB3-FDB3-5975-2C256DE6BB34">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:56:41 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="INCIDENT_LOG_INCIDENT_STEP_FK" id="F0D73BF0-6A5A-3171-CE6D-01D81A28FF14">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_CHANGE_REQUEST_FK" id="758E2FE5-3ED4-38F9-5DF3-373E5B6E26EB">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:49:41 UTC</createdTime>
+<createdTime>2023-04-26 15:18:02 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_CAPA_FK" id="84A3E6A0-533D-ACA5-5DFC-CB1568D1CF3C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:21:05 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_CHANGE_ACTION_PLAN_FK" id="E130FCB7-D251-45A3-C37C-9EF7C7F64490">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:20:13 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INCIDENT_LOG_PK" id="9FE1348E-0FAD-01D5-81CA-32DC8D9376B2">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_LOG_PK" id="9FE1348E-0FAD-01D5-81CA-32DC8D9376B2">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:48:27 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

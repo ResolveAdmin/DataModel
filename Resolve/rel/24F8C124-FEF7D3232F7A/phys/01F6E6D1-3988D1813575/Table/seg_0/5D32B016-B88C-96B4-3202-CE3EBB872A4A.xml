@@ -14,7 +14,6 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:32:45 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
 <notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="PREVENTIVE_DESC" id="5A63FFD1-EEB5-180B-7A2A-6CDE42C68F5E">

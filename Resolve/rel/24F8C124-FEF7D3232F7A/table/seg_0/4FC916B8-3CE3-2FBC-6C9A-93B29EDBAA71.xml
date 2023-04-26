@@ -20,7 +20,24 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INCIDENT_STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
+<Column name="STEP_TYPE" id="880467D3-8E4F-0DE1-08E5-79993208FB36">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:48:29 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CF0F428C-F58A-9576-9B10-5881C48C3B2D</domain>
+<listOfValues>
+<valueDef value="A" description="Change Request Action"/>
+<valueDef value="C" description="Change Request"/>
+<valueDef value="I" description="Incident"/>
+<valueDef value="P" description="CAPA"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -70,9 +87,9 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FAD598B3-71DE-E041-58C1-13E010AF78F8" name="RES_STEP_PK">
+<ind_PK_UK id="0506C2CD-2275-60FA-BE34-8DB31A19EE8E" name="RES_STEP_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:28:07 UTC</createdTime>
+<createdTime>2023-04-26 14:49:00 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -91,7 +108,7 @@
 <colUsage columnID="0662F64C-600C-1025-7FDE-A9EC7E4A50B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6" name="RES_STEP_INCIDENT_RES_STATUS_FK">
+<ind_PK_UK id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6" name="RES_STEP_RES_STATUS_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

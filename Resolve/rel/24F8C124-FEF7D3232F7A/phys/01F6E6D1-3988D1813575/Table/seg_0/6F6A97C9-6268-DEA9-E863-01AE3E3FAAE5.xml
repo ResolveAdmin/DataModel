@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="USER_ROLE" directorySegmentName="seg_0" id="6F6A97C9-6268-DEA9-E863-01AE3E3FAAE5">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_USER_ROLE" directorySegmentName="seg_0" id="6F6A97C9-6268-DEA9-E863-01AE3E3FAAE5">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:26:48 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -13,6 +14,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:27:23 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="ROLE_ID" id="CC5E356C-7955-35AC-6493-2957763E2AAD">
 <createdBy>darbo</createdBy>
@@ -26,19 +28,19 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USER_ROLE_ROLE_FK" id="3C9F1E38-C2F2-8D89-39DE-2EBBC3EB252D">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_USER_ROLE_RES_ROLE_FK" id="3C9F1E38-C2F2-8D89-39DE-2EBBC3EB252D">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:27:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USER_ROLE_USER_FK" id="803D3917-971A-9F63-18F3-65613D8CE735">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_USER_ROLE_RES_USER_FK" id="803D3917-971A-9F63-18F3-65613D8CE735">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:27:48 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USER_ROLE_PK" id="D1F5B376-0034-E13B-5F92-661F8DD29DB7">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_USER_ROLE_PK" id="D1F5B376-0034-E13B-5F92-661F8DD29DB7">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:27:23 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

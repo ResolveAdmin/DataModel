@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="192C9764-7234-F553-68E9-16A0F3BFBAEA" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_ACTION_STEP">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:27:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="877415CB-8F63-159B-876F-720EAFB1F5E2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:28:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANGE_ACTION_PLAN_ID" id="1137EE63-790C-5843-4B66-42A554EC6824">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:28:54 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E47BB1D-C39B-1FF0-3EB5-52C5584EF988" referredColumn="D9EC3ABE-3A7B-AFEC-B52A-7EC6DFC9381D"/>
+</associations>
+</Column>
+<Column name="STEP_ID" id="F2D10F75-B13D-FD16-D467-A9C240FA9DD1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:29:35 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B687B8EA-765B-7509-9B41-4ABC5538651F" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
+</associations>
+</Column>
+<Column name="CREATE_USER_ID" id="BEDFADB9-B38C-BBFA-2256-363D9B0A20D3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:29:27 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="225E7628-9E97-81C0-9C65-ECB7F4E06AD8" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
+</associations>
+</Column>
+<Column name="CREATE_DATE" id="5E4CE364-F05A-A2C9-C2B0-97217CDB6F95">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:29:27 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59C26C3F-A1A5-D930-DE8F-9E0ED69302C7" name="RES_ACTION_STEP_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:28:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="877415CB-8F63-159B-876F-720EAFB1F5E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7FAEFC5-6AF6-2BA4-6C14-2E31C84FE00E" name="RES_ACTION_STEP_RES_CHANGE_ACTION_PLAN_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:28:54 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1137EE63-790C-5843-4B66-42A554EC6824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="465BEA05-5272-EB8D-0D6B-1DBD33247DCA" name="RES_ACTION_STEP_RES_STEP_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:29:35 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2D10F75-B13D-FD16-D467-A9C240FA9DD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DAEE269-634B-D6AA-F2FF-3507950A1E8F" name="RES_ACTION_STEP_RES_USER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:32:51 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEDFADB9-B38C-BBFA-2256-363D9B0A20D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

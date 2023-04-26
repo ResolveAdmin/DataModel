@@ -3,6 +3,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:38:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
@@ -19,6 +20,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:28:07 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="STEP_DESC" id="5B8CDC7C-015B-0583-1385-50FF35AC94C3">
 <createdBy>darbo</createdBy>
@@ -30,23 +32,28 @@
 <createdTime>2023-04-17 19:28:07 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="INCIDENT_STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
+<ColumnProxy name="STEP_TYPE" id="880467D3-8E4F-0DE1-08E5-79993208FB36">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:48:29 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_STEP_INCIDENT_RES_STATUS_FK" id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_STEP_RES_STATUS_FK" id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_STEP_PK" id="FAD598B3-71DE-E041-58C1-13E010AF78F8">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_STEP_PK" id="0506C2CD-2275-60FA-BE34-8DB31A19EE8E">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:28:07 UTC</createdTime>
+<createdTime>2023-04-26 14:49:00 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

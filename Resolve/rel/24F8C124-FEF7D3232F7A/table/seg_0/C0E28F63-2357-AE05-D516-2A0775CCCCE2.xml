@@ -45,7 +45,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="26D23E0B-FDBE-F9D4-C81A-326EDE964D85" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
+<colAssociation fkAssociation="6447C163-3BB8-3C32-0098-C4FC4DBF8AAF" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
 </associations>
 </Column>
 <Column name="CREATE_USER_ID" id="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5">
@@ -96,16 +96,6 @@
 <colUsage columnID="AF0142F0-9433-9C15-9784-DA4113BC1058"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="28A63755-5F3D-EDBE-62A9-85D774B807A0" name="RES_INCIDENT_STEP_RES_STEP_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:29:12 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CF5DCE46-DAFA-C1BC-26C9-427212857C1F"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="015F4207-7EF7-01EA-1933-AB5FA63852B4" name="RES_INCIDENT_STEP_RES_USER_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:57:47 UTC</createdTime>
@@ -114,6 +104,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D28A11C8-AEE9-43D1-5406-3B666984F5D6" name="RES_INCIDENT_STEP_RES_STEP_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 14:55:21 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF5DCE46-DAFA-C1BC-26C9-427212857C1F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

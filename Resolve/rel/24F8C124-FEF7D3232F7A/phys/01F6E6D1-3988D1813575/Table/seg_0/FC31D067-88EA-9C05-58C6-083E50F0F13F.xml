@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_CAPA_STEP" directorySegmentName="seg_0" id="FC31D067-88EA-9C05-58C6-083E50F0F13F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:55:40 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STEP_ID" id="228BF91D-1F49-CAAF-5E7A-18E19720DBEC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:15 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="2ADCA5FA-7D01-2C0D-18F8-C6EC9818CD94">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPA_ID" id="61ED5F24-BEB8-CB73-CE9A-D6905A3E0082">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="DED49F6E-EF64-7B53-A5EE-45245C641305">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:56:09 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATE" id="FFE73838-21C7-3243-3472-14DC7894627A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_STEP_RES_CAPA_FK" id="4977A17D-7D7A-D21A-1134-81329F9B4B82">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_STEP_RES_USER_FK" id="77EE09DD-F672-D385-B6BF-FDB4144EF47A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_STEP_RES_STEP_FK" id="DFC75C12-7402-04C5-6E04-BD419F9F6C45">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:58:15 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_CAPA_STEP_PK" id="435A3C52-9C0F-AFE0-551D-22D9704D34DF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:56:09 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

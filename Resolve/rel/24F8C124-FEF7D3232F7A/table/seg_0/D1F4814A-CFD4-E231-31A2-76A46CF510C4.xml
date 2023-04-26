@@ -118,7 +118,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IMPACT_ASSESSMENT" id="97305F52-15E1-62EF-F262-296277E36893">
+<Column name="IMPACT_TYPE" id="97305F52-15E1-62EF-F262-296277E36893">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="387F5DE0-7852-9B06-831F-41296520901C" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_INCIDENT_STEP_NOTIFICATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="387F5DE0-7852-9B06-831F-41296520901C" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_NOTIFICATION">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:39:18 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -18,6 +18,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOG_ID" id="D6DE6701-D4B5-13EE-8C77-A00DEB1CA5DE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 15:20:56 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D643F9EE-7160-3E35-7620-9E586ADCF25F" referredColumn="E5F12179-429D-95AF-1A24-48B5209C08E1"/>
+</associations>
+</Column>
+<Column name="NOTIFICATION_TEXT" id="E1E65B93-8096-8EEA-2D13-3B23463AF4C5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:23:00 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOTIFIED_USER_ID" id="F9AFFA3E-338C-9716-1063-051CB1B14D43">
@@ -42,23 +66,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INCIDENT_LOG_ID" id="A8F69E4A-2D78-741A-98D6-1C11486E0DCE">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:17:26 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="47B0D0B8-9DC0-6FDF-4C3C-FAC2614D1D30" referredColumn="E5F12179-429D-95AF-1A24-48B5209C08E1"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="072664ED-3E36-18F3-6CE7-933BA664676F" name="RES_INCIDENT_STEP_NOTIFICATION_PK">
+<ind_PK_UK id="072664ED-3E36-18F3-6CE7-933BA664676F" name="RES_NOTIFICATION_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:16:58 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -69,14 +79,14 @@
 <colUsage columnID="3AB7FF19-81AE-D524-7994-932DE763E71C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="75B7444D-17E4-5863-064C-4686068F8513" name="RES_INCIDENT_STEP_NOTIFICATION_RES_INCIDENT_LOG_FK">
+<ind_PK_UK id="B84702D0-2889-F205-7F63-7E6C87C921C9" name="RES_NOTIFICATION_RES_LOG_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:17:26 UTC</createdTime>
+<createdTime>2023-04-26 15:20:56 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A8F69E4A-2D78-741A-98D6-1C11486E0DCE"/>
+<colUsage columnID="D6DE6701-D4B5-13EE-8C77-A00DEB1CA5DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
