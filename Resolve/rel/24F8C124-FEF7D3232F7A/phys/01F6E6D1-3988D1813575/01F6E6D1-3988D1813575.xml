@@ -2,5 +2,5 @@
 <StorageDesignOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c" name="Oracle Database 21c" id="0BED48F0-8A5E-1651-40E3-1181D824A1A3" siteID="01F6E6D1-21D0-CFBD-ABDD-3988D1813575" siteName="Oracle Database 21c" siteType="17">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:49 UTC</createdTime>
-<ownerDesignName>Untitled_1</ownerDesignName>
+<ownerDesignName>Resolve</ownerDesignName>
 </StorageDesignOraclev20c>

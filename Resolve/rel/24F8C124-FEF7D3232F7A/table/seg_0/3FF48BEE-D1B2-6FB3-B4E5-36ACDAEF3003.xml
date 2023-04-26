@@ -49,7 +49,7 @@
 <colAssociation fkAssociation="059969BD-C4A9-6999-7467-044B885F3BBB" referredColumn="ED669A23-0CF1-F3AC-8E47-25700F2CEFE0"/>
 </associations>
 </Column>
-<Column name="CREATED_USER_ID" id="D26E8F57-02DE-B00B-E697-7B431BD25416">
+<Column name="CREATE_USER_ID" id="D26E8F57-02DE-B00B-E697-7B431BD25416">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:54:59 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -62,7 +62,7 @@
 <colAssociation fkAssociation="BF57F8C1-2DC6-738B-CEC7-C882B686CDF7" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
 </associations>
 </Column>
-<Column name="CREATED_DATE" id="DB550223-BB06-429A-D3FA-04DB3A8F384A">
+<Column name="CREATE_DATE" id="DB550223-BB06-429A-D3FA-04DB3A8F384A">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:51:35 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

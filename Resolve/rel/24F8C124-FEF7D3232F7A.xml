@@ -11,5 +11,10 @@
 <pathName>D:\Resolve</pathName>
 <dbType>17</dbType>
 </importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>CAPA.sql</fileName>
+<pathName>D:\Resolve\Temp</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
 </importDDLFileStamps>
 </relationalModel>

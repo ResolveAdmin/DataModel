@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE3C2E88-D4FF-B697-3CF3-383D6DAD6EF2" name="RS_CAPA">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>B7AD30A7-7815-F874-675C-D82A6AEF2024</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAPA_ID" id="52E24651-9DA8-98D4-0CB0-0D9065AE78D9">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>EAA3F0B3-050A-5CD2-6990-28AE66A199CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D573BE1A-8698-3101-5DB4-B7D4F076B9A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCIDENT_ID" id="7654006A-21E4-4FE3-A04C-9C7C5DC08621">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>AF5BAFB6-802C-03BB-E446-567D1A0E38D1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D573BE1A-8698-3101-5DB4-B7D4F076B9A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTION" id="1E135899-9B26-AC97-46B1-9662FCD050F8">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>580ACD66-D55F-90EE-CAD9-4A2A0FFEBDBF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AE67C927-3D13-7867-1E4F-C32E60FFB1E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPAFACTOR" id="8DDC8C58-5BAA-2D79-C006-0AD355171BC5">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>EE53D11D-DE01-AA84-9C34-1C548A7D132F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA6C8993-B341-C83E-C43C-C2BD09A8C5A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT" id="6EBACAD2-0309-EC98-57CB-B574541C920E">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>6455C56D-F142-3176-F19C-70D083C255FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F071C5C4-461E-3D34-FD7A-BE3F57E51848</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INITIATOR_EMAIL" id="9FA97A10-FE3C-F801-82F7-A6BEEE28ABFA">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>51DE1D51-5E7E-A5E8-E559-70BE62027E13</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F071C5C4-461E-3D34-FD7A-BE3F57E51848</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPA_CREATE_DATE" id="05D43F8C-1BA6-D30D-D586-9B418714B2D7">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>834A5CC4-741E-53C8-7817-3EE1C7577D37</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>61C19BBF-E484-1038-6141-B4180440BA27</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPA_DUE_DATE" id="7B417462-92FD-C8FA-DA7E-DF7FA8D6E539">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>66418075-F1E7-1275-575D-47938130CBCA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>61C19BBF-E484-1038-6141-B4180440BA27</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPA_APPROVER_EMAIL" id="9B19D26C-019B-970C-9AEE-954472678EB9">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>D27B9E52-728E-8E7B-971F-CD4BDE9CA656</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F071C5C4-461E-3D34-FD7A-BE3F57E51848</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVIATION" id="9D2B6270-B8F3-3DA3-57BE-3D0ADA095C76">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>5E8EBF2E-ADBA-766A-13AC-2F5BBB5BE8CC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F071C5C4-461E-3D34-FD7A-BE3F57E51848</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRECTIVE_ACTION_1" id="DC03A331-2999-CA7A-FDAB-9F6D96EB8DCD">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>35C35517-70FB-AC5A-8859-1D23772C5A16</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVENTIVE_ACTION_1" id="DE4C2CCA-A383-853E-A541-1AB92189622C">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>12086323-D879-2DDB-B018-67C5225E5A0B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRECTIVE_ACTION_2" id="836F8856-F5C5-EB66-E127-C8CA856F0460">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>0B2B2A0A-BCC4-5591-4D92-4019021D18FF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVENTIVE_ACTION_2" id="52AFAA83-34D6-9AD2-5025-0FD13C6AB307">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>22F64D78-8B9F-7B8D-1280-EB534B2175CB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRECTIVE_ACTION_3" id="58D4524E-4E8C-91E0-B807-C5A638650B2F">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>DC8313D5-BF99-D671-51C0-D2F825460318</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVENTIVE_ACTION_3" id="C1C17CDC-F0FA-2DB7-9708-11AEC5FD0F4A">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>F307B82E-AC1B-1252-8D12-D619E0860C68</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97263885-BCE9-A408-F971-51ACE36D9B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTION_DUE_DATE" id="9517A305-136E-3D3B-8911-BE6A2013A3E5">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>BCA9FDB4-E5A5-ADB4-5535-F558995BB630</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>61C19BBF-E484-1038-6141-B4180440BA27</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02309911-C0E2-8E78-D0B0-1B251A043DD0" name="RS_CAPA_PK">
+<sourceDDLFile>CAPA.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>7CAA09E8-24FC-00DA-02C1-489C19253D4C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52E24651-9DA8-98D4-0CB0-0D9065AE78D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

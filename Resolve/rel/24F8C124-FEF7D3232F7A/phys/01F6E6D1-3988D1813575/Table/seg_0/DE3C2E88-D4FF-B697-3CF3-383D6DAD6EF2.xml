@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RS_CAPA" directorySegmentName="seg_0" id="DE3C2E88-D4FF-B697-3CF3-383D6DAD6EF2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAPA_CREATE_DATE" id="05D43F8C-1BA6-D30D-D586-9B418714B2D7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTION" id="1E135899-9B26-AC97-46B1-9662FCD050F8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREVENTIVE_ACTION_2" id="52AFAA83-34D6-9AD2-5025-0FD13C6AB307">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPA_ID" id="52E24651-9DA8-98D4-0CB0-0D9065AE78D9">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORRECTIVE_ACTION_3" id="58D4524E-4E8C-91E0-B807-C5A638650B2F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT" id="6EBACAD2-0309-EC98-57CB-B574541C920E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_ID" id="7654006A-21E4-4FE3-A04C-9C7C5DC08621">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPA_DUE_DATE" id="7B417462-92FD-C8FA-DA7E-DF7FA8D6E539">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORRECTIVE_ACTION_2" id="836F8856-F5C5-EB66-E127-C8CA856F0460">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPAFACTOR" id="8DDC8C58-5BAA-2D79-C006-0AD355171BC5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTION_DUE_DATE" id="9517A305-136E-3D3B-8911-BE6A2013A3E5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPA_APPROVER_EMAIL" id="9B19D26C-019B-970C-9AEE-954472678EB9">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEVIATION" id="9D2B6270-B8F3-3DA3-57BE-3D0ADA095C76">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INITIATOR_EMAIL" id="9FA97A10-FE3C-F801-82F7-A6BEEE28ABFA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREVENTIVE_ACTION_3" id="C1C17CDC-F0FA-2DB7-9708-11AEC5FD0F4A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORRECTIVE_ACTION_1" id="DC03A331-2999-CA7A-FDAB-9F6D96EB8DCD">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREVENTIVE_ACTION_1" id="DE4C2CCA-A383-853E-A541-1AB92189622C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RS_CAPA_PK" id="02309911-C0E2-8E78-D0B0-1B251A043DD0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging></logging>
+<segment>82C8D9E3-0237-24F0-CB25-4FF6D1895027</segment>
+<indexSegment>82C8D9E3-0237-24F0-CB25-4FF6D1895027</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

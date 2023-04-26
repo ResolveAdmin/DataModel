@@ -78,7 +78,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
+<Column name="CREATE_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -91,7 +91,7 @@
 <colAssociation fkAssociation="D59ECD5A-9DD9-4563-D25E-681E881395DE" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
 </associations>
 </Column>
-<Column name="CREATED_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
+<Column name="CREATE_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:21:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="CAPA_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="61C19BBF-E484-1038-6141-B4180440BA27">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>CAPA_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1000" id="97263885-BCE9-A408-F971-51ACE36D9B90">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1000</dataTypeSize>
+<fileName>CAPA_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="CA6C8993-B341-C83E-C43C-C2BD09A8C5A5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:13:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>CAPA_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -48,7 +48,7 @@
 <colAssociation fkAssociation="26D23E0B-FDBE-F9D4-C81A-326EDE964D85" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
 </associations>
 </Column>
-<Column name="CREATED_USER_ID" id="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5">
+<Column name="CREATE_USER_ID" id="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:57:43 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -61,7 +61,7 @@
 <colAssociation fkAssociation="37575911-641C-433B-97E9-1A6B217808F5" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
 </associations>
 </Column>
-<Column name="CREATED_DATE" id="2077AE78-2D3A-1FE2-A1DB-10A172B3DE3E">
+<Column name="CREATE_DATE" id="2077AE78-2D3A-1FE2-A1DB-10A172B3DE3E">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:28:53 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
