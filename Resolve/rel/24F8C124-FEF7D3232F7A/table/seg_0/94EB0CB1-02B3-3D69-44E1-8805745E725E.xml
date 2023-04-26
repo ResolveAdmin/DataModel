@@ -70,6 +70,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CHANGE_TYPE" id="295FEECA-2AE9-34A8-FD9E-2DCB0B85F5FA">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:52:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CF0F428C-F58A-9576-9B10-5881C48C3B2D</domain>
+<listOfValues>
+<valueDef value="P" description="Permanent"/>
+<valueDef value="T" description="Temporary"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CURRENT_PROCESS_DESC" id="B21CADB7-ED76-7B17-5E82-FB397284AE4D">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 14:01:44 UTC</createdTime>

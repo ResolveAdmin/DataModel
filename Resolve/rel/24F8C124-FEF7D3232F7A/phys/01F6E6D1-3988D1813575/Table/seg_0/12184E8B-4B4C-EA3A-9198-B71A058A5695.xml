@@ -10,9 +10,9 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="INCIDENT_ID" id="098076C0-6812-CA55-C9A5-C497940E61C6">
+<ColumnProxy name="ACTION_STEP_ID" id="0CFE2674-17D2-919A-B9CE-EAC2226DC45E">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:59:56 UTC</createdTime>
+<createdTime>2023-04-26 17:03:34 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATE_USER_ID" id="415DAC36-8B39-97C4-D280-8EADBD7A2CA8">
@@ -20,14 +20,19 @@
 <createdTime>2023-04-17 19:55:05 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CHANGE_REQUEST_ID" id="6AAF412C-B065-C479-DBFE-B397DB9E3D8F">
+<ColumnProxy name="CHANGE_STEP_ID" id="6310B440-8411-B709-8AAC-7ADF133042A3">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 15:07:37 UTC</createdTime>
+<createdTime>2023-04-26 17:03:51 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CAPA_ID" id="CF0B31DE-9AA2-3184-1923-440932CF0D10">
+<ColumnProxy name="CAPA_STEP_ID" id="6AA1B320-8F52-B9CF-6981-FE1A90791C0F">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 16:23:43 UTC</createdTime>
+<createdTime>2023-04-26 17:02:54 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_STEP_ID" id="8F14CA93-5243-E784-F504-B2ADB8675C1E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 17:03:08 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATE_DATE" id="DD183852-7EB6-7FF7-54D3-484635BD6C88">
@@ -49,14 +54,9 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_CHANGE_REQUEST_FK" id="551BE056-97C2-07F1-34FB-A87D395A0916">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_CHANGE_STEP_FK" id="0F08BFB2-7C8E-E5C8-5EC9-C73641C88292">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 15:07:36 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_INCIDENT_FK" id="6E3734D4-C336-94FA-F92D-1B36ECD33991">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:59:56 UTC</createdTime>
+<createdTime>2023-04-26 17:03:51 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_USER_FK" id="B43C5B13-F84E-924A-6AEF-BC5750BCAF73">
@@ -64,9 +64,19 @@
 <createdTime>2023-04-17 19:56:48 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_CAPA_FK" id="B55E4AC4-0610-5AE2-0BEB-12D47E7F9B78">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_INCIDENT_STEP_FK" id="B5655888-7FFC-A920-30B8-6A73ECC5D2CC">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 16:23:43 UTC</createdTime>
+<createdTime>2023-04-26 17:03:08 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_CAPA_STEP_FK" id="D0B7832D-7A87-EE58-271D-FF15292F35C1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 17:02:54 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_COMMENT_RES_ACTION_STEP_FK" id="D45E2316-C0E9-5832-36B9-DFDC7541DB88">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 17:03:34 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

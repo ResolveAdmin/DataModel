@@ -53,6 +53,9 @@
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E785FCE-B084-E82D-8CDF-1F9333926569" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
+</associations>
 </Column>
 <Column name="NOTIFIED_DATE" id="E70585C2-781E-9C98-4560-1C47C1893456">
 <createdBy>darbo</createdBy>
@@ -87,6 +90,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D6DE6701-D4B5-13EE-8C77-A00DEB1CA5DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA45F3E4-5968-8985-93F8-654687F1E6FE" name="RES_NOTIFICATION_RES_USER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 17:41:55 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9AFFA3E-338C-9716-1063-051CB1B14D43"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

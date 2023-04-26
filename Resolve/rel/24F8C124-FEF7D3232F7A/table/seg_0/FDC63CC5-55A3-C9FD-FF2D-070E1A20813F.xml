@@ -48,6 +48,25 @@
 <colAssociation fkAssociation="562E98ED-10A9-945D-DBB1-FD4F4A2349E5" referredColumn="A77094A5-9F04-0FFB-12FB-524A8C54730A"/>
 </associations>
 </Column>
+<Column name="IMPACT_TYPE" id="794090DC-71EE-9280-5F19-003AC2B5315D">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 16:52:34 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CF0F428C-F58A-9576-9B10-5881C48C3B2D</domain>
+<listOfValues>
+<valueDef value="C" description="Critical"/>
+<valueDef value="I" description="Minor"/>
+<valueDef value="J" description="Major"/>
+</listOfValues>
+<defaultValue>I</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="IMPACT_ASSESSMENT_DESC" id="7EC6BE4D-9990-960B-80FC-A93E6E304BCB">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 14:10:30 UTC</createdTime>

@@ -44,6 +44,11 @@
 <createdTime>2023-04-26 15:20:56 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_NOTIFICATION_RES_USER_FK" id="EA45F3E4-5968-8985-93F8-654687F1E6FE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 17:41:55 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_NOTIFICATION_PK" id="072664ED-3E36-18F3-6CE7-933BA664676F">
