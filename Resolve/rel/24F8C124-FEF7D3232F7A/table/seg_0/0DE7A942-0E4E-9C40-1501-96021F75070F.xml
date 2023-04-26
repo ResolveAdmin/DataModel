@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DE7A942-0E4E-9C40-1501-96021F75070F" name="RES_ROLE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DE7A942-0E4E-9C40-1501-96021F75070F" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_ROLE">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:14:51 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

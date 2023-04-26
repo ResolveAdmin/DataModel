@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77590E99-75C7-2AA5-2B3D-6CB02F0C4C64" name="RES_SUPPLIER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77590E99-75C7-2AA5-2B3D-6CB02F0C4C64" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_SUPPLIER">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:13:40 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -18,6 +18,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_NAME" id="86DBCB42-23BE-F247-4931-9EF01A09CFEB">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:44:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_DESC" id="2624AC0F-D439-2C73-D3A3-3DCB2FFF7CC5">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:44:07 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultLabel>Description</defaultLabel>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

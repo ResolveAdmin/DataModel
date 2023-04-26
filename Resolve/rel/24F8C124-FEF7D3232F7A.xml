@@ -5,6 +5,13 @@
 <ownerDesignName>RES</ownerDesignName>
 <shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>LBCBHOZFD1PC9AOE_WKSP_DEV01</connName>
+<connUser>WKSP_DEV01</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
 <fileName>RS_INCIDENT.sql</fileName>

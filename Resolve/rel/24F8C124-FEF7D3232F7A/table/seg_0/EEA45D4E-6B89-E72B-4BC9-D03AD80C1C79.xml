@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA45D4E-6B89-E72B-4BC9-D03AD80C1C79" schemaObject="6204AADE-AC6B-2BFA-4FD2-3F3B83B79DEB" name="RES_ROLE_AUTHORIZED_STEP">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA45D4E-6B89-E72B-4BC9-D03AD80C1C79" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_ROLE_AUTHORIZED_STEP">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-21 14:53:28 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

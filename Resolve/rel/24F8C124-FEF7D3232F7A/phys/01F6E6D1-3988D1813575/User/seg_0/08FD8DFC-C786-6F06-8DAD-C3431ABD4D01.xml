@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="WKSP_DEV01" directorySegmentName="seg_0" id="08FD8DFC-C786-6F06-8DAD-C3431ABD4D01">
+<sourceConnName>LBCBHOZFD1PC9AOE_WKSP_DEV01</sourceConnName>
+<sourceObjName>WKSP_DEV01</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:28:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<privileges>EXECUTE DYNAMIC MLE, CREATE JOB, CREATE DIMENSION, CREATE INDEXTYPE, CREATE OPERATOR, CREATE TYPE, CREATE MATERIALIZED VIEW, CREATE TRIGGER, CREATE PROCEDURE, CREATE SEQUENCE, CREATE VIEW, CREATE SYNONYM, CREATE CLUSTER, CREATE TABLE, CREATE SESSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="8DF36808-E9F5-E022-77E7-919643677BD9">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:29:10 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

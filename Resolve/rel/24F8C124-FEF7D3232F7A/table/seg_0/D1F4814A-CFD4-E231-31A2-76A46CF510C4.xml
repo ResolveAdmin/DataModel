@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1F4814A-CFD4-E231-31A2-76A46CF510C4" name="RES_INCIDENT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1F4814A-CFD4-E231-31A2-76A46CF510C4" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_INCIDENT">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>

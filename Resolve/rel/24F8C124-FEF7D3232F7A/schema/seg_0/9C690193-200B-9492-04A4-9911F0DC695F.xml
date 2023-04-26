@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="WKSP_DEV01" directorySegmentName="seg_0" id="9C690193-200B-9492-04A4-9911F0DC695F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-04-26 13:29:10 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<importedID>8FF31CAA-2FEE-12D4-7AA4-9ADAA8F5A423</importedID>
+</SchemaObject>

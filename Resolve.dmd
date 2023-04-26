@@ -12,5 +12,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A98AFBB0-4A2B-66F0-6F23-50BC90C75148">
 <designStoragePath>D:\CAPA</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6ED8C870-9C0E-DD1C-4FFA-D073EC86FC07">
+<designStoragePath>D:\Resolve\DataModel</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>
