@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D8955E3-AE6E-3D1A-C905-6A0667B5D9BD" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_INCIDENT_TODO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="503420CD-795F-E69C-5ACA-CF0BFDB9D2C4" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_SETTINGS">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:21:14 UTC</createdTime>
+<createdTime>2023-05-04 14:25:11 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<ordsAlias>table_29</ordsAlias>
+<ordsAlias>table_32</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="628C0E40-A418-837B-675C-7EC5133A4276">
+<Column name="ID" id="D37A0E48-AA10-5BBA-C540-DFA057538CCE">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:21:47 UTC</createdTime>
+<createdTime>2023-05-04 14:25:57 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,37 +21,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INCIDENT_ID" id="16A42BA0-9FD4-DFEA-3028-8582FBC01719">
+<Column name="INCIDENT_DEVIATION_TODO" id="8753B113-A5AE-0670-87C3-9268041F8550">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:22:16 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EC17BE16-16B6-1C9B-F456-FF3FBC5F11DC" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
-</associations>
-</Column>
-<Column name="TODO_ID" id="EF8A8EC8-FA29-813E-7A11-72CD9FB5DD88">
-<createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:22:24 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F22CDF8C-C7D6-F55E-EA9C-1016A8FB029C" referredColumn="312DF342-C467-519E-83AD-FD7AF62C0354"/>
-</associations>
-</Column>
-<Column name="COMPLETE_USER_ID" id="B847AFF8-7931-6AB9-D19B-ABA95A047A86">
-<createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:23:10 UTC</createdTime>
+<createdTime>2023-05-04 14:26:26 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -60,62 +32,78 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="35CF54D3-C3A8-7DCA-135A-9958F61FAC04" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
+<colAssociation fkAssociation="49DA6D21-8553-3B73-4353-1C1861D1A260" referredColumn="312DF342-C467-519E-83AD-FD7AF62C0354"/>
 </associations>
 </Column>
-<Column name="COMPLETE_DATE" id="57D4B851-646C-0243-75BC-76356DFA8413">
+<Column name="INCIDENT_DESCRIPTION_TODO" id="12CA6DD6-780C-D768-C440-DA15104E0893">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:23:10 UTC</createdTime>
+<createdTime>2023-05-04 14:26:46 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
-<defaultValue>SYSTIMESTAMP</defaultValue>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E3340EE-3CBC-7D35-6381-0A33F8384CBD" referredColumn="312DF342-C467-519E-83AD-FD7AF62C0354"/>
+</associations>
+</Column>
+<Column name="INCIDENT_IMPACT_TODO" id="51725D7E-3A8C-F2B6-9AA4-A3D4BA6FBB27">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:28:43 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1054BC-EE14-9E14-8B78-2B600440B5E5" referredColumn="312DF342-C467-519E-83AD-FD7AF62C0354"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7EE7CD44-9D9F-8753-CC16-7E964AA1EABE" name="RES_INCIDENT_TODO_PK">
+<ind_PK_UK id="FC76BD9D-F7C2-851B-6223-307722B46BD3" name="RES_SETTINGS_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:21:47 UTC</createdTime>
+<createdTime>2023-05-04 14:25:57 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="628C0E40-A418-837B-675C-7EC5133A4276"/>
+<colUsage columnID="D37A0E48-AA10-5BBA-C540-DFA057538CCE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="39120971-DB0C-C4EF-C1BF-49800B2DA5A6" name="RES_INCIDENT_TODO_RES_INCIDENT_FK">
+<ind_PK_UK id="3A9F05BB-5E4E-AEA4-127E-06D60B1C9A98" name="RES_SETTINGS_DEVIATION_RES_TODO_FKv1">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:22:16 UTC</createdTime>
+<createdTime>2023-05-04 14:28:55 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="16A42BA0-9FD4-DFEA-3028-8582FBC01719"/>
+<colUsage columnID="8753B113-A5AE-0670-87C3-9268041F8550"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A3DA73E2-E1AD-BB66-79F2-D15010334E3F" name="RES_INCIDENT_TODO_RES_TODO_FK">
+<ind_PK_UK id="9183956A-0C12-3140-72E1-10E53BCA7EF1" name="RES_SETTINGS_IMPACT_RES_TODO_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 09:22:24 UTC</createdTime>
+<createdTime>2023-05-04 14:29:14 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EF8A8EC8-FA29-813E-7A11-72CD9FB5DD88"/>
+<colUsage columnID="51725D7E-3A8C-F2B6-9AA4-A3D4BA6FBB27"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="80016D14-EF0A-B928-66C8-11480E6D1C30" name="RES_INCIDENT_TODO_RES_USER_FK">
+<ind_PK_UK id="0C4D8CEC-E0F0-69BE-5523-D055881EDDBE" name="RES_SETTINGS_DESCRIPTION_RES_TODO_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-05-04 13:56:35 UTC</createdTime>
+<createdTime>2023-05-04 14:29:24 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B847AFF8-7931-6AB9-D19B-ABA95A047A86"/>
+<colUsage columnID="12CA6DD6-780C-D768-C440-DA15104E0893"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

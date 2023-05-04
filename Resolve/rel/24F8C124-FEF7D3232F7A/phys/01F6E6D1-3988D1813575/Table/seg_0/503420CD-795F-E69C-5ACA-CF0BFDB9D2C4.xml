@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_SETTINGS" directorySegmentName="seg_0" id="503420CD-795F-E69C-5ACA-CF0BFDB9D2C4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:25:11 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INCIDENT_DESCRIPTION_TODO" id="12CA6DD6-780C-D768-C440-DA15104E0893">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:26:46 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_IMPACT_TODO" id="51725D7E-3A8C-F2B6-9AA4-A3D4BA6FBB27">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:28:43 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_DEVIATION_TODO" id="8753B113-A5AE-0670-87C3-9268041F8550">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:26:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D37A0E48-AA10-5BBA-C540-DFA057538CCE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:25:57 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_DESCRIPTION_RES_TODO_FK" id="0C4D8CEC-E0F0-69BE-5523-D055881EDDBE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:29:24 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_DEVIATION_RES_TODO_FKv1" id="3A9F05BB-5E4E-AEA4-127E-06D60B1C9A98">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:28:55 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_IMPACT_RES_TODO_FK" id="9183956A-0C12-3140-72E1-10E53BCA7EF1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:29:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_SETTINGS_PK" id="FC76BD9D-F7C2-851B-6223-307722B46BD3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:25:57 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

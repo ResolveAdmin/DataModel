@@ -48,6 +48,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TODO_SEQ" id="F16D8557-3796-BD0F-71E8-D62D02C65A82">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 14:07:03 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DAA8E4CA-5386-CB14-F0E0-80F55ECADF84" name="RES_TODO_PK">
