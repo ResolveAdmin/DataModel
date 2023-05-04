@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STEP_TYPE" id="880467D3-8E4F-0DE1-08E5-79993208FB36">
+<Column name="WORKFLOW_TYPE" id="880467D3-8E4F-0DE1-08E5-79993208FB36">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 14:48:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -37,7 +37,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
+<Column name="POSITIVE_STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -49,6 +49,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="8A54F601-BAD9-397F-D5F6-6D6AE9E325E3" referredColumn="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
+</associations>
+</Column>
+<Column name="NEGATIVE_STATUS_ID" id="C8711389-2F9E-BCC3-77B4-C162713E8D84">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-02 10:14:10 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B8EB16-F65F-7F74-D7C7-9072B60EADBE" referredColumn="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
 </associations>
 </Column>
 <Column name="STEP_NAME" id="67CCDA35-958A-0DFB-13D4-55D446CE15B7">
@@ -116,6 +130,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F52DFDEC-E494-551B-D8A7-242DD1750A72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9799EB00-6404-7904-B350-9A8DE13AAE25" name="RES_STEP_RES_STATUS_FKv1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-02 10:14:41 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8711389-2F9E-BCC3-77B4-C162713E8D84"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

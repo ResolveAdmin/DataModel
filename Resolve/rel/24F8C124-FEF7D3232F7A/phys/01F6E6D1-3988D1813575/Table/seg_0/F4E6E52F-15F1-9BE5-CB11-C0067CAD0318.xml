@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_CHANGE_REQUEST_TODO" directorySegmentName="seg_0" id="F4E6E52F-15F1-9BE5-CB11-C0067CAD0318">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:20:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="9908DCEC-642B-A67E-A547-39C58509F18E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:22:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHANGE_REQUEST_ID" id="B5149E49-98A8-31B8-2C92-31007BB47D4C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:16 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TODO_ID" id="C97A63C0-1F5F-A158-23EA-BB822EA9A184">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:22 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPLETE_USER_ID" id="D0E9063A-E951-3D9B-1CA1-5E3219CF63D8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:11 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPLETE_DATE" id="EAA4CDFF-2630-DBCC-141C-CC13F2502C55">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:11 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_RES_CHANGE_REQUEST_FK" id="461B368C-9C46-6629-CFC7-607E7625DD41">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:15 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_RES_TODO_FK" id="9B34FFC0-A1CA-1F7E-124A-2552A2011338">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:23:22 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_RES_USER_FK" id="EC425240-5E5B-7625-8A9F-CB7037F3043D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:32:33 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_PK" id="A1C242C7-3458-E73B-786C-A91681E9E06F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-04 11:22:14 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

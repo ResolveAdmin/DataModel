@@ -37,7 +37,12 @@
 <createdTime>2023-04-26 14:48:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
+<ColumnProxy name="NEGATIVE_STATUS_ID" id="C8711389-2F9E-BCC3-77B4-C162713E8D84">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-02 10:14:10 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSITIVE_STATUS_ID" id="F52DFDEC-E494-551B-D8A7-242DD1750A72">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -47,6 +52,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_STEP_RES_STATUS_FK" id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_STEP_RES_STATUS_FKv1" id="9799EB00-6404-7904-B350-9A8DE13AAE25">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-02 10:14:41 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

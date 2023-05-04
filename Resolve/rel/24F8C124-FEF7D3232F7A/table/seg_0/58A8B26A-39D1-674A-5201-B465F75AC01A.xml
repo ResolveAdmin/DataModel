@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="840E73B0-FEAF-1816-FCE0-E49F0936AE91" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_STATUS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58A8B26A-39D1-674A-5201-B465F75AC01A" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_TODO">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-13 16:40:46 UTC</createdTime>
+<createdTime>2023-05-04 09:19:09 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<ordsAlias>table_20</ordsAlias>
+<ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2">
+<Column name="ID" id="312DF342-C467-519E-83AD-FD7AF62C0354">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:33:07 UTC</createdTime>
+<createdTime>2023-05-04 09:20:01 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -20,9 +20,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="WORKFLOW_TYPE" id="262459CC-8206-3ACD-CA54-36EA90042D1D">
+<Column name="WORKFLOW_TYPE" id="F6C73511-DC69-AC11-8634-99F83E68F19A">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:44:57 UTC</createdTime>
+<createdTime>2023-05-04 09:20:45 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -37,10 +37,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_NAME" id="E4ABB8BE-E972-5CB8-F98B-20FEC20401CF">
+<Column name="TODO_DESC" id="70177F63-B50B-4BB9-AC33-52D966B54550">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:33:07 UTC</createdTime>
+<createdTime>2023-05-04 09:40:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -48,40 +48,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_DESC" id="B51465F7-221F-F170-223D-C93577F42637">
-<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-21 16:50:52 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="IS_ACTIVE" id="FB406845-21D6-5D70-C553-4DBB6524E6B3">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:33:29 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
-<defaultValue>N</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3307162D-7220-7053-4D7D-1450D9679E1C" name="RES_INCIDENT_STATUS_PK">
+<ind_PK_UK id="DAA8E4CA-5386-CB14-F0E0-80F55ECADF84" name="RES_TODO_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:36:35 UTC</createdTime>
+<createdTime>2023-05-04 09:20:01 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4BB3DF7D-10E3-D6CD-8012-A730A30A3DE2"/>
+<colUsage columnID="312DF342-C467-519E-83AD-FD7AF62C0354"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
