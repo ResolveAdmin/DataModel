@@ -133,8 +133,9 @@
 <valueDef value="C" description="Critical"/>
 <valueDef value="I" description="Minor"/>
 <valueDef value="J" description="Major"/>
+<valueDef value="N" description="Not Set Yet"/>
 </listOfValues>
-<defaultValue>I</defaultValue>
+<defaultValue>N</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

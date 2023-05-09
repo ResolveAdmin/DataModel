@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E47BB1D-C39B-1FF0-3EB5-52C5584EF988" containerWithKeyObject="192C9764-7234-F553-68E9-16A0F3BFBAEA" localFKIndex="C7FAEFC5-6AF6-2BA4-6C14-2E31C84FE00E" name="RES_ACTION_STEP_RES_CHANGE_ACTION_PLAN_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E47BB1D-C39B-1FF0-3EB5-52C5584EF988" containerWithKeyObject="192C9764-7234-F553-68E9-16A0F3BFBAEA" localFKIndex="C7FAEFC5-6AF6-2BA4-6C14-2E31C84FE00E" name="RES_ACTION_STEP_RES_CHANGE_ACTION_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:28:54 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<referredTableLongName>WKSP_DEV01.RES_CHANGE_ACTION_PLAN</referredTableLongName>
+<referredTableLongName>WKSP_DEV01.RES_CHANGE_ACTION</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>87AD2AD0-F2EC-B65C-5E6C-FB653B3432EC</referredTableID>
 <keyObject>2728A27C-9236-FB37-8288-042DA6183778</keyObject>

@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CHANGE_ACTION_PLAN_ID" id="1137EE63-790C-5843-4B66-42A554EC6824">
+<Column name="CHANGE_ACTION_ID" id="1137EE63-790C-5843-4B66-42A554EC6824">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:28:54 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -86,7 +86,7 @@
 <colUsage columnID="877415CB-8F63-159B-876F-720EAFB1F5E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7FAEFC5-6AF6-2BA4-6C14-2E31C84FE00E" name="RES_ACTION_STEP_RES_CHANGE_ACTION_PLAN_FK">
+<ind_PK_UK id="C7FAEFC5-6AF6-2BA4-6C14-2E31C84FE00E" name="RES_ACTION_STEP_RES_CHANGE_ACTION_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:28:54 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

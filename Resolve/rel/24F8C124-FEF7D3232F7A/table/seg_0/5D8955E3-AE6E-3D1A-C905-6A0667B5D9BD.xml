@@ -68,10 +68,9 @@
 <createdTime>2023-05-04 09:23:10 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
-<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
-<defaultValue>SYSTIMESTAMP</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

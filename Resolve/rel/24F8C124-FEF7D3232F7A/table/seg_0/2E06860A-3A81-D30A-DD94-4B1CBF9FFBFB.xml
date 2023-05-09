@@ -34,6 +34,28 @@
 <colAssociation fkAssociation="C13E8D51-07AD-A911-FE5F-BF0BA7973080" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
+<Column name="CAPA_TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-06 13:21:59 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULL_DESC" id="55F0F20C-B1C5-8DDF-BC3E-0AA8A2878B8D">
+<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-06 11:01:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="STATUS_ID" id="3E76E0DB-24C4-A5A3-F0F9-064A8757CF6D">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:52:32 UTC</createdTime>
