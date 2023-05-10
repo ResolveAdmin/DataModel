@@ -34,19 +34,16 @@
 <colAssociation fkAssociation="88B956DD-F530-CAD9-B404-3330E0BD472D" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
 </associations>
 </Column>
-<Column name="ROLE_ID" id="6D79F982-CF8B-0C10-FAA8-F2828C809603">
+<Column name="ROLE_NAME" id="6D79F982-CF8B-0C10-FAA8-F2828C809603">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 14:51:08 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9CC5EDBC-17B6-476C-095E-AB2DCC30E734" referredColumn="49680AC3-A8B7-4756-693D-BDBEEB2F2698"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -59,16 +56,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9875F08A-EA36-B0AD-821C-1F797EE0068F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7932777C-BF10-7E78-FD1A-E77D12990C87" name="RES_STEP_ROLE_RES_ROLE_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:51:08 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6D79F982-CF8B-0C10-FAA8-F2828C809603"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="171B8400-7287-DCAD-9837-EC4048F94EE2" name="RES_STEP_ROLE_RES_STEP_FK">

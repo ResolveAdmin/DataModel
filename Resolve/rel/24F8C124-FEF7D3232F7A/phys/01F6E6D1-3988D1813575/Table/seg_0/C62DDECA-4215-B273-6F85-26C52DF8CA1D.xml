@@ -28,11 +28,6 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_USER_BUSINESS_FUNCTION_RES_USER_FK" id="5BAE9190-51C6-C9DE-A325-3DE75F8CF99F">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 16:13:22 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_USER_BUSINESS_FUNCTION_RES_BUSINESS_FUNCTION_FK" id="BDE49D57-F7EF-7585-7764-4C7ADC5D294E">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 16:17:41 UTC</createdTime>

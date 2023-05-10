@@ -33,11 +33,6 @@
 <createdTime>2023-04-26 14:51:15 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_STEP_ROLE_RES_ROLE_FK" id="7932777C-BF10-7E78-FD1A-E77D12990C87">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:51:08 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_STEP_ROLE_PK" id="D29AFC9A-1A8A-D54F-53FA-7C6CD781112C">

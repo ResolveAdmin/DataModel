@@ -39,11 +39,6 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_STEP_RES_USER_FK" id="015F4207-7EF7-01EA-1933-AB5FA63852B4">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:57:47 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_STEP_RES_INCIDENT_FK" id="9D9F5486-241C-AEB5-6B57-FDE9E5D1EB02">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:29:05 UTC</createdTime>

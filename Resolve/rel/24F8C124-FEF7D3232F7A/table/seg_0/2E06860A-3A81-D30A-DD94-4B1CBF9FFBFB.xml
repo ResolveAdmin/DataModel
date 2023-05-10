@@ -34,7 +34,7 @@
 <colAssociation fkAssociation="C13E8D51-07AD-A911-FE5F-BF0BA7973080" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
-<Column name="CAPA_TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
+<Column name="TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-06 13:21:59 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -82,57 +82,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATE_USER_ID" id="49FE2D2A-4EE4-A4BD-9CDD-9230E35C2157">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:14:51 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="75668088-EE6D-D897-5326-BC3EB976951E" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
-</Column>
-<Column name="CREATE_DATE" id="315B549E-7EED-41CE-B6DE-ED94C1A60829">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:14:51 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
-<defaultValue>SYSTIMESTAMP</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UPDATE_USER_ID" id="934887AD-3792-4ECF-6F72-E68A4DC4DA13">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:14:51 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="09FF0B57-8BA4-407B-6E0B-B15093B8F370" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
-</Column>
-<Column name="UPDATE_DATE" id="8ECEA841-C134-5BEE-D50B-0C1804077C87">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:14:51 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
-<defaultValue>SYSTIMESTAMP</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EBF181FD-BBFE-2B55-5821-818C6BA49AF9" name="RES_CAPA_PK">
@@ -144,26 +93,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC1EBDB4-4815-24FC-945B-39F4238BE056"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3F1D54F6-35A5-7A3C-3B0A-F9F205DD03D0" name="RES_CAPA_RES_CREATE_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:24:33 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="49FE2D2A-4EE4-A4BD-9CDD-9230E35C2157"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D9696C75-7AE2-1C3E-E6DA-70517CEDE71C" name="RES_CAPA_RES_UPDATE_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:24:50 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="934887AD-3792-4ECF-6F72-E68A4DC4DA13"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D1319AB0-28D5-61E6-B505-C38E310C8B1F" name="RES_CAPA_RES_INCIDENT_FK">

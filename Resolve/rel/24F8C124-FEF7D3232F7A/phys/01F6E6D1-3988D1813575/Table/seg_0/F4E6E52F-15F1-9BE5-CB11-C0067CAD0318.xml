@@ -48,11 +48,6 @@
 <createdTime>2023-05-04 11:23:22 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_RES_USER_FK" id="EC425240-5E5B-7625-8A9F-CB7037F3043D">
-<createdBy>darbo</createdBy>
-<createdTime>2023-05-04 11:32:33 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_CHANGE_REQUEST_TODO_PK" id="A1C242C7-3458-E73B-786C-A91681E9E06F">

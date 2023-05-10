@@ -57,9 +57,6 @@
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="675789F4-2F95-044C-1770-3B6108F87BE4" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
 </Column>
 <Column name="CREATE_DATE" id="FFE73838-21C7-3243-3472-14DC7894627A">
 <createdBy>darbo</createdBy>
@@ -104,16 +101,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="228BF91D-1F49-CAAF-5E7A-18E19720DBEC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="77EE09DD-F672-D385-B6BF-FDB4144EF47A" name="RES_CAPA_STEP_RES_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 15:58:38 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2ADCA5FA-7D01-2C0D-18F8-C6EC9818CD94"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

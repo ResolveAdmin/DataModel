@@ -31,18 +31,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATE_USER_ID" id="415DAC36-8B39-97C4-D280-8EADBD7A2CA8">
+<Column name="CREATE_USERNAME" id="415DAC36-8B39-97C4-D280-8EADBD7A2CA8">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:55:05 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55BF55FA-E8ED-8EC4-3CFB-F34412D86D9B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7E2B26B7-A1D5-FA09-4C97-964B1C0FBC26" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
 </Column>
 <Column name="CREATE_DATE" id="DD183852-7EB6-7FF7-54D3-484635BD6C88">
 <createdBy>darbo</createdBy>
@@ -127,16 +124,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F65D6B7E-BC7E-395C-2E40-C5487A549197"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B43C5B13-F84E-924A-6AEF-BC5750BCAF73" name="RES_COMMENT_RES_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:56:48 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="415DAC36-8B39-97C4-D280-8EADBD7A2CA8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D0B7832D-7A87-EE58-271D-FF15292F35C1" name="RES_COMMENT_RES_CAPA_STEP_FK">

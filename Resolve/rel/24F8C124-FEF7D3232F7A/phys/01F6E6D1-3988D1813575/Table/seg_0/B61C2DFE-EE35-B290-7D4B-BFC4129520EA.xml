@@ -44,11 +44,6 @@
 <createdTime>2023-04-26 14:56:57 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_STEP_RES_USER_FK" id="AA346288-2E51-25D0-2893-CD93D20A77E4">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 15:33:54 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_STEP_RES_CHANGE_REQUEST_FK" id="C4EBB3BA-7B65-79F2-1FEA-939605E1A813">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 13:58:38 UTC</createdTime>

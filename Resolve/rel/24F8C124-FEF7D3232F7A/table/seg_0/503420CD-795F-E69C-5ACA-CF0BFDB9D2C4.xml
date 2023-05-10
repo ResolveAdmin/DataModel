@@ -76,7 +76,7 @@
 <colUsage columnID="D37A0E48-AA10-5BBA-C540-DFA057538CCE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A9F05BB-5E4E-AEA4-127E-06D60B1C9A98" name="RES_SETTINGS_DEVIATION_RES_TODO_FKv1">
+<ind_PK_UK id="3A9F05BB-5E4E-AEA4-127E-06D60B1C9A98" name="RES_SETTINGS_DEVIATION_RES_TODO_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-04 14:28:55 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>

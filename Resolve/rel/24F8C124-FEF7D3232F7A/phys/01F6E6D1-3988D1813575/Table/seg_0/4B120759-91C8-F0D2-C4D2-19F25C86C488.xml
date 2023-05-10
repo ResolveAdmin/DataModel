@@ -15,11 +15,6 @@
 <createdTime>2023-04-17 20:22:59 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATE_USER_ID" id="20872469-D2A4-C0EB-6857-565523DE5BC4">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:21:53 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="INCIDENT_ID" id="2CDF3430-32AD-2A95-97E0-37025EE0DDCE">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:23:48 UTC</createdTime>
@@ -41,12 +36,6 @@
 <ownerDesignName>Resolve</ownerDesignName>
 <notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
-<ColumnProxy name="CREATE_DATE" id="E9A3FD82-72B8-8559-C722-160569AEC976">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:21:53 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<defaultValue>SYSTIMESTAMP</defaultValue>
-</ColumnProxy>
 <ColumnProxy name="FILE_DESC" id="F7B214E4-2F96-5772-A2BA-ECDC9699875C">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-24 15:21:51 UTC</createdTime>
@@ -57,11 +46,6 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_ATTACHMENT_RES_INCIDENT_FK" id="1A7849F4-B487-2C5D-B670-95F22F369606">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:23:48 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_ATTACHMENT_RES_USER_FK" id="26737A12-3312-D574-15BE-71FAD95807A8">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-25 10:41:01 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

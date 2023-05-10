@@ -49,19 +49,16 @@
 <colAssociation fkAssociation="F22CDF8C-C7D6-F55E-EA9C-1016A8FB029C" referredColumn="312DF342-C467-519E-83AD-FD7AF62C0354"/>
 </associations>
 </Column>
-<Column name="COMPLETE_USER_ID" id="B847AFF8-7931-6AB9-D19B-ABA95A047A86">
+<Column name="COMPLETE_USERNAME" id="B847AFF8-7931-6AB9-D19B-ABA95A047A86">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-04 09:23:10 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55BF55FA-E8ED-8EC4-3CFB-F34412D86D9B</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="35CF54D3-C3A8-7DCA-135A-9958F61FAC04" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
 </Column>
 <Column name="COMPLETE_DATE" id="57D4B851-646C-0243-75BC-76356DFA8413">
 <createdBy>darbo</createdBy>
@@ -105,16 +102,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EF8A8EC8-FA29-813E-7A11-72CD9FB5DD88"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="80016D14-EF0A-B928-66C8-11480E6D1C30" name="RES_INCIDENT_TODO_RES_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-05-04 13:56:35 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B847AFF8-7931-6AB9-D19B-ABA95A047A86"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

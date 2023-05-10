@@ -123,31 +123,6 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="CREATE_USER_ID" id="886B51FF-A1BE-40F2-968C-5E5BEE12C590">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:24:32 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D33BC851-2B0D-96C8-E353-4D175FBF1A33" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
-</Column>
-<Column name="CREATE_DATE" id="29BCA736-4366-892D-F336-AB71BA4AD26D">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:24:32 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<domain>97BAA17C-21D2-6602-F468-21BEC3B44DAA</domain>
-<defaultValue>SYSTIMESTAMP</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F203A39D-1CBE-862A-9212-317A6A2FBF62" name="RES_INCIDENT_IMPACT_PK">
@@ -159,16 +134,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="83706A8F-5359-97B4-27BA-A1556D2A8BD5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E8F38141-4F07-7B79-4BF3-0CF533720B0F" name="RES_INCIDENT_IMPACT_RES_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:54:29 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="886B51FF-A1BE-40F2-968C-5E5BEE12C590"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="09F466D7-75F4-F890-E89F-4E4B4D2EA832" name="RES_INCIDENT_IMPACT_RES_INCIDENT_FK">

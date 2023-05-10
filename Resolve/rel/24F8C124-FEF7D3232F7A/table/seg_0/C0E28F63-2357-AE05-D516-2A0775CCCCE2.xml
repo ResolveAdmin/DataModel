@@ -57,9 +57,6 @@
 <domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="37575911-641C-433B-97E9-1A6B217808F5" referredColumn="70C83514-7146-D3EB-C2E6-8ABD6AEDA3AF"/>
-</associations>
 </Column>
 <Column name="CREATE_DATE" id="2077AE78-2D3A-1FE2-A1DB-10A172B3DE3E">
 <createdBy>darbo</createdBy>
@@ -94,16 +91,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AF0142F0-9433-9C15-9784-DA4113BC1058"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="015F4207-7EF7-01EA-1933-AB5FA63852B4" name="RES_INCIDENT_STEP_RES_USER_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:57:47 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D28A11C8-AEE9-43D1-5406-3B666984F5D6" name="RES_INCIDENT_STEP_RES_STEP_FK">

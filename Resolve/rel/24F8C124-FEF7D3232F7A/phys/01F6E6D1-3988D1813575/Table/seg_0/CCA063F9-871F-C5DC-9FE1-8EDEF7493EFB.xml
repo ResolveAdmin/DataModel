@@ -20,23 +20,12 @@
 <createdTime>2023-04-17 19:26:23 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATE_DATE" id="29BCA736-4366-892D-F336-AB71BA4AD26D">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:24:32 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<defaultValue>SYSTIMESTAMP</defaultValue>
-</ColumnProxy>
 <ColumnProxy name="RISK_IMPACT_VALUE" id="682CAB5F-B5EB-5DFD-53DA-3DB7C4AF19A7">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-25 13:02:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ID" id="83706A8F-5359-97B4-27BA-A1556D2A8BD5">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:24:32 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="CREATE_USER_ID" id="886B51FF-A1BE-40F2-968C-5E5BEE12C590">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:24:32 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -61,11 +50,6 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_IMPACT_RES_INCIDENT_FK" id="09F466D7-75F4-F890-E89F-4E4B4D2EA832">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-24 15:21:51 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_IMPACT_RES_USER_FK" id="E8F38141-4F07-7B79-4BF3-0CF533720B0F">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 19:54:29 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

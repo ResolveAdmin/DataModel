@@ -133,7 +133,7 @@
 <colUsage columnID="0662F64C-600C-1025-7FDE-A9EC7E4A50B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6" name="RES_STEP_RES_STATUS_FK">
+<ind_PK_UK id="3BBB588C-E1C0-9B2F-5EA3-07C4B0DD79C6" name="RES_STEP_RES_STATUS_POSITIVE_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:36:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -143,7 +143,7 @@
 <colUsage columnID="F52DFDEC-E494-551B-D8A7-242DD1750A72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9799EB00-6404-7904-B350-9A8DE13AAE25" name="RES_STEP_RES_STATUS_FKv1">
+<ind_PK_UK id="9799EB00-6404-7904-B350-9A8DE13AAE25" name="RES_STEP_RES_STATUS_NEGATIVE_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-02 10:14:41 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
