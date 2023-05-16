@@ -20,6 +20,20 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="BUSINESS_AREA_ID" id="8A3B4E7E-EEB1-8307-E6EC-DD6733950E4B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 17:32:55 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E22030A-A47D-D948-4724-5D3A8B71C8D2" referredColumn="76631740-69B8-C880-3C56-0673E0B8DABD"/>
+</associations>
+</Column>
 <Column name="DEPARTMENT_NAME" id="130D4326-BC6B-C652-7CE5-A667D5C9D43E">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
 <createdBy>darbo</createdBy>
@@ -55,6 +69,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6A33C9C7-61CD-B001-6571-A8C5C2418BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F452FAF3-5312-8A3D-55C3-7380BCDEBF81" name="RES_DEPARTMENT_RES_BUSINESS_AREA_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 17:32:55 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A3B4E7E-EEB1-8307-E6EC-DD6733950E4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

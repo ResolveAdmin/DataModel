@@ -77,7 +77,7 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="IMPACT_ASSESSMENT" id="97305F52-15E1-62EF-F262-296277E36893">
+<ColumnProxy name="IMPACT_TYPE" id="97305F52-15E1-62EF-F262-296277E36893">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
@@ -153,8 +153,6 @@
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <logging></logging>
-<segment>82C8D9E3-0237-24F0-CB25-4FF6D1895027</segment>
-<indexSegment>82C8D9E3-0237-24F0-CB25-4FF6D1895027</indexSegment>
 <indexSort>SORTED</indexSort>
 <usingIndex>BY INDEX NAME</usingIndex>
 </PrimaryKey>

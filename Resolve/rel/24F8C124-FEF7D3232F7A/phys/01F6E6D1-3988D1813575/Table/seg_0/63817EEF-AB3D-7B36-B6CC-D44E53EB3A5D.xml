@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_WORKFLOW_AUTHORISATION" directorySegmentName="seg_0" id="63817EEF-AB3D-7B36-B6CC-D44E53EB3A5D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:48:12 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROLE_NAME" id="15C13C03-8558-E02B-2537-7864A471534A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:56:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAN_DEL_INC" id="2917B314-4AAD-0890-ED55-834D37BA741C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_ADD_INC" id="2EB30B53-BC9E-211E-26D4-611617497590">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_EDIT_INC_DEV" id="37310086-028C-8791-4418-718208C74682">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_EDIT_INC_CAPA" id="6A54D31F-264B-6A8F-06B6-E7719B42CAFE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_UPD_INC" id="728CC14C-3059-803A-0BC6-8C9C0C76F70B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:50:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_EDIT_INC_IMPACT" id="7BFEA894-DAA1-DC8E-DE5D-F5B9658A8E32">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_EDIT_INC_DESC" id="80DEC7A6-00A0-4336-7F91-38F20934EAC7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CAN_EDIT_INC_ATTACH" id="8A563AE8-0006-EFCF-52B8-47CB652ED018">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D87AF698-E7B0-157C-6841-E0B907436630">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:49:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_WORKFLOW_AUTHORISATION_ROLE_NAME_IDX" id="6076720F-A357-DEB5-4C6E-EF11AD23615F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:56:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_WORKFLOW_AUTHORISATION_PK" id="BFB80751-BA63-B97D-4CBB-5D0B90900104">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:49:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

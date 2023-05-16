@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA45D4E-6B89-E72B-4BC9-D03AD80C1C79" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_STEP_ROLE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09C8CACB-5C5D-EA39-DE6C-1A5E9B0A4BC2" name="RES_INCIDENT_CAPA">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-21 14:53:28 UTC</createdTime>
+<createdTime>2023-05-15 16:35:27 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_29</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="9875F08A-EA36-B0AD-821C-1F797EE0068F">
+<Column name="ID" id="ECC9645F-2616-2A5C-2214-46665106418D">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-21 14:54:24 UTC</createdTime>
+<createdTime>2023-05-15 17:46:30 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -20,9 +20,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STEP_ID" id="82441101-76B0-4366-C57C-8F40C69587D3">
+<Column name="INCIDENT_ID" id="955F1832-0296-6B32-076E-0EBAB9F83911">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:51:15 UTC</createdTime>
+<createdTime>2023-05-15 16:35:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,41 +31,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="88B956DD-F530-CAD9-B404-3330E0BD472D" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
+<colAssociation fkAssociation="1A9BC604-DBA8-CB81-6F63-3F8A98518658" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
 </associations>
 </Column>
-<Column name="ROLE_STATIC_ID" id="6D79F982-CF8B-0C10-FAA8-F2828C809603">
+<Column name="CAPA_ID" id="0A6ECD53-4F51-726C-8C7B-59EC3024A832">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:51:08 UTC</createdTime>
+<createdTime>2023-05-15 16:35:58 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD0D9B24-E44B-B20E-D3A5-64E20D63214E" referredColumn="BC1EBDB4-4815-24FC-945B-39F4238BE056"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D29AFC9A-1A8A-D54F-53FA-7C6CD781112C" name="RES_STEP_ROLE_PK">
+<ind_PK_UK id="F1518868-45D3-4B4F-9ABF-D7D36D298450" name="RES_INCIDENT_CAPA_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:50:31 UTC</createdTime>
+<createdTime>2023-05-15 17:46:30 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9875F08A-EA36-B0AD-821C-1F797EE0068F"/>
+<colUsage columnID="ECC9645F-2616-2A5C-2214-46665106418D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="171B8400-7287-DCAD-9837-EC4048F94EE2" name="RES_STEP_ROLE_RES_STEP_FK">
+<ind_PK_UK id="3B70AC70-37C5-962A-7CAE-62E9FA4F9F9B" name="RES_INCIDENT_CAPA_RES_INCIDENT_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:51:15 UTC</createdTime>
+<createdTime>2023-05-15 16:35:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="82441101-76B0-4366-C57C-8F40C69587D3"/>
+<colUsage columnID="955F1832-0296-6B32-076E-0EBAB9F83911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB5449CD-4234-FB16-E41D-88E6D5835113" name="RES_INCIDENT_CAPA_RES_CAPA_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6ECD53-4F51-726C-8C7B-59EC3024A832"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -20,20 +20,6 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INCIDENT_ID" id="A8706F87-5649-C40E-3C89-0FFABD3E737C">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:25:17 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C13E8D51-07AD-A911-FE5F-BF0BA7973080" referredColumn="848AA233-8640-44CD-0464-11522DC0DBA7"/>
-</associations>
-</Column>
 <Column name="TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-06 13:21:59 UTC</createdTime>
@@ -93,16 +79,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC1EBDB4-4815-24FC-945B-39F4238BE056"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D1319AB0-28D5-61E6-B505-C38E310C8B1F" name="RES_CAPA_RES_INCIDENT_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:25:17 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A8706F87-5649-C40E-3C89-0FFABD3E737C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="60E93883-144D-B8EB-6AD7-F9A932E07F6A" name="RES_CAPA_RES_STATUS_FK">

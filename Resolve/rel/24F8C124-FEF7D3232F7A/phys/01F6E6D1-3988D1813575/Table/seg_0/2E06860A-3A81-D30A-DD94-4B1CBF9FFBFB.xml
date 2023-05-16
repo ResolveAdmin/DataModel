@@ -26,14 +26,9 @@
 <createdTime>2023-05-06 11:01:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CAPA_TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
+<ColumnProxy name="TITLE" id="9013875E-5ED2-7FF3-E125-22AE8A34A35B">
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-06 13:21:59 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="INCIDENT_ID" id="A8706F87-5649-C40E-3C89-0FFABD3E737C">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:25:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ID" id="BC1EBDB4-4815-24FC-945B-39F4238BE056">
@@ -47,11 +42,6 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_STATUS_FK" id="60E93883-144D-B8EB-6AD7-F9A932E07F6A">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:52:32 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_INCIDENT_FK" id="D1319AB0-28D5-61E6-B505-C38E310C8B1F">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 13:25:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

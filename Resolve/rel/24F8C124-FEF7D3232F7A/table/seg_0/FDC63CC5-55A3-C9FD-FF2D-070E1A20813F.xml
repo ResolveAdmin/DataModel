@@ -34,9 +34,9 @@
 <colAssociation fkAssociation="B7D149B1-7869-B364-8D88-FD90D24D5464" referredColumn="2341BA36-D712-597C-D4C9-D6378214DC2A"/>
 </associations>
 </Column>
-<Column name="BUSINESS_FUNCTION_ID" id="F8EAC914-4E64-0B3C-FB64-E9C58A44C3AA">
+<Column name="BUSINESS_AREA_ID" id="40D629C0-C89F-44BE-3A76-B64AD730D3E6">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:09:11 UTC</createdTime>
+<createdTime>2023-05-15 16:32:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -45,7 +45,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="562E98ED-10A9-945D-DBB1-FD4F4A2349E5" referredColumn="A77094A5-9F04-0FFB-12FB-524A8C54730A"/>
+<colAssociation fkAssociation="66A132C3-5E8D-AAD6-EC4A-0A488D7420BE" referredColumn="76631740-69B8-C880-3C56-0673E0B8DABD"/>
 </associations>
 </Column>
 <Column name="IMPACT_TYPE" id="794090DC-71EE-9280-5F19-003AC2B5315D">
@@ -120,14 +120,14 @@
 <colUsage columnID="2FC497B2-CAA6-6B04-270C-D3BABB29D434"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A81D6E35-1FA5-9244-A934-F75698115E8A" name="RES_CHANGE_IMPACT_RES_BUSINESS_FUNCTION_FK">
+<ind_PK_UK id="984B1EFF-7F83-565E-BF1F-B88E27C701E0" name="RES_CHANGE_IMPACT_RES_BUSINESS_AREA_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:09:11 UTC</createdTime>
+<createdTime>2023-05-15 16:32:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F8EAC914-4E64-0B3C-FB64-E9C58A44C3AA"/>
+<colUsage columnID="40D629C0-C89F-44BE-3A76-B64AD730D3E6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

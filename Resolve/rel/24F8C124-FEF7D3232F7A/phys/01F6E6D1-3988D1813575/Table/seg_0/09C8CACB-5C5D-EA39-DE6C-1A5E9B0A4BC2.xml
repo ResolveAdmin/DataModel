@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_INCIDENT_CAPA" directorySegmentName="seg_0" id="09C8CACB-5C5D-EA39-DE6C-1A5E9B0A4BC2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:27 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAPA_ID" id="0A6ECD53-4F51-726C-8C7B-59EC3024A832">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_ID" id="955F1832-0296-6B32-076E-0EBAB9F83911">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="ECC9645F-2616-2A5C-2214-46665106418D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 17:46:30 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_CAPA_RES_INCIDENT_FK" id="3B70AC70-37C5-962A-7CAE-62E9FA4F9F9B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_INCIDENT_CAPA_RES_CAPA_FK" id="DB5449CD-4234-FB16-E41D-88E6D5835113">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:35:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_INCIDENT_CAPA_PK" id="F1518868-45D3-4B4F-9ABF-D7D36D298450">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 17:46:30 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -26,6 +26,17 @@
 <createdTime>2023-04-26 14:05:56 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_ID" id="40D629C0-C89F-44BE-3A76-B64AD730D3E6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:32:50 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMPACT_TYPE" id="794090DC-71EE-9280-5F19-003AC2B5315D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-15 16:12:42 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>I</defaultValue>
+</ColumnProxy>
 <ColumnProxy name="IMPACT_ASSESSMENT_DESC" id="7EC6BE4D-9990-960B-80FC-A93E6E304BCB">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 14:10:30 UTC</createdTime>
@@ -36,11 +47,6 @@
 <createdTime>2023-04-26 14:12:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="BUSINESS_FUNCTION_ID" id="F8EAC914-4E64-0B3C-FB64-E9C58A44C3AA">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:09:11 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-</ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_IMPACT_RES_CHANGE_REQUEST_FK" id="43051D00-CE25-7BE4-CA70-4A2B77192E43">
@@ -48,9 +54,9 @@
 <createdTime>2023-04-26 14:05:56 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_IMPACT_RES_BUSINESS_FUNCTION_FK" id="A81D6E35-1FA5-9244-A934-F75698115E8A">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_IMPACT_RES_BUSINESS_AREA_FK" id="984B1EFF-7F83-565E-BF1F-B88E27C701E0">
 <createdBy>darbo</createdBy>
-<createdTime>2023-04-26 14:09:11 UTC</createdTime>
+<createdTime>2023-05-15 16:32:50 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

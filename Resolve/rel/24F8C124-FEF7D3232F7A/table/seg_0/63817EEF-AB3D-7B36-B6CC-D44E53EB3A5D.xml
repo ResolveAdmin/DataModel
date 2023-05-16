@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63817EEF-AB3D-7B36-B6CC-D44E53EB3A5D" schemaObject="9C690193-200B-9492-04A4-9911F0DC695F" name="RES_WORKFLOW_AUTHORISATION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:48:12 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D87AF698-E7B0-157C-6841-E0B907436630">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:49:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE_STATIC_ID" id="15C13C03-8558-E02B-2537-7864A471534A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:56:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_ADD_INC" id="2EB30B53-BC9E-211E-26D4-611617497590">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_UPD_INC" id="728CC14C-3059-803A-0BC6-8C9C0C76F70B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:50:58 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_DEL_INC" id="2917B314-4AAD-0890-ED55-834D37BA741C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_EDIT_INC_IMPACT" id="7BFEA894-DAA1-DC8E-DE5D-F5B9658A8E32">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_EDIT_INC_DESC" id="80DEC7A6-00A0-4336-7F91-38F20934EAC7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_EDIT_INC_DEV" id="37310086-028C-8791-4418-718208C74682">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_EDIT_INC_ATTACH" id="8A563AE8-0006-EFCF-52B8-47CB652ED018">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAN_EDIT_INC_CAPA" id="6A54D31F-264B-6A8F-06B6-E7719B42CAFE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:52:53 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFB80751-BA63-B97D-4CBB-5D0B90900104" name="RES_WORKFLOW_AUTHORISATION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:49:26 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87AF698-E7B0-157C-6841-E0B907436630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6076720F-A357-DEB5-4C6E-EF11AD23615F" name="RES_WORKFLOW_AUTHORISATION_ROLE_NAME_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-16 15:56:44 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15C13C03-8558-E02B-2537-7864A471534A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

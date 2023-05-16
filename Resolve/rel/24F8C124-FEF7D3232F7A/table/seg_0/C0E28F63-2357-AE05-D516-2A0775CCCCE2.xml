@@ -48,6 +48,17 @@
 <colAssociation fkAssociation="6447C163-3BB8-3C32-0098-C4FC4DBF8AAF" referredColumn="41A7A08F-1EFD-A754-43A9-EDCE2D7BD5AE"/>
 </associations>
 </Column>
+<Column name="IS_CURRENT" id="EE5CEC29-7BC4-4D89-80C9-2EC1B1A13429">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-12 16:07:09 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>53963F83-0D1B-EB5B-4630-612697BAA3BE</domain>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CREATE_USER_ID" id="0C31EA76-175F-1E9E-01A3-E2B6B5135BE5">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:57:43 UTC</createdTime>

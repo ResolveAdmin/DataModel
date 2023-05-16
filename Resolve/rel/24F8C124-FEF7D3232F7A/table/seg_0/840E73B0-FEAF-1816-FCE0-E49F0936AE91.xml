@@ -71,6 +71,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ACTION_LABEL" id="914A39A8-098E-84D9-E5AD-DB17B235819C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-13 10:29:35 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3307162D-7220-7053-4D7D-1450D9679E1C" name="RES_INCIDENT_STATUS_PK">
