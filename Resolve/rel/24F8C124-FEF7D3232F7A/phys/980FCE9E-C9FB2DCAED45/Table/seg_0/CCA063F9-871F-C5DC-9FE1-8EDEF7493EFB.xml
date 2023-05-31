@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RES_INCIDENT_IMPACT" directorySegmentName="seg_0" id="CCA063F9-871F-C5DC-9FE1-8EDEF7493EFB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="INCIDENT_ID" id="1AC9E878-546B-555B-AFC1-47152ED31CF6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ASSESSMENT_TYPE" id="233C8003-246F-2D63-9211-5DFE536C44AF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="RISK_IMPACT_VALUE" id="682CAB5F-B5EB-5DFD-53DA-3DB7C4AF19A7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID" id="83706A8F-5359-97B4-27BA-A1556D2A8BD5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="SEVERITY_VALUE" id="C6162AA7-13B8-CE51-F59E-B855EC9A2E32">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="DETECTION_VALUE" id="F377F84D-2C4E-85EA-87AB-8B337E265DE6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="PROBABILITY_VALUE" id="FA203FFF-FBC3-7C10-18BF-1D3B40930C8A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_INCIDENT_IMPACT_RES_INCIDENT_FK" id="09F466D7-75F4-F890-E89F-4E4B4D2EA832">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RES_INCIDENT_IMPACT_PK" id="F203A39D-1CBE-862A-9212-317A6A2FBF62">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

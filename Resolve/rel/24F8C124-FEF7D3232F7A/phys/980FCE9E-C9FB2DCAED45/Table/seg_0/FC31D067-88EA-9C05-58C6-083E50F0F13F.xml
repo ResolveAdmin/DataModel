@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RES_CAPA_STEP" directorySegmentName="seg_0" id="FC31D067-88EA-9C05-58C6-083E50F0F13F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="STEP_ID" id="228BF91D-1F49-CAAF-5E7A-18E19720DBEC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CREATE_USER_ID" id="2ADCA5FA-7D01-2C0D-18F8-C6EC9818CD94">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CAPA_ID" id="61ED5F24-BEB8-CB73-CE9A-D6905A3E0082">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID" id="DED49F6E-EF64-7B53-A5EE-45245C641305">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CREATE_DATE" id="FFE73838-21C7-3243-3472-14DC7894627A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_CAPA_STEP_RES_CAPA_FK" id="4977A17D-7D7A-D21A-1134-81329F9B4B82">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_CAPA_STEP_RES_STEP_FK" id="DFC75C12-7402-04C5-6E04-BD419F9F6C45">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RES_CAPA_STEP_PK" id="435A3C52-9C0F-AFE0-551D-22D9704D34DF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

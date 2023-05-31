@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleSqlServerv2k12 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.RoleSqlServerv2k12" directorySegmentName="seg_0" id="83EDC60B-9E3B-1160-6E19-6E3EDFE7B203_PUBLIC" name="PUBLIC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:45:47 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+</RoleSqlServerv2k12>

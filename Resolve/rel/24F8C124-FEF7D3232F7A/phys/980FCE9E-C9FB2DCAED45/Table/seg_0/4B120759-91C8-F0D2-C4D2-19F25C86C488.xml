@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RES_INCIDENT_ATTACHMENT" directorySegmentName="seg_0" id="4B120759-91C8-F0D2-C4D2-19F25C86C488">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FILE_OBJ" id="046E6109-9F07-60F8-22B9-9A08EBA7FE2B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FILE_CHARSET" id="1FACA5E0-2C67-83B4-06F3-2E748BFBACF8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="INCIDENT_ID" id="2CDF3430-32AD-2A95-97E0-37025EE0DDCE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FILE_NAME" id="5632E358-7B6C-52D0-CCDC-E6FC41BEB848">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TAGS" id="86214776-B515-4A1C-D39B-22B628FB9B9C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID" id="9121E212-5AF2-A9B0-9DD2-1FDBF150BF8E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FILE_DESC" id="F7B214E4-2F96-5772-A2BA-ECDC9699875C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FILE_MIMETYPE" id="FA546304-C9A6-02E5-E1A4-1124ABA02C2B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_INCIDENT_ATTACHMENT_RES_INCIDENT_FK" id="1A7849F4-B487-2C5D-B670-95F22F369606">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RES_INCIDENT_ATTACHMENT_PK" id="1D590EEA-3133-F129-8034-BBC240040C91">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

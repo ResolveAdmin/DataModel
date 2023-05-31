@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RES_INCIDENT_CAPA" directorySegmentName="seg_0" id="09C8CACB-5C5D-EA39-DE6C-1A5E9B0A4BC2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CAPA_ID" id="0A6ECD53-4F51-726C-8C7B-59EC3024A832">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="INCIDENT_ID" id="955F1832-0296-6B32-076E-0EBAB9F83911">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID" id="ECC9645F-2616-2A5C-2214-46665106418D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_INCIDENT_CAPA_RES_INCIDENT_FK" id="3B70AC70-37C5-962A-7CAE-62E9FA4F9F9B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="RES_INCIDENT_CAPA_RES_CAPA_FK" id="DB5449CD-4234-FB16-E41D-88E6D5835113">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RES_INCIDENT_CAPA_PK" id="F1518868-45D3-4B4F-9ABF-D7D36D298450">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

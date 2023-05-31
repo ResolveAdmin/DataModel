@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="RES_SUPPLIER" directorySegmentName="seg_0" id="77590E99-75C7-2AA5-2B3D-6CB02F0C4C64">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
+<database>83EDC60B-9E3B-1160-6E19-6E3EDFE7B203</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="SUPPLIER_DESC" id="2624AC0F-D439-2C73-D3A3-3DCB2FFF7CC5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="SUPPLIER_NAME" id="86DBCB42-23BE-F247-4931-9EF01A09CFEB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ID" id="A6A425CB-AB05-0D57-7D61-C03A43CA7033">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<asIdentity>true</asIdentity>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="RES_SUPPLIER_PK" id="31E99D14-2D64-ACF5-E8CB-22A0C71E50DA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-05-17 09:43:25 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

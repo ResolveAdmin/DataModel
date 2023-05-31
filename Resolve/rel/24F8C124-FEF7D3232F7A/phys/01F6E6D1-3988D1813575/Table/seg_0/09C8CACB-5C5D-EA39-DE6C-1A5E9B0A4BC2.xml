@@ -3,11 +3,14 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-15 16:35:27 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<schemaObject>9C690193-200B-9492-04A4-9911F0DC695F</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
+<user>08FD8DFC-C786-6F06-8DAD-C3431ABD4D01</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="CAPA_ID" id="0A6ECD53-4F51-726C-8C7B-59EC3024A832">
 <createdBy>darbo</createdBy>

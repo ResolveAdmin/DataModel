@@ -75,6 +75,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-05-13 10:29:35 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C1851D79-CC02-5B03-4173-53A22C0FEFF8</domain>
