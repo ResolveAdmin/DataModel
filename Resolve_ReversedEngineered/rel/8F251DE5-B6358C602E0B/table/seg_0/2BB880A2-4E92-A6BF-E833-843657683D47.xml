@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BB880A2-4E92-A6BF-E833-843657683D47" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_TODO">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TODO</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3F88336A-3577-94F5-5870-BF6E552175A4">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TODO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORKFLOW_TYPE" id="64446701-5DF8-822F-5A0E-93E2AFE7EC28">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TODO</sourceObjSchema>
+<sourceObjName>WORKFLOW_TYPE</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<constraintName>SYS_C0040826</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TODO_DESC" id="C8835298-6CF3-B6D8-C649-931C3FF54ED3">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TODO</sourceObjSchema>
+<sourceObjName>TODO_DESC</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TODO_SEQ" id="74987E05-CC58-33CF-3BEE-89A3A9CF3C23">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TODO</sourceObjSchema>
+<sourceObjName>TODO_SEQ</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5000421-85BE-60E0-D1D3-F05944830257" name="RES_TODO_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TODO_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F88336A-3577-94F5-5870-BF6E552175A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70627D9D-2DC0-943A-AE44-28BBB9B4ECC3" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_TODO_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TODO_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F88336A-3577-94F5-5870-BF6E552175A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

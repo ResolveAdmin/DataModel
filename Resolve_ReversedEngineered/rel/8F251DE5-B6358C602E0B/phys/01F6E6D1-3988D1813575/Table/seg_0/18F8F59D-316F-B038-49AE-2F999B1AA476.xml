@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_CHANGE_IMPACT" directorySegmentName="seg_0" id="18F8F59D-316F-B038-49AE-2F999B1AA476">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1205D7FC-EFFF-F009-62AB-3B2178E4BB19</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IMPACT_ASSESSMENT_DESC" id="4AD86DF5-55A8-806F-2B85-B8040BDEA740">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHANGE_REQUEST_ID" id="77940261-1A32-F2E8-1992-35BD8C45DA8E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMPACT_TYPE" id="827FE470-4FD1-909A-B39F-1ED74647711B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>&apos;I&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RISK_ASSESSMENT_DESC" id="8ABD2617-29FA-D80B-F08D-DE590EB8346C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="90ECE498-0162-2618-EC23-17EC133E47CE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_ID" id="970ADDF4-B5CD-7D98-DC3B-BD3C3A0C9C94">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOT_DOING_DESC" id="EB06FADE-A8FC-2043-D5F7-DC45237F6C92">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_CHANGE_IMPACT_PK" id="9B6ED769-7A62-8A99-7A5E-3A083989EF2C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<segment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_IMPACT_RES_CHANGE_REQUEST_FK" id="8D3B5385-A93A-F715-5EBD-EEB21D8DA611">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_CHANGE_IMPACT_PK" id="2038C81F-9634-E47E-8725-C966EE9AFD2C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<segment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<existingIndex>9B6ED769-7A62-8A99-7A5E-3A083989EF2C</existingIndex>
+<indexSegment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

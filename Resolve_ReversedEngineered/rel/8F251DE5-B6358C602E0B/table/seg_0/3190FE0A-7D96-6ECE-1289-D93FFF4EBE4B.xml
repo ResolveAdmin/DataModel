@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3190FE0A-7D96-6ECE-1289-D93FFF4EBE4B" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_STATUS">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_STATUS</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EC96B8EA-4799-D95D-C36B-80F12186C2C6">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORKFLOW_TYPE" id="9808E714-41F9-F3E1-EC9A-6BFA73B1837E">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>WORKFLOW_TYPE</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<constraintName>SYS_C0040741</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="&quot;WORKFLOW_TYPE&quot;=&apos;A&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;C&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;I&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;P&apos;"/>
+<implementationDef dbType="Oracle Database 21c" definition="&quot;WORKFLOW_TYPE&quot;=&apos;A&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;C&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;I&apos; OR &quot;WORKFLOW_TYPE&quot;=&apos;P&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_NAME" id="B62CFBA8-3AB7-9194-3576-EDF021203729">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>STATUS_NAME</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_DESC" id="FE223450-8B0D-52C6-17B9-A07675722FA2">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>STATUS_DESC</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_ACTIVE" id="35359E3A-2B3C-6D07-8F9A-DD861C0D4AE7">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>IS_ACTIVE</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<constraintName>SYS_C0040742</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTION_LABEL" id="592A51F7-C454-E80D-C092-54D078496642">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_STATUS</sourceObjSchema>
+<sourceObjName>ACTION_LABEL</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="181636BA-10A4-D779-8A29-61EAB4FA7D94" name="RES_STATUS_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_STATUS_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC96B8EA-4799-D95D-C36B-80F12186C2C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EAFE8B7-DD73-F0DB-CA09-ECD92EEA1809" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_INCIDENT_STATUS_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_INCIDENT_STATUS_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC96B8EA-4799-D95D-C36B-80F12186C2C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage30" directorySegmentName="seg_0" id="1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<initrans>20</initrans>
+<maxTrans>255</maxTrans>
+<scInitialExtent>65536</scInitialExtent>
+<scMaxExtents>2147483645</scMaxExtents>
+<scNextExtent>1048576</scNextExtent>
+</SegmentOraclev10g>

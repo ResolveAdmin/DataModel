@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A41755CD-69B8-35F8-E9EB-8DF58BE8066D" mainViewID="077A5FF2-FDE4-D24A-2325-A04B481D6AD2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:08:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

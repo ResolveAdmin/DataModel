@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_SETTINGS" directorySegmentName="seg_0" id="EEEBEA71-4B45-38AA-4264-50964DBDF7DA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B4FC3BC-89FD-7763-1FF4-5095E6A368B5</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="6749956A-03D4-2647-329C-74AA257670BD">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_DEVIATION_TODO" id="C175DA53-0779-2BA1-F488-E2DDFC68FAF0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_IMPACT_TODO" id="D2C4D7D5-037E-841C-8372-D7E63422142A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCIDENT_DESCRIPTION_TODO" id="F6F6AF55-B1B4-13C7-EE37-E9A22C579E24">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_SETTINGS_PK" id="5DD433B0-A825-4DB2-5EA2-307C3C599423">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<segment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_IMPACT_RES_TODO_FK" id="5B3A9A53-E7CE-8520-2017-096B5CED5236">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_DESCRIPTION_RES_TODO_FK" id="AF98C6C3-7F5A-C12D-3B6E-CC04A9973E8B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_SETTINGS_DEVIATION_RES_TODO_FKV1" id="BBBF3A39-3DDD-C325-0DC3-161674B924B6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_SETTINGS_PK" id="9DB36A4D-6123-0853-6C52-C388125405FD">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<segment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<existingIndex>5DD433B0-A825-4DB2-5EA2-307C3C599423</existingIndex>
+<indexSegment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

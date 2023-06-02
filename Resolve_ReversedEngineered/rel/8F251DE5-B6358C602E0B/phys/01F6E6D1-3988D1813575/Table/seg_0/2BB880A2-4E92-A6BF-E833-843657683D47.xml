@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_TODO" directorySegmentName="seg_0" id="2BB880A2-4E92-A6BF-E833-843657683D47">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B4FC3BC-89FD-7763-1FF4-5095E6A368B5</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="3F88336A-3577-94F5-5870-BF6E552175A4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="WORKFLOW_TYPE" id="64446701-5DF8-822F-5A0E-93E2AFE7EC28">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TODO_SEQ" id="74987E05-CC58-33CF-3BEE-89A3A9CF3C23">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TODO_DESC" id="C8835298-6CF3-B6D8-C649-931C3FF54ED3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_TODO_PK" id="70627D9D-2DC0-943A-AE44-28BBB9B4ECC3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<segment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_TODO_PK" id="C5000421-85BE-60E0-D1D3-F05944830257">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<segment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<existingIndex>70627D9D-2DC0-943A-AE44-28BBB9B4ECC3</existingIndex>
+<indexSegment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

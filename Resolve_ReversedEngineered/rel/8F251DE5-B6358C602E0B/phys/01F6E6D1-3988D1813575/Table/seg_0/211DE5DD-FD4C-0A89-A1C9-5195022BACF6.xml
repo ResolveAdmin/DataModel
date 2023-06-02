@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RES_CHANGE_ACTION" directorySegmentName="seg_0" id="211DE5DD-FD4C-0A89-A1C9-5195022BACF6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1205D7FC-EFFF-F009-62AB-3B2178E4BB19</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DUE_DATE" id="12E271F2-F6C0-EABE-2074-293DA88C4B1C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ACTION_DESC" id="6BA4AFAE-65C6-FD98-F56E-782817025983">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_DATE" id="CACEC0CF-1AE2-9DC9-0B5F-3BEEB0E27589">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STATUS_ID" id="E4629E0C-2AB6-ED00-4ADA-9AF7BCC1CBB0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_REQ_EFFECTIVE_DATE" id="E60BDF0C-9A34-7A93-79CB-0A03AD7D4A58">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID" id="ECCED395-D73E-F862-DA33-85F0C0A67B45">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CHANGE_REQUEST_ID" id="FE91B38F-7164-D123-71A7-25DF62B22CFA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_CHANGE_ACTION_PK" id="01BA5DCE-9B91-B891-B8B9-770712580AC6">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>C0CC79D4-7150-4823-2A78-490A124792BC</schemaObject>
+<segment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_ACTION_RES_STATUS_FK" id="36AE16DB-5A1E-C67C-B48E-6B1A6F77448D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CHANGE_ACTION_RES_CHANGE_REQUEST_FK" id="D75143B3-DB8D-1D0F-7A68-E6E125D7772F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_CHANGE_ACTION_PK" id="F4C0BCCB-5711-F6B6-4327-DB3B00566227">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<segment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</segment>
+<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
+<existingIndex>01BA5DCE-9B91-B891-B8B9-770712580AC6</existingIndex>
+<indexSegment>49807CE3-7361-86E8-9831-98CEF6FFFA5F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

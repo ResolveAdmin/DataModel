@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Resolve_ReversedEngineered" id="72A51A2D-A6FC-2EE6-D01C-CCBEE582A304" version="3.5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:08:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>72A51A2D-A6FC-2EE6-D01C-CCBEE582A304</designId>
+</OSDM_Design>

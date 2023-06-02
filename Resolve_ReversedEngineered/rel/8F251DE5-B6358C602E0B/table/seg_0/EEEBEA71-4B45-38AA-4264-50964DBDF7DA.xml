@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEEBEA71-4B45-38AA-4264-50964DBDF7DA" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_SETTINGS">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SETTINGS</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:47 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6749956A-03D4-2647-329C-74AA257670BD">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SETTINGS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCIDENT_DEVIATION_TODO" id="C175DA53-0779-2BA1-F488-E2DDFC68FAF0">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SETTINGS</sourceObjSchema>
+<sourceObjName>INCIDENT_DEVIATION_TODO</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="647D7E14-6AD6-4260-3646-0496A48B9D26" referredColumn="3F88336A-3577-94F5-5870-BF6E552175A4"/>
+</associations>
+</Column>
+<Column name="INCIDENT_DESCRIPTION_TODO" id="F6F6AF55-B1B4-13C7-EE37-E9A22C579E24">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SETTINGS</sourceObjSchema>
+<sourceObjName>INCIDENT_DESCRIPTION_TODO</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11A787FA-2F53-8D2B-C823-63F65C82BE9F" referredColumn="3F88336A-3577-94F5-5870-BF6E552175A4"/>
+</associations>
+</Column>
+<Column name="INCIDENT_IMPACT_TODO" id="D2C4D7D5-037E-841C-8372-D7E63422142A">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SETTINGS</sourceObjSchema>
+<sourceObjName>INCIDENT_IMPACT_TODO</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90592C21-BBE6-78F5-0CFD-CCFF0E9C0B37" referredColumn="3F88336A-3577-94F5-5870-BF6E552175A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DB36A4D-6123-0853-6C52-C388125405FD" name="RES_SETTINGS_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SETTINGS_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6749956A-03D4-2647-329C-74AA257670BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DD433B0-A825-4DB2-5EA2-307C3C599423" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_SETTINGS_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SETTINGS_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6749956A-03D4-2647-329C-74AA257670BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF98C6C3-7F5A-C12D-3B6E-CC04A9973E8B" name="RES_SETTINGS_DESCRIPTION_RES_TODO_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6F6AF55-B1B4-13C7-EE37-E9A22C579E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBF3A39-3DDD-C325-0DC3-161674B924B6" name="RES_SETTINGS_DEVIATION_RES_TODO_FKV1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C175DA53-0779-2BA1-F488-E2DDFC68FAF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B3A9A53-E7CE-8520-2017-096B5CED5236" name="RES_SETTINGS_IMPACT_RES_TODO_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C4D7D5-037E-841C-8372-D7E63422142A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

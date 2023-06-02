@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33D221D4-D104-FEBC-961F-663C22AB88EA" containerWithKeyObject="8FD899F4-516E-760F-9543-79EEFBD82671" localFKIndex="3FF522AB-2DD9-EE9C-C229-8F15FBDFAAED" name="RES_INCIDENT_ATTACHMENT_RES_INCIDENT_FK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_INCIDENT_ATTACHMENT_RES_INCIDENT_FK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<referredTableLongName>WKSP_DEV01.RES_INCIDENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E855A36-2107-2A70-22B2-FEA8ABA3138D</referredTableID>
+<keyObject>3D2C8832-07BC-9C7A-E4AD-DA6F4691EB95</keyObject>
+<referredKeyID>3D2C8832-07BC-9C7A-E4AD-DA6F4691EB95</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
