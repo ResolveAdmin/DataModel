@@ -1,10 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED1E6FF1-D927-0F82-18B5-36391D989AE9" containerWithKeyObject="3A0F3072-ED4F-BD3B-580B-4C8E92649A0C" localFKIndex="A1C4DD7E-2F02-155C-2B9B-BCDEFC1F102B" name="RES_CAPA_RES_STATUS_FK">
-<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
-<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
-<sourceObjName>RES_CAPA_RES_STATUS_FK</sourceObjName>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D5142DF-74A2-90CD-C125-F328B149C135" containerWithKeyObject="0AD9A891-5154-099D-3176-516BCB8030D1" localFKIndex="4F9919F6-0851-2609-99FB-1578DD9CE7DB" name="RES_CAPA_ACTION_RES_STATUS_FK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
+<createdTime>2023-06-13 12:36:53 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <referredTableLongName>WKSP_DEV01.RES_STATUS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

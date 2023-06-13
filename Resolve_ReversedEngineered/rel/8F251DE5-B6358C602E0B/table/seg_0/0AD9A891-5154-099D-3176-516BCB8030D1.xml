@@ -21,8 +21,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -38,12 +37,37 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D9784119-A6B3-263A-6790-B51AF7EE46BC" referredColumn="D7C215CE-5184-CD63-229D-3B32F8C5B853"/>
 </associations>
+</Column>
+<Column name="STATUS_ID" id="87AF24D2-2797-E797-4E0F-BBB46765FB02">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-13 12:36:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D5142DF-74A2-90CD-C125-F328B149C135" referredColumn="EC96B8EA-4799-D95D-C36B-80F12186C2C6"/>
+</associations>
+</Column>
+<Column name="STATUS_DATE" id="A506D4C3-38D8-7469-2635-9EFA37BD2978">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-13 12:36:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CORRECTIVE_DESC" id="8D3D66E2-8520-C07A-9281-7F5BFD6D733D">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
@@ -86,9 +110,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
 <defaultValue>sysdate</defaultValue>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -128,6 +151,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3D0244FF-6E3F-A2E9-937C-15F083A47302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F9919F6-0851-2609-99FB-1578DD9CE7DB" name="RES_CAPA_ACTION_RES_STATUS_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-13 12:36:53 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87AF24D2-2797-E797-4E0F-BBB46765FB02"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

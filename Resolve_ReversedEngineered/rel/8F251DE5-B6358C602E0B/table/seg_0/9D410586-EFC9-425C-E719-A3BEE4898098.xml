@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D410586-EFC9-425C-E719-A3BEE4898098" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_CAPA_STEP">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D410586-EFC9-425C-E719-A3BEE4898098" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_CAPA_ACTION_STEP">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>WKSP_DEV01</sourceObjSchema>
 <sourceObjName>RES_CAPA_STEP</sourceObjName>
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:47 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>res_capa_step</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -21,13 +22,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CAPA_ID" id="C891B0D2-F73A-C0AF-44CA-2CF39570C192">
+<Column name="CAPA_ACTION_ID" id="C891B0D2-F73A-C0AF-44CA-2CF39570C192">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>RES_CAPA_STEP</sourceObjSchema>
 <sourceObjName>CAPA_ID</sourceObjName>
@@ -38,11 +38,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3978C4A5-2A00-09CF-CCDC-EEA6A489E484" referredColumn="D7C215CE-5184-CD63-229D-3B32F8C5B853"/>
+<colAssociation fkAssociation="EFFDCC41-ACF9-C155-83B4-997BB742374A" referredColumn="FED14BF7-6F96-2005-3529-57E480A27AB2"/>
 </associations>
 </Column>
 <Column name="STEP_ID" id="FD4E07A3-D0FA-5B64-B05F-6528E369BF6C">
@@ -57,7 +56,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,0</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D70449A6-496E-4BBB-1AC5-F806B79716D5" referredColumn="085F3C6C-27C0-0CAB-1FDC-DCB310E2DE30"/>
@@ -110,7 +109,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="14FF40CA-FD00-C206-108D-0090DFB842F8" name="RES_CAPA_STEP_PK">
+<ind_PK_UK id="14FF40CA-FD00-C206-108D-0090DFB842F8" name="RES_CAPA_ACTION_STEP_PK">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>WKSP_DEV01</sourceObjSchema>
 <sourceObjName>RES_CAPA_STEP_PK</sourceObjName>
@@ -137,17 +136,7 @@
 <colUsage columnID="21CAA77F-7BEC-16B4-2BE2-15B447477547"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5F0C7C81-6C6B-A30A-4C19-F941B17A675C" name="RES_CAPA_STEP_RES_CAPA_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C891B0D2-F73A-C0AF-44CA-2CF39570C192"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2E827F26-C378-468C-8301-EC75A55354BE" name="RES_CAPA_STEP_RES_STEP_FK">
+<ind_PK_UK id="2E827F26-C378-468C-8301-EC75A55354BE" name="RES_CAPA_ACTION_STEP_RES_STEP_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:59 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
@@ -155,6 +144,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FD4E07A3-D0FA-5B64-B05F-6528E369BF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02E93A85-E7F7-C49F-F007-5A744E555E05" name="RES_CAPA_ACTION_STEP_RES_CAPA_ACTION_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-13 12:34:29 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C891B0D2-F73A-C0AF-44CA-2CF39570C192"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
