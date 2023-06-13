@@ -10,6 +10,11 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENT_ID" id="309D5EAF-8724-CD9B-96FA-C3CFB975618D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-01 14:09:57 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="STATUS_DATE" id="396E2EBC-DE4F-C22D-D541-527DDBF7EBAF">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:54:25 UTC</createdTime>
@@ -42,6 +47,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_STATUS_FK" id="60E93883-144D-B8EB-6AD7-F9A932E07F6A">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-26 15:52:32 UTC</createdTime>
+<ownerDesignName>Resolve</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_DEPARTMENT_FK" id="8CCEAB01-20CA-D323-72EC-0DD3A8F6E00E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-01 14:09:57 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

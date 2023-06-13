@@ -16,9 +16,9 @@
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <importedID>A7B281DD-1E21-4E82-21E2-A39E7856791F</importedID>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
@@ -40,9 +40,9 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 19:37:33 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -56,53 +56,26 @@
 <createdTime>2023-04-13 16:32:52 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <importedID>BCE98B2F-FB05-F547-AD8E-BF1F68BB0944</importedID>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
 <defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BUSINESS_AREA_ID" id="B175CE4B-A223-0037-4C9D-462F6E271C86">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:00:58 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4B4C8ACB-8BAE-D5FA-0DEB-BF9CEB49A6CC" referredColumn="76631740-69B8-C880-3C56-0673E0B8DABD"/>
-</associations>
 </Column>
 <Column name="DEPARTMENT_ID" id="04C67966-A85B-1C02-2D3E-606A2564A8AB">
 <createdBy>darbo</createdBy>
 <createdTime>2023-04-17 20:10:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>2E5F3888-BC08-C898-FE70-59879B37B0AB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="04D5E186-F267-35D7-9E1B-D689CE9EDB3A" referredColumn="6A33C9C7-61CD-B001-6571-A8C5C2418BD7"/>
 </associations>
-</Column>
-<Column name="CAPA_ID" id="938C32C7-98F3-200A-E389-48B0DD4E21BE">
-<sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-13 16:32:52 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<importedID>9AC0F98F-7CDA-2578-2285-79D01CB7F270</importedID>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>D573BE1A-8698-3101-5DB4-B7D4F076B9A5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DUE_DATE" id="4FD0A1A2-B644-AB52-4FAE-FFF58698539F">
 <sourceDDLFile>RS_INCIDENT.sql</sourceDDLFile>
@@ -111,9 +84,9 @@
 <ownerDesignName>Resolve</ownerDesignName>
 <importedID>92F28712-F5C6-DA5C-0721-EEE60124AE86</importedID>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>2202DDE7-DDB0-39D9-35DD-DF55668CC957</domain>
 <defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -126,9 +99,8 @@
 <importedID>BF21E609-2C8A-8063-A4F0-108788F56B78</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>CF0F428C-F58A-9576-9B10-5881C48C3B2D</domain>
 <listOfValues>
 <valueDef value="C" description="Critical"/>
 <valueDef value="I" description="Minor"/>
@@ -144,9 +116,9 @@
 <createdTime>2023-04-22 09:53:11 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -156,9 +128,9 @@
 <createdTime>2023-04-25 12:29:35 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -168,9 +140,9 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -180,9 +152,9 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -192,9 +164,9 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -204,9 +176,9 @@
 <createdTime>2023-04-25 12:30:19 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -216,9 +188,9 @@
 <createdTime>2023-04-25 12:31:06 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -228,9 +200,9 @@
 <createdTime>2023-04-25 12:47:17 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -240,9 +212,9 @@
 <createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -252,9 +224,9 @@
 <createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -264,9 +236,9 @@
 <createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -276,9 +248,9 @@
 <createdTime>2023-04-25 12:48:44 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -288,9 +260,9 @@
 <createdTime>2023-04-25 12:49:02 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -300,9 +272,9 @@
 <createdTime>2023-04-25 12:49:38 UTC</createdTime>
 <ownerDesignName>Resolve</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>D1B02973-73D0-7456-EEDB-B1ED4D733B68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -329,16 +301,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F7242CB3-B614-9417-C397-992CD692E90E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9A8CDCE2-9F47-4A84-3838-4969ECA72A82" name="RES_INCIDENT_RES_BUSINESS_AREA_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-04-17 20:00:58 UTC</createdTime>
-<ownerDesignName>Resolve</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B175CE4B-A223-0037-4C9D-462F6E271C86"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9E487C80-256F-B0B6-CE02-8B7974E7BEC6" name="RES_INCIDENT_RES_DEPARTMENT_FK">
