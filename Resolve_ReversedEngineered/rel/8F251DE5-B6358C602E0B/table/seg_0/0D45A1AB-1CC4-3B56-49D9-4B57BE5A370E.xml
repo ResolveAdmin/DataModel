@@ -45,7 +45,7 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="POSITIVE_STATUS_ID" id="C71C3223-11BE-8225-8096-56E4C1405DD0">
+<Column name="STATUS_ID" id="C71C3223-11BE-8225-8096-56E4C1405DD0">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>RES_STEP</sourceObjSchema>
 <sourceObjName>POSITIVE_STATUS_ID</sourceObjName>
@@ -63,20 +63,6 @@
 <associations>
 <colAssociation fkAssociation="EAB3992E-82A2-279D-0F67-D66981014070" referredColumn="EC96B8EA-4799-D95D-C36B-80F12186C2C6"/>
 </associations>
-</Column>
-<Column name="NEGATIVE_STATUS_ID" id="A66A3411-E72A-21FE-C06F-D14BBB2E0E6D">
-<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
-<sourceObjSchema>RES_STEP</sourceObjSchema>
-<sourceObjName>NEGATIVE_STATUS_ID</sourceObjName>
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="STEP_NAME" id="9C1AE382-CCD2-A0B6-3AF6-1F1DD516FE8E">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
@@ -108,18 +94,16 @@
 <ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STEP_SEQ" id="E85C9B12-CD89-A526-0252-0F76D7EDB84C">
-<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
-<sourceObjSchema>RES_STEP</sourceObjSchema>
-<sourceObjName>STEP_SEQ</sourceObjName>
+<Column name="IS_INITIAL" id="2FDCB826-1B48-9A5D-4B55-20868D886A7B">
 <createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<createdTime>2023-06-14 14:46:29 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -149,7 +133,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3A919F51-0DC9-75F0-2DD9-E164D63D1DEA"/>
-<colUsage columnID="E85C9B12-CD89-A526-0252-0F76D7EDB84C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="69BED4DB-B9BA-20C8-94BF-F9110930DEBD" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_STEP_PK">
@@ -176,7 +159,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3A919F51-0DC9-75F0-2DD9-E164D63D1DEA"/>
-<colUsage columnID="E85C9B12-CD89-A526-0252-0F76D7EDB84C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B728B7E2-4263-39D1-7518-22129D40D3E5" name="RES_STEP_RES_STATUS_FK">
