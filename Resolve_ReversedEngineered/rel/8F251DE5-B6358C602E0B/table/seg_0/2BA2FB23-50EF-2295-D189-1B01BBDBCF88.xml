@@ -50,6 +50,17 @@
 <colAssociation fkAssociation="56F84169-5793-22E5-D8F2-525F40EBE3EB" referredColumn="085F3C6C-27C0-0CAB-1FDC-DCB310E2DE30"/>
 </associations>
 </Column>
+<Column name="ORDER_NUMBER" id="4327DB63-CFAC-24A9-74A5-99C6662463EB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-23 16:15:53 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DB62EB8F-6D37-B221-F5E7-B0C643C45E59" name="RES_STEP_SEQUENCE_PK">
