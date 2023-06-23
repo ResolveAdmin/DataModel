@@ -19,6 +19,12 @@
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
 </ColumnProxy>
+<ColumnProxy name="IS_INITIAL" id="2FDCB826-1B48-9A5D-4B55-20868D886A7B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-06-22 14:31:13 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
 <ColumnProxy name="WORKFLOW_TYPE" id="3A919F51-0DC9-75F0-2DD9-E164D63D1DEA">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
@@ -29,22 +35,12 @@
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NEGATIVE_STATUS_ID" id="A66A3411-E72A-21FE-C06F-D14BBB2E0E6D">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="STEP_DESC" id="A6D1C2DA-57B2-6183-CF3C-ACEEB7452716">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="POSITIVE_STATUS_ID" id="C71C3223-11BE-8225-8096-56E4C1405DD0">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="STEP_SEQ" id="E85C9B12-CD89-A526-0252-0F76D7EDB84C">
+<ColumnProxy name="STATUS_ID" id="C71C3223-11BE-8225-8096-56E4C1405DD0">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
@@ -88,17 +84,4 @@
 <usingIndex>BY INDEX NAME</usingIndex>
 </PrimaryKey>
 </primaryKeys>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="RES_STEP_STEP_SEQ_UN" id="66A052A5-9F8A-4A09-61EA-0D0288D64EE9">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:55 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<segment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</segment>
-<tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
-<existingIndex>9193CAC4-EB22-6A49-3E96-0E3327D4E8B3</existingIndex>
-<indexSegment>1F4CFCD0-CEEA-EF7F-C4A5-A3E1F252BCFE</indexSegment>
-<indexSort>SORTED</indexSort>
-<usingIndex>BY INDEX NAME</usingIndex>
-</UniqueKey>
-</uniqueKeys>
 </TableProxyOraclev20c>

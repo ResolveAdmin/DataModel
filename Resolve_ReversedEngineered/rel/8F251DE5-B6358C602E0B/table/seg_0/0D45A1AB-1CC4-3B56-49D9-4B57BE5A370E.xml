@@ -122,19 +122,6 @@
 <colUsage columnID="085F3C6C-27C0-0CAB-1FDC-DCB310E2DE30"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="66A052A5-9F8A-4A09-61EA-0D0288D64EE9" name="RES_STEP_STEP_SEQ_UN">
-<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
-<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
-<sourceObjName>RES_STEP_STEP_SEQ_UN</sourceObjName>
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:55 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3A919F51-0DC9-75F0-2DD9-E164D63D1DEA"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="69BED4DB-B9BA-20C8-94BF-F9110930DEBD" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_STEP_PK">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>WKSP_DEV01</sourceObjSchema>
