@@ -48,6 +48,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
