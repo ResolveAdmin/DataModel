@@ -21,8 +21,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -54,7 +53,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="636C8AB7-7D5A-20CA-1808-A1E143D7FD39" referredColumn="EC96B8EA-4799-D95D-C36B-80F12186C2C6"/>
@@ -87,10 +86,25 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6F74BB50-8DBB-71E1-656A-13EE7F0EEEDD" referredColumn="57AAEAE8-F4C7-5C9A-1F36-230A6B1A179B"/>
+</associations>
+</Column>
+<Column name="SUPPLIER_ID" id="F6162641-0B30-AFE1-9371-C69771DFC2AF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-10 13:45:11 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A31951C-EA5D-2AFA-FCDB-1E6EC1AA7064" referredColumn="AA55E0DC-5008-8AF0-19B0-FF15479FCFAB"/>
 </associations>
 </Column>
 <Column name="DUE_DATE" id="BC4DF7DE-ED6F-F96E-AD5F-8322219ED444">
@@ -389,6 +403,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="61B65DEB-E609-E333-5D2E-7336F7D24749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75317884-8D25-9F0A-E472-23351C19A377" name="RES_INCIDENT_RES_SUPPLIER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-10 13:45:11 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6162641-0B30-AFE1-9371-C69771DFC2AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
