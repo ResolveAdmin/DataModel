@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EE10598-C634-29DE-228D-FC819A65EB40" containerWithKeyObject="357540C2-7868-C32D-11D8-B76D09D58BB7" localFKIndex="B972D9AD-DB7A-1D4A-CE55-324EE00AFEC4" name="RES_INCIDENT_STEP_RES_STEP_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EE10598-C634-29DE-228D-FC819A65EB40" containerWithKeyObject="357540C2-7868-C32D-11D8-B76D09D58BB7" localFKIndex="B972D9AD-DB7A-1D4A-CE55-324EE00AFEC4" name="RES_STEP_WORKFLOW_RES_STEP_FK">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>WKSP_DEV01</sourceObjSchema>
 <sourceObjName>RES_INCIDENT_STEP_RES_STEP_FK</sourceObjName>
