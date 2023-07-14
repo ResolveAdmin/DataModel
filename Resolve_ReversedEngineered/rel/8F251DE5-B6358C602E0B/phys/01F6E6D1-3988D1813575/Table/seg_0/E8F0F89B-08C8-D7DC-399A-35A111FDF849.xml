@@ -23,12 +23,12 @@
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CHANGE_REQUEST_ID" id="949DB24C-ECA7-A717-3C68-E27111200CE6">
+<ColumnProxy name="WORKFLOW_TYPE" id="6F17239C-FC8A-A833-6170-9A86D53A1EE5">
 <createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<createdTime>2023-07-13 07:36:37 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="INCIDENT_ID" id="A5207779-E8C8-A031-06A7-F8BB035E9AD3">
+<ColumnProxy name="ENTITY_ID" id="A5207779-E8C8-A031-06A7-F8BB035E9AD3">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
@@ -39,21 +39,11 @@
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
 </ColumnProxy>
-<ColumnProxy name="CAPA_ID" id="D89DE319-FD1F-0696-B328-9C9413D02D9C">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="CREATE_DATE" id="E1A0BC6C-D445-482F-6518-1D58B11C63FE">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <defaultValue>systimestamp</defaultValue>
-</ColumnProxy>
-<ColumnProxy name="CHANGE_ACTION_ID" id="FE60C8CF-CF00-2DA5-7A25-370950D4EC55">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
@@ -66,23 +56,6 @@
 <tableSpace>1C1BFBA8-C3C1-3DD4-6E7A-112F6ADA190A</tableSpace>
 </IndexProxy>
 </indexProxies>
-<foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_INCIDENT_FK" id="277FF5EC-2349-BA6C-44B5-C851B74FC8C8">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_CHANGE_ACTION_FK" id="88D03983-9D10-0652-3873-6109E49FA699">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_LOG_RES_CHANGE_REQUEST_FK" id="971ECD4E-F8B3-D93C-0B34-D6A6938904ED">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ForeignKey>
-</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RES_LOG_PK" id="28253B5A-2506-7A96-C7D3-0E55D3B931B0">
 <createdBy>darbo</createdBy>

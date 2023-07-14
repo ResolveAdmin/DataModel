@@ -13,16 +13,21 @@
 <rejectLimit></rejectLimit>
 <inMemory>NO</inMemory>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="STATUS_ID" id="1EB2074E-5FEC-19D2-9534-E734EB140F66">
+<ColumnProxy name="ACTIVE_STATUS" id="3790648C-8494-40BF-DE67-AE6D36AF4E52">
 <createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<createdTime>2023-07-13 09:06:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>O</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATE" id="3A90C720-7BFF-7334-F0BE-881F39BEA677">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="STATUS_DATE" id="545D8297-AB91-A778-E21F-94AF8AFF786C">
+<ColumnProxy name="UPDATE_USERNAME" id="3C8299F1-B5D8-FA70-2FB8-8EF1EE831C6B">
 <createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:48 UTC</createdTime>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<defaultValue>sysdate</defaultValue>
 </ColumnProxy>
 <ColumnProxy name="FULL_DESC" id="66E2202A-5D90-CB16-FD56-7FFF5CCB5CB2">
 <createdBy>darbo</createdBy>
@@ -49,6 +54,18 @@
 <createdTime>2023-06-02 12:13:48 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATE" id="F66BF76C-09D2-EC2F-5D99-B9B4E76FA4AA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>systimestamp</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USERNAME" id="FE993511-B995-E655-6672-D05B9BF012D1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
@@ -63,11 +80,6 @@
 </indexProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_DEPARTMENT_FK" id="1295727E-B8BA-907E-A552-180FCB2A1661">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RES_CAPA_RES_STATUS_FK" id="A1C4DD7E-2F02-155C-2B9B-BCDEFC1F102B">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-02 12:13:59 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>

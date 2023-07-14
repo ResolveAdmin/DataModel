@@ -43,10 +43,22 @@
 <colAssociation fkAssociation="D9784119-A6B3-263A-6790-B51AF7EE46BC" referredColumn="D7C215CE-5184-CD63-229D-3B32F8C5B853"/>
 </associations>
 </Column>
+<Column name="TITLE" directorySegmentName="seg_0" id="E85493BA-7E79-45E7-CB41-2E53588B2666">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-14 10:07:03 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="STATUS_ID" id="87AF24D2-2797-E797-4E0F-BBB46765FB02">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-13 12:36:35 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -62,6 +74,7 @@
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-13 12:36:35 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -112,6 +125,18 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <defaultValue>sysdate</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAGS" directorySegmentName="seg_0" id="12EBBA48-CF6C-36C8-8633-16F26188FF99">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-14 15:32:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

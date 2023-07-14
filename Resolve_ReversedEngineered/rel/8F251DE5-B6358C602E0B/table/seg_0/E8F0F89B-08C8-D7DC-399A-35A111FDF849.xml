@@ -54,14 +54,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9E5C91E1-8583-3661-E98C-DCF85441D755" referredColumn="FED14BF7-6F96-2005-3529-57E480A27AB2"/>
-<colAssociation fkAssociation="DD4D3329-C395-1CC0-1BBE-10E1DFC23F95" referredColumn="ECCED395-D73E-F862-DA33-85F0C0A67B45"/>
-<colAssociation fkAssociation="721930E1-285B-9948-B2A0-99DE87C118D6" referredColumn="72EC641B-4D55-F023-0ED8-501961BDEC23"/>
-<colAssociation fkAssociation="6A43E732-63E8-D813-F22B-600898B45F83" referredColumn="78A696F0-0697-C47F-1CB2-2BDAB7588459"/>
-</associations>
 </Column>
 <Column name="LOG_TEXT" id="6E70272E-C3A6-3037-1FD5-F65F646F5C45">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
@@ -135,46 +129,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BFD74E74-9E36-9222-C09C-A2BD87183EB6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="88D03983-9D10-0652-3873-6109E49FA699" name="RES_LOG_RES_CHANGE_ACTION_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A5207779-E8C8-A031-06A7-F8BB035E9AD3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="971ECD4E-F8B3-D93C-0B34-D6A6938904ED" name="RES_LOG_RES_CHANGE_REQUEST_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A5207779-E8C8-A031-06A7-F8BB035E9AD3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="277FF5EC-2349-BA6C-44B5-C851B74FC8C8" name="RES_LOG_RES_INCIDENT_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-02 12:13:59 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A5207779-E8C8-A031-06A7-F8BB035E9AD3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CB3CBA6F-6493-E92B-4F3D-05DDB11AAEBC" name="RES_LOG_RES_CAPA_ACTION_FK">
-<createdBy>darbo</createdBy>
-<createdTime>2023-06-13 12:37:49 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A5207779-E8C8-A031-06A7-F8BB035E9AD3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

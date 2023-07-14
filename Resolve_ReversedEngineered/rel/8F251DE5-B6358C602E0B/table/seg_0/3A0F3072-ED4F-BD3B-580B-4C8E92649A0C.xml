@@ -55,6 +55,22 @@
 <ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ACTIVE_STATUS" id="3790648C-8494-40BF-DE67-AE6D36AF4E52">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:06:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Closed"/>
+<valueDef value="O" description="Open"/>
+</listOfValues>
+<defaultValue>O</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DEPARTMENT_ID" id="709835B9-BEDA-D95F-BA9F-B8D9AC1214A9">
 <sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
 <sourceObjSchema>RES_CAPA</sourceObjSchema>
@@ -87,6 +103,53 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000 BYTE</dataTypeSize>
 <ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USERNAME" id="FE993511-B995-E655-6672-D05B9BF012D1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="F66BF76C-09D2-EC2F-5D99-B9B4E76FA4AA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USERNAME" id="3C8299F1-B5D8-FA70-2FB8-8EF1EE831C6B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="3A90C720-7BFF-7334-F0BE-881F39BEA677">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-13 09:31:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

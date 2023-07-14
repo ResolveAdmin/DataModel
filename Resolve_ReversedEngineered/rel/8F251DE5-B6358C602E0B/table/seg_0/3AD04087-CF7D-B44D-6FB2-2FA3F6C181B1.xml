@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AD04087-CF7D-B44D-6FB2-2FA3F6C181B1" schemaObject="C0CC79D4-7150-4823-2A78-490A124792BC" name="RES_STEP_ASSIGNMENT">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:39:11 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B5DAFA2E-73B4-7CFB-0804-E057E850932A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:40:03 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STEP_WORKFLOW_ID" id="2774F58B-9742-272A-85E5-1043DDCA3E67">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:41:22 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43033E60-5A3E-D532-DD89-100D5995F6DD" referredColumn="7B908047-F2AA-2CBD-E072-826500D9C722"/>
+</associations>
+</Column>
+<Column name="ASSIGNED_USERNAME" id="66AD9785-048A-392D-D47B-2B0FB3848ECF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:40:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSIGNMENT_DATE" id="493CE945-2423-DA04-11CF-F89D6D6CF7DB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:40:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_CURRENT" id="AB1E55E2-E610-15D5-2514-52BE5E63E383">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 09:23:27 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7426E0E8-5A12-AB9D-A94B-0270CCF968E6" name="RES_STEP_ASSIGNMENT_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:40:03 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DAFA2E-73B4-7CFB-0804-E057E850932A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8CCBFCE-C67B-04EE-C82A-552EFC6CA987" name="RES_STEP_ASSIGNMENT_RES_STEP_WORKFLOW_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-11 06:41:22 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2774F58B-9742-272A-85E5-1043DDCA3E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
