@@ -8,6 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9F797473-3774-D945-7A2E-F78A1C3E21A0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-12 17:31:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
 <Column name="INCIDENT_ID" id="6A1F5EE7-4AEF-A798-8019-F698977F0BF3">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-12 16:18:06 UTC</createdTime>
@@ -97,15 +110,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CEF71D6A-B223-1E9F-5DCF-09AE87B483BC" name="RES_INCIDENT_DESCRIPTION_PK">
+<ind_PK_UK id="3C271FE9-3441-A4A3-59B9-612D036E451C" name="RES_INCIDENT_DESCRIPTION_PK">
 <createdBy>darbo</createdBy>
-<createdTime>2023-07-12 16:18:34 UTC</createdTime>
+<createdTime>2023-07-12 17:31:59 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6A1F5EE7-4AEF-A798-8019-F698977F0BF3"/>
+<colUsage columnID="9F797473-3774-D945-7A2E-F78A1C3E21A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FF29535C-C3F7-B0B0-85F0-EF59F059E0E5" name="RES_INCIDENT_DESCRIPTION_RES_INCIDENT_FK">
