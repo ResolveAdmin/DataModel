@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -84,7 +84,7 @@
 <colUsage columnID="FA2F5C53-F349-8952-CE8A-7B3221C0EF6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD44801D-B627-721C-ABAC-BC33485EEA9F" name="RES_STEP_SEQUENCE_RES_STEP_FKv1">
+<ind_PK_UK id="FD44801D-B627-721C-ABAC-BC33485EEA9F" name="RES_STEP_SEQUENCE_RES_STEP_NEXT_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2023-06-22 14:35:13 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
