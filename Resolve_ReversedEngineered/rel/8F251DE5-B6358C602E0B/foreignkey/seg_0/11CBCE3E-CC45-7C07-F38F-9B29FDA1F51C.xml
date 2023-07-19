@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11CBCE3E-CC45-7C07-F38F-9B29FDA1F51C" containerWithKeyObject="3A0F3072-ED4F-BD3B-580B-4C8E92649A0C" localFKIndex="4F1C94DB-D2AA-68AE-A485-8ADD275C4798" name="RES_CAPA_RES_STATUS_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-19 17:32:22 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<referredTableLongName>WKSP_DEV01.RES_STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3190FE0A-7D96-6ECE-1289-D93FFF4EBE4B</referredTableID>
+<keyObject>181636BA-10A4-D779-8A29-61EAB4FA7D94</keyObject>
+<referredKeyID>181636BA-10A4-D779-8A29-61EAB4FA7D94</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
