@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3A72B11-8449-731D-52CB-B3BCB615BC45" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="ENTITY_TYPE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:42:29 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:49:54 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHILDREN_ENTITY_TYPE_ID" id="0EAA567B-73D6-AF4C-0420-9F7A701ED423">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:26:05 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FEDCC64-2296-420E-D515-052F2D50204F" referredColumn="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
+</associations>
+</Column>
+<Column name="ENTITY_NAME" id="73652216-86C8-E89D-94CB-CF14F0099DD7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:55:36 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_DEPARTMENT" id="0859DB89-1331-11A8-E16B-AAE459A90A1B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:20:13 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_SUPPLIER" id="557D5725-2B2F-8AD4-DF90-07C58AD013AC">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:20:31 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_IMPACT" id="3934934B-B155-3C1B-A0B9-8A15CB9B4F77">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:20:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_DESCRIPTION" id="3B46B6D0-FAFB-82F4-F0AB-538719671B83">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:21:04 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_DEVIATION" id="70E4C6CA-9569-2F09-2493-92547B2736CD">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:21:13 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HAS_CHILDREN" id="BD36BF9D-EEA8-1E5F-A08D-8D89AF969D95">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:27:27 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9163A0A9-8FAC-D780-7E8B-F1D10C51A2F2" name="ENTITY_TYPE_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:49:54 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6A71BBF-9207-41DE-B29F-5B3B3FD1FBAE" name="ENTITY_TYPE_ENTITY_CHILDREN_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:26:05 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EAA567B-73D6-AF4C-0420-9F7A701ED423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

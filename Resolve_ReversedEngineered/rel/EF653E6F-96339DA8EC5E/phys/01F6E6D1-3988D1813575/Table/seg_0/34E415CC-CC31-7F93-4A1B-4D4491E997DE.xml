@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BUSINESS_AREA" directorySegmentName="seg_0" id="34E415CC-CC31-7F93-4A1B-4D4491E997DE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>CF998003-A48C-E496-D07F-7B7625A39E7B</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="04F870D6-4DC1-DD71-1120-6861128A9D3C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_DESC" id="E6125B7A-A000-094E-79F8-CBED8F21B275">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_NAME" id="EED62CEE-4CF6-49C5-7615-B6BD6FA4843D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_BUSINESS_AREA_PK" id="E1FB8F7A-4C54-10B1-FC79-6F66FF364DC2">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUSINESS_AREA_PK" id="ACEF25D1-90A4-58BA-10F2-018B44937C7E">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

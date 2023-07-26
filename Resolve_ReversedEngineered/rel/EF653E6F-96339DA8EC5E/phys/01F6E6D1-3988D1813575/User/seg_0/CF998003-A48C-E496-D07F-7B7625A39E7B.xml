@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="WKSP_DEV01" directorySegmentName="seg_0" id="CF998003-A48C-E496-D07F-7B7625A39E7B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:44:59 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<identifier>05C8186519EB24E788B3654B7FE6B7EA8A</identifier>
+</UserOraclev10g>

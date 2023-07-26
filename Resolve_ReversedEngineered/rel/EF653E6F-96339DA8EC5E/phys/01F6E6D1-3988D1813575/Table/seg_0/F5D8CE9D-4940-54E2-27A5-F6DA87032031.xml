@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DEPARTMENT" directorySegmentName="seg_0" id="F5D8CE9D-4940-54E2-27A5-F6DA87032031">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>CF998003-A48C-E496-D07F-7B7625A39E7B</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENT_NAME" id="232383CD-DD0D-A0FD-03D8-E9AE5F1DCD75">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="30D2F49F-8988-C736-0706-F771256D09C8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_DESC" id="3CF3B2E6-9047-D361-9546-6C7E114DCCAB">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUSINESS_AREA_ID" id="D45B519E-F259-F3CF-89FB-DEF7DBFF9D76">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RES_DEPARTMENT_PK" id="E330A14F-597A-5F6F-347F-C37943AB6B47">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPARTMENT_BUSINESS_AREA_FK" id="B9E42A49-48A0-590C-1272-55198B6C7890">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:05:00 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTMENT_PK" id="BF3AC95E-8082-FE9C-178C-603BFF00FD12">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D8CE9D-4940-54E2-27A5-F6DA87032031" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="DEPARTMENT">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_DEPARTMENT</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>res_department</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="30D2F49F-8988-C736-0706-F771256D09C8">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_DEPARTMENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_AREA_ID" id="D45B519E-F259-F3CF-89FB-DEF7DBFF9D76">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_DEPARTMENT</sourceObjSchema>
+<sourceObjName>BUSINESS_AREA_ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="171E50A8-28C3-1D3C-A7B1-18A6DB5B9DB2" referredColumn="04F870D6-4DC1-DD71-1120-6861128A9D3C"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_NAME" id="232383CD-DD0D-A0FD-03D8-E9AE5F1DCD75">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NAME</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_DESC" id="3CF3B2E6-9047-D361-9546-6C7E114DCCAB">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPARTMENT_DESC</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF3AC95E-8082-FE9C-178C-603BFF00FD12" name="DEPARTMENT_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_DEPARTMENT_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D2F49F-8988-C736-0706-F771256D09C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E330A14F-597A-5F6F-347F-C37943AB6B47" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="RES_DEPARTMENT_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_DEPARTMENT_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D2F49F-8988-C736-0706-F771256D09C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9E42A49-48A0-590C-1272-55198B6C7890" name="DEPARTMENT_BUSINESS_AREA_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:05:00 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D45B519E-F259-F3CF-89FB-DEF7DBFF9D76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD300A84-8292-ACA7-D658-BC09F0F634BE" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="DESCRIPTION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:46:50 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="25608C68-6130-5D14-C9FE-C6BCB55C705B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:47:19 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_ID" id="3F6433D6-FE64-998C-7176-56E0F9FA8357">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:51:15 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9CD8657-9A02-63BF-998A-30F02351BF4F" referredColumn="DF39418E-11FA-BF69-A046-C4B5504BFBA0"/>
+</associations>
+</Column>
+<Column name="DESCRIPTION_TYPE_ID" id="CEF1FAF6-EF27-AC86-F042-70746D4A6124">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:53:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35E92266-6601-0376-5BBF-18A7187DDC04" referredColumn="24DB83BA-1F55-9BA8-A1B4-757C36478C48"/>
+</associations>
+</Column>
+<Column name="DESCRIPTION_TEXT" id="21EB6DAB-1099-B2A7-F2A7-C4B86C583D5D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:57:39 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E837D199-2285-854F-91E2-D11109BE9067" name="DESCRIPTION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:47:19 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25608C68-6130-5D14-C9FE-C6BCB55C705B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4401FC24-DA62-7A70-0EC3-57C1DA74858F" name="DESCRIPTION_ENTITY_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:51:55 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6433D6-FE64-998C-7176-56E0F9FA8357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0E956C4-3B16-52E0-0FE1-1C33460B5CA9" name="DESCRIPTION_DESCRIPTION_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:53:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEF1FAF6-EF27-AC86-F042-70746D4A6124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

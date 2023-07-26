@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D369CEB8-BC2A-0EA0-A905-C8925B5C41C3" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="COMMENT">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:30 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="726F93C8-A812-254B-E603-CAEB12B3C9F7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_STEP_ID" id="E124F3E1-AEFA-3510-5EA1-B66FE30ABD42">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:45:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0AE2962-637C-7082-AC17-E48630D20BED" referredColumn="802874E6-AB5C-8217-1D13-4DE2C36F56D8"/>
+</associations>
+</Column>
+<Column name="COMMENT_TEXT" id="EFD31E21-284B-C2BD-3FB5-D63BDE27F3AE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USERNAME" id="2B0057B5-201C-C75C-6AB6-1771D1859D72">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="C560DF11-EEAF-FD1A-6087-2CF2410E00B1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E4F042E-9523-EACC-7077-11CD0691E75C" name="COMMENT_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="726F93C8-A812-254B-E603-CAEB12B3C9F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AD55620-F6D3-341C-582E-F6B4543B55E4" name="COMMENT_ENTITY_STEP_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:45:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E124F3E1-AEFA-3510-5EA1-B66FE30ABD42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

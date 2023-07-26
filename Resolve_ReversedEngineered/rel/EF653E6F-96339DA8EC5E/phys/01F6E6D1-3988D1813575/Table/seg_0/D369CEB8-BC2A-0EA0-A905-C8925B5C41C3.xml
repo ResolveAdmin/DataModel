@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="COMMENT" directorySegmentName="seg_0" id="D369CEB8-BC2A-0EA0-A905-C8925B5C41C3">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:30 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>CF998003-A48C-E496-D07F-7B7625A39E7B</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATE_USERNAME" id="2B0057B5-201C-C75C-6AB6-1771D1859D72">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="726F93C8-A812-254B-E603-CAEB12B3C9F7">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATE" id="C560DF11-EEAF-FD1A-6087-2CF2410E00B1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<defaultValue>systimestamp</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ENTITY_STEP_ID" id="E124F3E1-AEFA-3510-5EA1-B66FE30ABD42">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:45:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENT_TEXT" id="EFD31E21-284B-C2BD-3FB5-D63BDE27F3AE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:44:14 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMMENT_ENTITY_STEP_FK" id="2AD55620-F6D3-341C-582E-F6B4543B55E4">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:45:21 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMMENT_PK" id="6E4F042E-9523-EACC-7077-11CD0691E75C">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:42:49 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

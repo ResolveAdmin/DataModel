@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E415CC-CC31-7F93-4A1B-4D4491E997DE" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="BUSINESS_AREA">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_BUSINESS_AREA</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>res_business_area</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="04F870D6-4DC1-DD71-1120-6861128A9D3C">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_BUSINESS_AREA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_AREA_NAME" id="EED62CEE-4CF6-49C5-7615-B6BD6FA4843D">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_BUSINESS_AREA</sourceObjSchema>
+<sourceObjName>BUSINESS_AREA_NAME</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_AREA_DESC" id="E6125B7A-A000-094E-79F8-CBED8F21B275">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_BUSINESS_AREA</sourceObjSchema>
+<sourceObjName>BUSINESS_AREA_DESC</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACEF25D1-90A4-58BA-10F2-018B44937C7E" name="BUSINESS_AREA_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_BUSINESS_AREA_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04F870D6-4DC1-DD71-1120-6861128A9D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1FB8F7A-4C54-10B1-FC79-6F66FF364DC2" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="RES_BUSINESS_AREA_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_BUSINESS_AREA_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:04:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04F870D6-4DC1-DD71-1120-6861128A9D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

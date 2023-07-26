@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ResolveB" id="EF653E6F-25AB-E772-A784-96339DA8EC5E" mainViewID="7B4D1183-1820-FBB9-202D-01A15D20DDF5">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:40:10 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>LBCBHOZFD1PC9AOE_ADMIN</connName>
+<connUser>ADMIN</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

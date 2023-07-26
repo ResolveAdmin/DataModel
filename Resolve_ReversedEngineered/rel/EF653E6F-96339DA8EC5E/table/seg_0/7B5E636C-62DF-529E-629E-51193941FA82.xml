@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B5E636C-62DF-529E-629E-51193941FA82" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="SUPPLIER">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SUPPLIER</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>res_supplier</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="533B5DFF-074C-D4D1-026B-7195BD99163C">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SUPPLIER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_NAME" id="A2CB3E71-E1A0-2032-9F01-3C0DC612AF00">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SUPPLIER</sourceObjSchema>
+<sourceObjName>SUPPLIER_NAME</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_DESC" id="C8C5D209-5FEE-A9A2-086E-4DD5C75CD584">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_SUPPLIER</sourceObjSchema>
+<sourceObjName>SUPPLIER_DESC</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E26A5C-3F8D-6EB5-A3E5-B6DC3402CB3A" name="SUPPLIER_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SUPPLIER_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533B5DFF-074C-D4D1-026B-7195BD99163C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9AC0FF7-532A-91A0-5B7E-A25F34FD462B" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="RES_SUPPLIER_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_SUPPLIER_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:06:57 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533B5DFF-074C-D4D1-026B-7195BD99163C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

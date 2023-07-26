@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA0FAE26-B12B-F866-3432-1A21CCC22EE6" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="ENTITY_DESCRIPTION">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 16:57:16 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1F9B0D77-FA20-0803-851D-E7F9BDDD8598">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:05:24 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_TYPE_ID" id="50F4CF79-0E90-4D9D-099C-C557984FE2C1">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:09:08 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52B50F08-3C8A-4210-687B-6D2560230241" referredColumn="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
+</associations>
+</Column>
+<Column name="DESCRIPTION_TYPE_ID" id="B4F3873D-6653-4BAA-B162-65570B38A96D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:09:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6498EF29-6F03-51FD-EDFA-563B838000EF" referredColumn="24DB83BA-1F55-9BA8-A1B4-757C36478C48"/>
+</associations>
+</Column>
+<Column name="IS_MANDATORY" id="53C495A0-EA16-A6DE-70A0-5DF5D35D3544">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:09:58 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<constraintName>SYS_C0040742</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8428357-EA74-10D1-BCEC-3AA6FBD63CC5" name="ENTITY_DESCRIPTION_ENTITY_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:09:08 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F4CF79-0E90-4D9D-099C-C557984FE2C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615456D6-815C-C841-33C7-E79CB5C1CF24" name="ENTITY_DESCRIPTION_DESCRIPTION_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:09:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4F3873D-6653-4BAA-B162-65570B38A96D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

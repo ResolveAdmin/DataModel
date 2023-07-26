@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42B33E0C-249A-5142-AA3D-BAFEFA43F5E6" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="ENTITY">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:17:23 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DF39418E-11FA-BF69-A046-C4B5504BFBA0">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:19:32 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_TYPE_ID" id="E11A7D9C-5189-C5F0-9128-BF567B833283">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:24:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39D94FA2-D770-F8A5-A7AC-C2AC272F7E02" referredColumn="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
+</associations>
+</Column>
+<Column name="ENTITY_TITLE" id="B0C140E6-73C4-C1AB-9D0B-41EFC5B78C65">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_ENTITY_ID" id="164CBF63-B8DE-882B-4018-E8328E0BFCDF">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:09:34 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAAB9EC3-6022-5554-2D0B-87C903AFCC4B" referredColumn="DF39418E-11FA-BF69-A046-C4B5504BFBA0"/>
+</associations>
+</Column>
+<Column name="STATUS_ID" id="CF9ACDE8-E778-455D-B4F1-133393B44040">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2CF40B4-2E5B-19FE-2B5A-BF6015424A55" referredColumn="CBE40133-817A-A4E2-65C7-A2DEAECD7136"/>
+</associations>
+</Column>
+<Column name="STATUS_DATE" id="62D60473-0F03-2FF5-70E1-BA8A17380B4D">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_ID" id="B011F268-40BF-7B31-212E-727E97C71C1B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F40E264-5E99-E124-A401-96B1B591D684" referredColumn="30D2F49F-8988-C736-0706-F771256D09C8"/>
+</associations>
+</Column>
+<Column name="SUPPLIER_ID" id="C3891507-1F4A-46E4-F29F-EDA3637022CE">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39865C80-B0DC-A8C8-9265-6DC2943B20E0" referredColumn="533B5DFF-074C-D4D1-026B-7195BD99163C"/>
+</associations>
+</Column>
+<Column name="DUE_DATE" id="E4DAC8E6-7196-3490-1BDD-CD63CB4D7D02">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPACT_TYPE" id="98CAD057-B64E-8F41-3D23-FC4913E1A6A8">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<constraintName>SYS_C0040704</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;J&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAGS" id="5684AB01-4BC0-14F1-01F8-CF92215FD10B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:18:17 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFE6EAA7-4815-A61A-B79B-763F90D3F11D" name="ENTITY_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:19:32 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF39418E-11FA-BF69-A046-C4B5504BFBA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8CF417A-8DCA-8E96-AF08-802105AC0EEC" name="ENTITY_ENTITY_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:24:45 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E11A7D9C-5189-C5F0-9128-BF567B833283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76510B07-3910-89D1-5873-BA95BA2B41F8" name="ENTITY_STATUS_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 17:25:05 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF9ACDE8-E778-455D-B4F1-133393B44040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C05AC716-DD36-EB49-F933-136C87428D81" name="ENTITY_DEPARTMENT_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:05:27 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B011F268-40BF-7B31-212E-727E97C71C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC0C2683-1E66-AB80-6A9F-A48B09AA7521" name="ENTITY_SUPPLIER_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:07:20 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3891507-1F4A-46E4-F29F-EDA3637022CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA21D676-892F-DEA7-E3F9-D5EDA2D55BFF" name="ENTITY_PARENT_ENTITY_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-26 18:09:34 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164CBF63-B8DE-882B-4018-E8328E0BFCDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
