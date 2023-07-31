@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="3FEDCC64-2296-420E-D515-052F2D50204F" referredColumn="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
 </associations>
 </Column>
-<Column name="ENTITY_NAME" id="73652216-86C8-E89D-94CB-CF14F0099DD7">
+<Column name="ENTITY_TYPE_NAME" id="73652216-86C8-E89D-94CB-CF14F0099DD7">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 16:55:36 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>

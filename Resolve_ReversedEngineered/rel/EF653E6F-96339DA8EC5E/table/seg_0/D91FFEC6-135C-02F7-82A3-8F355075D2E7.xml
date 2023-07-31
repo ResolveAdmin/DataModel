@@ -20,7 +20,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESCRIPTION_NAME" id="D4856925-B5B2-EB31-16FF-44AC191E274F">
+<Column name="DESCRIPTION_TYPE_NAME" id="D4856925-B5B2-EB31-16FF-44AC191E274F">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 16:58:03 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
@@ -29,6 +29,34 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 BYTE</dataTypeSize>
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION_TYPE_DESC" id="5A4D09F0-E45D-7442-E04F-93BB052C57EA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-29 09:14:48 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_DEVIATION" id="993F1B2D-D049-7DD3-2858-2CD23D0129A9">
+<createdBy>darbo</createdBy>
+<createdTime>2023-07-29 10:58:12 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
