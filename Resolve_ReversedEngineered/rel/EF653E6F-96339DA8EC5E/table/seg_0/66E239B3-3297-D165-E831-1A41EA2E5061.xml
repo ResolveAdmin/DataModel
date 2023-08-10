@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66E239B3-3297-D165-E831-1A41EA2E5061" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="TAG">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TAG</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>res_tag</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DA49F12A-E37C-1933-C594-DEDD89C161EA">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TAG</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAG_TEXT" id="E64B3052-4C6E-8362-0F1B-AA54DE195713">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TAG</sourceObjSchema>
+<sourceObjName>TAG_TEXT</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAG_COUNT" id="8DCCF500-C86E-C84C-E1F9-97451214F96B">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>RES_TAG</sourceObjSchema>
+<sourceObjName>TAG_COUNT</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A142E6E-AADD-74CF-6C12-C6D6BBB5C10A" name="TAG_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TAG_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA49F12A-E37C-1933-C594-DEDD89C161EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="938324EC-A655-3A22-342A-5099C9EDEE8A" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="TAG_PK">
+<sourceConnName>LBCBHOZFD1PC9AOE_ADMIN</sourceConnName>
+<sourceObjSchema>WKSP_DEV01</sourceObjSchema>
+<sourceObjName>RES_TAG_PK</sourceObjName>
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA49F12A-E37C-1933-C594-DEDD89C161EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

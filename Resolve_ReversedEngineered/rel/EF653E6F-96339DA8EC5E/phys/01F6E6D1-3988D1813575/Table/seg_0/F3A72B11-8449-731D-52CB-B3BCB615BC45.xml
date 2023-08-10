@@ -46,7 +46,7 @@
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <defaultValue>&apos;N&apos;</defaultValue>
 </ColumnProxy>
-<ColumnProxy name="ENTITY_NAME" id="73652216-86C8-E89D-94CB-CF14F0099DD7">
+<ColumnProxy name="ENTITY_TYPE_NAME" id="73652216-86C8-E89D-94CB-CF14F0099DD7">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 16:55:36 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>

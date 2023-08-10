@@ -65,6 +65,17 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DISPLAY_ORDER" id="8C47FB3A-DE59-9A3E-F877-D073A5604A04">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-02 16:29:19 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A8428357-EA74-10D1-BCEC-3AA6FBD63CC5" name="ENTITY_DESCRIPTION_ENTITY_TYPE_FK">

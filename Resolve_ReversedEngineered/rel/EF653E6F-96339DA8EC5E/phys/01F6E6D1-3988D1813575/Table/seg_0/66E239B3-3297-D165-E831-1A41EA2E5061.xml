@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAG" directorySegmentName="seg_0" id="66E239B3-3297-D165-E831-1A41EA2E5061">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>CF998003-A48C-E496-D07F-7B7625A39E7B</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TAG_COUNT" id="8DCCF500-C86E-C84C-E1F9-97451214F96B">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="DA49F12A-E37C-1933-C594-DEDD89C161EA">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="TAG_TEXT" id="E64B3052-4C6E-8362-0F1B-AA54DE195713">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TAG_PK" id="938324EC-A655-3A22-342A-5099C9EDEE8A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<schemaObject>3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F</schemaObject>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TAG_PK" id="1A142E6E-AADD-74CF-6C12-C6D6BBB5C10A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-01 15:03:40 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
