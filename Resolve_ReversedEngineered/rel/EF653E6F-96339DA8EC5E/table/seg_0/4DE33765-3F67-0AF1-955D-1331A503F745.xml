@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DE33765-3F67-0AF1-955D-1331A503F745" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="MENU">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:33:34 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6B705B70-D6B6-A385-D9CE-D3E0117B2A32">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:34:28 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTITY_TYPE_ID" id="A321AEF6-C176-A22A-B9C4-1326C34E9275">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:34:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68C454FB-FCA7-5A63-3E70-95EAB518C435" referredColumn="E732EEA1-86D4-6E7A-E6A0-545DEE2180FA"/>
+</associations>
+</Column>
+<Column name="PARENT_MENU_ID" id="906392B4-AC95-50D5-8CB2-7ADC8890E635">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:36:23 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_PAGE" id="153D9A41-EB26-FF6B-8A7E-F5393D88378A">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:37:34 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPLAY_ORDER" id="5707D2DD-0422-6776-83EF-BCF89083C14F">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:38:18 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3A856DA-86C7-5313-C408-BF98EA397723" name="MENU_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:34:28 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B705B70-D6B6-A385-D9CE-D3E0117B2A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2882E1A-C227-9430-1E77-ED4C1A2D38CB" name="MENU_PARENT_MENU_ID_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:40:11 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="906392B4-AC95-50D5-8CB2-7ADC8890E635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADE10E8C-B095-3CC8-7505-B1E6285E1B13" name="MENU_ENTITY_TYPE_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2023-08-15 13:34:35 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A321AEF6-C176-A22A-B9C4-1326C34E9275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
