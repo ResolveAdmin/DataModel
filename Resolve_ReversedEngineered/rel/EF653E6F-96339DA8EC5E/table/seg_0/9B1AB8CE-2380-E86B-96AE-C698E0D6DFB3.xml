@@ -45,18 +45,6 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ASSIGNMENT_DATE" id="5E34C77B-9BC5-B662-3FFB-2753E3B58751">
-<createdBy>darbo</createdBy>
-<createdTime>2023-07-26 17:36:31 UTC</createdTime>
-<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<defaultValue>systimestamp</defaultValue>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="IS_CURRENT" id="59CD83DF-A425-B4EC-E04D-C08C6A00A007">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 17:36:31 UTC</createdTime>
@@ -68,6 +56,32 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <defaultValue>&apos;Y&apos;</defaultValue>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="9F48CED9-7B58-0FA4-289F-43B4557E86C8">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-24 18:26:12 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="08337685-3081-DA19-83C6-7777FD7251A8">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-24 18:26:12 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

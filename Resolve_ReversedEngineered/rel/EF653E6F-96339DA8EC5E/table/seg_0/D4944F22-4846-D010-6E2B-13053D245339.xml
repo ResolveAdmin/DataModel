@@ -85,9 +85,22 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATE_DATE" id="050052A8-DCF5-1E99-FAD8-98132BA96297">
+<Column name="START_DATE" id="050052A8-DCF5-1E99-FAD8-98132BA96297">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 17:29:54 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>systimestamp</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="D23962CC-B50E-5E1D-60D4-C75A27714252">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-24 17:54:59 UTC</createdTime>
 <ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

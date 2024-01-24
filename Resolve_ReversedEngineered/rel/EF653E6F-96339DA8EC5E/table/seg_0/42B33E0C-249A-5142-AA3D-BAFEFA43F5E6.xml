@@ -115,6 +115,18 @@
 <colAssociation fkAssociation="39865C80-B0DC-A8C8-9265-6DC2943B20E0" referredColumn="533B5DFF-074C-D4D1-026B-7195BD99163C"/>
 </associations>
 </Column>
+<Column name="CREATE_DATE" id="8D818293-94F3-7405-5640-14BD73D93DD7">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-24 17:22:25 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DUE_DATE" id="E4DAC8E6-7196-3490-1BDD-CD63CB4D7D02">
 <createdBy>darbo</createdBy>
 <createdTime>2023-07-26 17:18:17 UTC</createdTime>
@@ -125,6 +137,18 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <defaultValue>sysdate</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USERNAME" id="A36D43AA-BD48-36F1-ACB6-39C2B372299D">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-24 17:22:51 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IMPACT_TYPE" id="98CAD057-B64E-8F41-3D23-FC4913E1A6A8">
