@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2A2E6A1-3AEA-6AF7-D2F8-6C7086051F73" schemaObject="3B53CB64-EDFC-8EF0-1ED1-FC9061531B0F" name="USER_CONFIGURATION">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:28:01 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C9F4BFD8-39EF-EF69-F2D5-8670DBD01CFE">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:33:51 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="24C8CA1C-75C8-107C-2D3B-53763D099F7E">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:29:29 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEND_EMAIL_NOTIFICATION" id="7FDA7FB9-9F04-12BC-4A93-119CE665B779">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:33:05 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C4DD6CA-7528-DB27-0A4C-F3B632AFAD55" name="USER_CONFIGURATION_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:33:51 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9F4BFD8-39EF-EF69-F2D5-8670DBD01CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5A42891-4E43-F311-5D67-2D8D2E556BE4" name="USER_CONFIGURATION_USERNAME_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-29 10:34:19 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24C8CA1C-75C8-107C-2D3B-53763D099F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

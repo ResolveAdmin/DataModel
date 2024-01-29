@@ -130,6 +130,18 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="IS_DASHBOARD_DEFAULT" id="95D93148-1A57-8C8B-EB39-42A28C65D30C">
+<createdBy>darbo</createdBy>
+<createdTime>2024-01-25 09:18:15 UTC</createdTime>
+<ownerDesignName>Resolve_ReversedEngineered</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9163A0A9-8FAC-D780-7E8B-F1D10C51A2F2" name="ENTITY_TYPE_PK">
