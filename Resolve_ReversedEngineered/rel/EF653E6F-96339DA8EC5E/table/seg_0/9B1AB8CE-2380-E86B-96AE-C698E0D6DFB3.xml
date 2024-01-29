@@ -41,8 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IS_CURRENT" id="59CD83DF-A425-B4EC-E04D-C08C6A00A007">
